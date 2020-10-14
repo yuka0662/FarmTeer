@@ -2,25 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Header from './Header'
-import Footer from './Footer'
-import Cart from './Cart'
-import Top from './Top'
-import Login from './Login'
-import Register from './Register'
+import Cart from './general/Cart'
+import Top from './general/Top'
+import Login from './general/Login'
+import Register from './general/Register'
+import Home from '../components/Home'
 
 function App() {
     return(
     <Router>
         <div>
-            <Header />
             <Switch>
-            <Route path="/" exact component={Top} />
-            <Route path="/cart" component={Cart} />
-            <Route path="/login" component={Login} />
-            <Route path="/register" component={Register} />
+            <Route path="/" exact component={Home} /> {/**一番最初に表示されるところ */}
+            <Route path="/farmteer/top" component={Top} />
+            <Route path="/farmteer/cart" component={Cart} />
+            <Route path="/farmteer/login" component={Login} />
+            <Route path="/farmteer/register" component={Register} />
             </Switch>
-            <Footer />
         </div>
     </Router>
     )
