@@ -3,9 +3,9 @@ import css from '../../../css/components/general.css'
 
 function Footer() {
     return(
-        <nav>
+        <nav className="footer">
             <link rel="stylesheet" href={css} />
-            <div className="footer">copyright@farmteer all rights reserved.</div>
+            <div className="footer-text">copyright@farmteer all rights reserved.</div>
         </nav>
     )
 }

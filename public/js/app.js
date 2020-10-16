@@ -6406,7 +6406,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "* {\r\n    margin:0; padding:0;\r\n  }\r\n\r\n  .header {\r\n    height: 100px;\r\n    width: 100%;\r\n    padding: 15px 0;\r\n    background-color: #2b7a45;\r\n    color: whitesmoke;\r\n  }\r\n\r\n  .headline img{\r\n      height: 85px;\r\n      float: left;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n      line-height: 100px;\r\n      float: right;\r\n      margin-left: 30px;\r\n      list-style: none;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:21px;\r\n  }\r\n\r\n.footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #2b7a45;\r\n    position: absolute;\r\n    bottom: 0; \r\n}\r\n.footer-text {\r\n    color:whitesmoke;\r\n}\r\n\r\n.home-header {\r\n    height: 100px;\r\n    width: 100%;\r\n    padding: 15px 0;\r\n    background-color: #2b7a45;\r\n    color: whitesmoke;\r\n  }\r\n\r\n.home-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #2b7a45;\r\n    position: absolute;\r\n    bottom: 0;\r\n}", ""]);
+exports.push([module.i, "* {\r\n    margin:0; padding:0;\r\n  }\r\n\r\n  .header {\r\n    height: 100px;\r\n    width: 100%;\r\n    padding: 15px 0;\r\n    background-color: #407A52;\r\n    color: whitesmoke;\r\n  }\r\n\r\n  .headline img{\r\n      height: 85px;\r\n      float: left;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n      line-height: 100px;\r\n      float: right;\r\n      margin-left: 30px;\r\n      list-style: none;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:21px;\r\n  }\r\n\r\n.footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #407A52;\r\n    position: absolute;\r\n    bottom: 0; \r\n}\r\n.footer-text {\r\n    color:whitesmoke;\r\n}\r\n\r\n.home-header {\r\n    height: 100px;\r\n    width: 100%;\r\n    padding: 15px 0;\r\n    background-color: #407A52;\r\n    color: whitesmoke;\r\n  }\r\n\r\n.home-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #407A52;\r\n    position: absolute;\r\n    bottom: 0;\r\n}", ""]);
 
 // exports
 
@@ -70568,8 +70568,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/FTlogo.png */ "./resources/images/FTlogo.png");
-/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/FTlogo.png */ "./resources/images/FTlogo.png");
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _css_components_general_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../css/components/general.css */ "./resources/css/components/general.css");
 /* harmony import */ var _css_components_general_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_components_general_css__WEBPACK_IMPORTED_MODULE_3__);
 
@@ -70590,26 +70590,30 @@ function Header() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/farmteer/top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "\u30ED\u30B4"
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: ""
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "nav-list"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/farmteer/top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: ""
+    className: "nav-list-item"
   }, "\u4E00\u822CWEB\u30B5\u30A4\u30C8")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/farmer/"
+    to: "/farmer/login"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: ""
+    className: "nav-list-item"
   }, "\u8FB2\u5BB6\u7BA1\u7406\u8005\u30B5\u30A4\u30C8")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/volunteer/"
+    to: "/volunteer/login"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    className: ""
-  }, "\u30DC\u30E9\u30F3\u30C6\u30A3\u30A2\u7BA1\u7406\u8005\u30B5\u30A4\u30C8"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "nav-list-item"
+  }, "\u30DC\u30E9\u30F3\u30C6\u30A3\u30A2\u7BA1\u7406\u8005\u30B5\u30A4\u30C8")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/management/login"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-list-item"
+  }, "\u904B\u55B6\u7BA1\u7406\u8005\u30B5\u30A4\u30C8")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "home-footer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer"
+    className: "footer-text"
   }, "copyright@farmteer all rights reserved.")));
 }
 
@@ -70659,11 +70663,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
+    className: "footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
     href: _css_components_general_css__WEBPACK_IMPORTED_MODULE_1___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer"
+    className: "footer-text"
   }, "copyright@farmteer all rights reserved."));
 }
 
@@ -70683,8 +70689,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../images/FTlogo.png */ "./resources/images/FTlogo.png");
-/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../images/FTlogo.png */ "./resources/images/FTlogo.png");
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _css_components_general_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../css/components/general.css */ "./resources/css/components/general.css");
 /* harmony import */ var _css_components_general_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_components_general_css__WEBPACK_IMPORTED_MODULE_3__);
 
@@ -70703,7 +70709,7 @@ function Header() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/farmteer/top"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "\u30ED\u30B4"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "nav-list"

@@ -13,20 +13,23 @@ function Header() {
                         <img src={Icon} alt="ロゴ" />
                     </Link>
                 </div>
+                <ul className="nav-list">
+                    <Link to="/farmteer/top">
+                        <li className="nav-list-item">一般WEBサイト</li>
+                    </Link>
+                    <Link to="/farmer/login">
+                        <li className="nav-list-item">農家管理者サイト</li>
+                    </Link>
+                    <Link to="/volunteer/login">
+                        <li className="nav-list-item">ボランティア管理者サイト</li>
+                    </Link>
+                    <Link to="/management/login">
+                        <li className="nav-list-item">運営管理者サイト</li>
+                    </Link>
+                </ul>
             </div>
-            <ul className="">
-                <Link to="/farmteer/top">
-                    <li className="">一般WEBサイト</li>
-                </Link>
-                <Link to="/farmer/">
-                    <li className="">農家管理者サイト</li>
-                </Link>
-                <Link to="/volunteer/">
-                    <li className="">ボランティア管理者サイト</li>
-                </Link>
-            </ul>
             <div className="home-footer">
-                <div className="footer">copyright@farmteer all rights reserved.</div>
+                <div className="footer-text">copyright@farmteer all rights reserved.</div>
             </div>
         </nav>
     )
