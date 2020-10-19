@@ -1,11 +1,11 @@
 import React from 'react';
-import { css } from '../../../css/components/volunteer.css'
+import { css } from '../../../css/components/App.css'
 import { Link } from 'react-router-dom';
 import Icon from '../../../images/FTlogo.png'
 
 function vHeader() {
     return (
-        <nav className="header">
+        <nav className="volunteer-header">
             <link rel="stylesheet" href={ css } />
             <div className="headline">
                 <Link to="/volunteer/top">

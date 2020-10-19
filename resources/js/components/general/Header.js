@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Icon from '../../../images/FTlogo.png'
-import css from '../../../css/components/general.css'
+import css from '../../../css/components/App.css'
 
 function Header() {
     return (

@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header'
-import Footer from './Footer'
+import Footer from './fFooter'
 import css from '../../../css/components/App.css'
+import Icon from '../../../images/FTlogo.png'
 
 function Login() {
     return (
         <nav>
-            <Header />
-            <link rel="stylesheet" href={css} />
+            <div className="farmer-header">
+                <link rel="stylesheet" href={css} />
+                <div className="headline">
+                    <img src={Icon} alt="ロゴ" />
+                </div>
+            </div>
             <div class="login-page">
                 <div class="form">
                     <form class="login-form">

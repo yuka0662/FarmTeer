@@ -1,25 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from './Header'
-import Footer from './Footer'
+import Icon from '../../../images/FTlogo.png'
 import css from '../../../css/components/App.css'
 
 function Login() {
     return (
         <nav>
-            <Header />
-            <link rel="stylesheet" href={css} />
+            <div className="home-header">
+                <link rel="stylesheet" href={css} />
+                <div className="headline">
+                    <Link to="/management/top">
+                        <img src={Icon} alt="ロゴ" />
+                    </Link>
+                </div>
+            </div>
             <div class="login-page">
                 <div class="form">
                     <form class="login-form">
                         <input type="text" placeholder="username" />
                         <input type="password" placeholder="password" />
                         <button>ログイン</button>
-                        <p class="message">アカウントをお持ちでない方はこちら <Link to="/farmteer/register">新規作成</Link></p>
                     </form>
                 </div>
             </div>
-            <Footer />
+            <div className="home-footer">
+                <div className="footer-text">copyright@farmteer all rights reserved.</div>
+            </div>
         </nav>
     )
 }
