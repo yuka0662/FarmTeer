@@ -34,6 +34,13 @@
     padding: 8% 0 0;
     margin: auto;
   }
+
+  .register-page{
+    width: 360px;
+    padding: 4% 0 0;
+    margin: auto;
+  }
+
   .form {
     position: relative;
     z-index: 1;
@@ -44,6 +51,12 @@
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
+
+  .general{
+    color:#407A52;
+    border-bottom:solid 3px #407A52;
+  }
+
   .form input {
     font-family: "Roboto", sans-serif;
     outline: 0;
@@ -55,7 +68,7 @@
     box-sizing: border-box;
     font-size: 14px;
   }
-  .form button {
+  .form .general-button {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
@@ -69,8 +82,8 @@
     transition: all 0.3 ease;
     cursor: pointer;
   }
-  .form button:hover,.form button:active,.form button:focus {
-    background: #43A047;
+  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {
+    background: rgb(54, 114, 57);
   }
   .form .message {
     margin: 15px 0 0;
@@ -80,39 +93,6 @@
   .form .message a {
     color: #407A52;
     text-decoration: none;
-  }
-  .container {
-    position: relative;
-    z-index: 1;
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  .container:before, .container:after {
-    content: "";
-    display: block;
-    clear: both;
-  }
-  .container .info {
-    margin: 50px auto;
-    text-align: center;
-  }
-  .container .info h1 {
-    margin: 0 0 15px;
-    padding: 0;
-    font-size: 36px;
-    font-weight: 300;
-    color: #1a1a1a;
-  }
-  .container .info span {
-    color: #4d4d4d;
-    font-size: 12px;
-  }
-  .container .info span a {
-    color: #000000;
-    text-decoration: none;
-  }
-  .container .info span .fa {
-    color: #EF3B3A;
   }
 
 .footer {
@@ -156,6 +136,38 @@
   color: whitesmoke;
 }
 
+.volunteer{
+  color:#264348;
+  border-bottom:solid 3px #264348;
+}
+
+.form .volunteer-button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #264348;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: whitesmoke;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .volunteer-button:hover,.form .volunteer-button:active,.form .volunteer-button:focus {
+  background: #264348;
+}
+.form .volunteer-message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .volunteer-message a {
+  color: #1f3a3f;
+  text-decoration: none;
+}
+
 .volunteer-footer {
     width: 100%;
     height: 60px; 
@@ -175,6 +187,38 @@
   color: whitesmoke;
 }
 
+.farmer{
+  color:#E29C45;
+  border-bottom:solid 3px #E29C45;
+}
+
+.form .farmer-button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #E29C45;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: whitesmoke;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .farmer-button:hover,.form .farmer-button:active,.form .farmer-button:focus {
+  background: rgb(241, 152, 43);
+}
+.form .farmer-message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .farmer-message a {
+  color: #E29C45;
+  text-decoration: none;
+}
+
 .farmer-footer {
     width: 100%;
     height: 60px; 
@@ -183,4 +227,383 @@
     background-color: #E29C45;
     position: absolute;
     bottom: 0;
+}
+
+/*新規登録申請画面のレイアウト*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  font-family: 'Roboto';
+  letter-spacing: 0.05em;
+}
+
+html, body {
+  text-align: center;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.step-bar {
+  text-transform: uppercase;
+  color: #264348;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+
+.step-bar li{
+  display: inline-block;
+  position: relative;
+  margin: 0px 30px; 
+  width: 120px;
+}
+
+.step-bar .number{
+  transition: background-color 0.1s linear, color 0.1s linear;
+  display: inline-block;
+  position: relative;
+  color: #777;
+  background-color: whitesmoke; 
+  width: 20px;
+  padding: 8px 5px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.step-bar .line {
+  background-color: whitesmoke;
+  width: 180px;
+  height: 5px;
+  position: absolute;
+  top: 15px;
+  right: 60px;
+  z-index: 0;
+}
+
+.step-bar .active {
+  background-color: #264348;
+  color: whitesmoke;
+}
+
+.register-form {
+  display: block;
+  background: whitesmoke;
+  padding: 20px 20px;
+  width: 450px;
+  text-align: center;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+  border-radius: 3px;
+  margin-left: -50px;
+}
+
+.error {
+  border: 1px solid #E57373;
+  background-color: #FFEBEE;
+}
+
+.error-text {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 0.7em;
+  color: #E57373;
+}
+
+.volunteer-form-name{
+  margin: 25px 0;
+  display: block;
+  color: #264348;
+  font-size: 1.15em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.register-form h2 {
+  font-size: 1em;
+  color: #777;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.register-form input {
+  padding: 15px; 
+  margin: 5px 0;
+  width: 400px;
+}
+
+.register-form input::placeholder {
+  color: #aaa;
+}
+
+.register-form input.error::placeholder {
+  color: #555;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #264348;
+  color: whitesmoke;
+  margin: 25px 0  10px 0;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.button:hover {
+  background-color: #00897B;
+}
+
+.account-setup, .finish-step, .user-details {
+  transition: 1s all ease-in-out;
+  display: inline-block;
+  position: absolute;
+}
+
+.account-setup {
+  left: calc(50% - 175px);
+}
+
+.finish-step, .user-details {
+  left: 10000px;
+}
+
+.line {
+  transition: all 1s ease-in-out;
+  background: linear-gradient(to right, #264348 50%, whitesmoke 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.line-active {
+  background-position: left bottom;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 0.8em;
+  padding-left: 5px;
+  color: #444;
+}
+
+.accept-conditions {
+  margin-top: 20px;
+}
+
+input::placeholder { 
+  color:  #aaa;
+}
+
+.volunteer-message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.volunteer-message a {
+  color: #264348;
+  text-decoration: none;
+}
+
+@media(max-width: 600px) {
+  .step-bar {
+    display: none;
+  }
+}
+
+
+/*新規登録申請画面のレイアウト2*/
+
+.step-bar2 {
+  text-transform: uppercase;
+  color: #E29C45;
+  font-size: 0.8em;
+  margin-top: 20px;
+}
+
+.step-bar2 li{
+  display: inline-block;
+  position: relative;
+  margin: 0px 30px; 
+  width: 120px;
+}
+
+.step-bar2 .number2{
+  transition: background-color 0.1s linear, color 0.1s linear;
+  display: inline-block;
+  position: relative;
+  color: #777;
+  background-color: whitesmoke; 
+  width: 20px;
+  padding: 8px 5px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.step-bar2 .line2 {
+  background-color: whitesmoke;
+  width: 180px;
+  height: 5px;
+  position: absolute;
+  top: 15px;
+  right: 60px;
+  z-index: 0;
+}
+
+.step-bar2 .active {
+  background-color: #E29C45;
+  color: whitesmoke;
+}
+
+.farmer-form-name{
+  margin: 25px 0;
+  display: block;
+  color: #E29C45;
+  font-size: 1.15em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 10px 40px;
+  background-color: #E29C45;
+  color: whitesmoke;
+  margin: 25px 0  10px 0;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.button2:hover {
+  background-color: rgb(241, 152, 43);
+}
+
+.line2 {
+  transition: all 1s ease-in-out;
+  background: linear-gradient(to right, #E29C45 50%, whitesmoke 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.line2-active {
+  background-position: left bottom;
+}
+
+.farmer-message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.farmer-message a {
+  color: #E29C45;
+  text-decoration: none;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+@media(max-width: 600px) {
+  .step2-bar {
+    display: none;
+  }
+}
+
+/*farmerとvolunteerのregister画面共通のレイアウト*/
+
+#postcode1, #postcode2 {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 160px;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.cp_ipselect {
+	overflow: hidden;
+	width: 90%;
+	margin: 2em auto;
+	text-align: center;
+}
+.cp_ipselect select {
+	width: 100%;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+.cp_ipselect.cp_sl03 {
+	position: relative;
+	border: 2px solid #E29C45;
+	background: whitesmoke;
+}
+.cp_ipselect.cp_sl03::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.8em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #E29C45;
+	pointer-events: none;
+}
+.cp_ipselect.cp_sl03 select {
+	padding: 8px 38px 8px 8px;
+	color: #E29C45;
+}
+
+/*ボランティアレイアウト*/
+
+.cp_ipselect.vo_sl03 {
+	position: relative;
+	border: 2px solid #264348;
+	background: whitesmoke;
+}
+.cp_ipselect.vo_sl03::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.8em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #264348;
+	pointer-events: none;
+}
+.cp_ipselect.vo_sl03 select {
+	padding: 8px 38px 8px 8px;
+	color: #264348;
 }

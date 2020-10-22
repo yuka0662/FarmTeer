@@ -14,12 +14,11 @@ function vHeader() {
             </div>
             <ul className="nav-list">
                 <li className="nav-list-item"></li>
-                <Link to="/volunteer/login">
-                    <li className="nav-list-item">ログイン</li>
-                </Link>
+                {/*
                 <Link to="/volunteer/cart">
                     <li className="nav-list-item">カート</li>
                 </Link>
+                */}
                 <Link to="/volunteer/mypage">
                     <li className="nav-list-item">マイページ</li>
                 </Link>

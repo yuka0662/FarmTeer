@@ -9,7 +9,7 @@ function Header() {
             <div className="home-header">
                 <link rel="stylesheet" href={css} />
                 <div className="headline">
-                    <Link to="/farmteer/top">
+                    <Link to="/">
                         <img src={Icon} alt="ロゴ" />
                     </Link>
                 </div>

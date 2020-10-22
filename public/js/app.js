@@ -6403,10 +6403,10 @@ module.exports = {
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto);", ""]);
 
 // module
-exports.push([module.i, "* {\r\n    margin:0; padding:0;\r\n  }\r\n\r\n  .header {\r\n    height: 100px;\r\n    width: 100%;\r\n    padding: 15px 0;\r\n    background-color: #407A52;\r\n    color: whitesmoke;\r\n  }\r\n\r\n  .headline img{\r\n      height: 85px;\r\n      float: left;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n      line-height: 100px;\r\n      float: right;\r\n      margin-left: 30px;\r\n      list-style: none;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:21px;\r\n  }\r\n\r\n  .login-page {\r\n    width: 360px;\r\n    padding: 8% 0 0;\r\n    margin: auto;\r\n  }\r\n  .form {\r\n    position: relative;\r\n    z-index: 1;\r\n    background: whitesmoke;\r\n    max-width: 360px;\r\n    margin: 0 auto 100px;\r\n    padding: 45px;\r\n    text-align: center;\r\n    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);\r\n  }\r\n  .form input {\r\n    font-family: \"Roboto\", sans-serif;\r\n    outline: 0;\r\n    background: #f2f2f2;\r\n    width: 100%;\r\n    border: 0;\r\n    margin: 0 0 15px;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 14px;\r\n  }\r\n  .form button {\r\n    font-family: \"Roboto\", sans-serif;\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: #407A52;\r\n    width: 100%;\r\n    border: 0;\r\n    padding: 15px;\r\n    color: whitesmoke;\r\n    font-size: 14px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n  .form button:hover,.form button:active,.form button:focus {\r\n    background: #43A047;\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 12px;\r\n  }\r\n  .form .message a {\r\n    color: #407A52;\r\n    text-decoration: none;\r\n  }\r\n  .container {\r\n    position: relative;\r\n    z-index: 1;\r\n    max-width: 300px;\r\n    margin: 0 auto;\r\n  }\r\n  .container:before, .container:after {\r\n    content: \"\";\r\n    display: block;\r\n    clear: both;\r\n  }\r\n  .container .info {\r\n    margin: 50px auto;\r\n    text-align: center;\r\n  }\r\n  .container .info h1 {\r\n    margin: 0 0 15px;\r\n    padding: 0;\r\n    font-size: 36px;\r\n    font-weight: 300;\r\n    color: #1a1a1a;\r\n  }\r\n  .container .info span {\r\n    color: #4d4d4d;\r\n    font-size: 12px;\r\n  }\r\n  .container .info span a {\r\n    color: #000000;\r\n    text-decoration: none;\r\n  }\r\n  .container .info span .fa {\r\n    color: #EF3B3A;\r\n  }\r\n\r\n.footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #407A52;\r\n    position: absolute;\r\n    bottom: 0; \r\n}\r\n.footer-text {\r\n    color:whitesmoke;\r\n}\r\n\r\n/*Home画面のレイアウト*/\r\n.home-header {\r\n  height: 100px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  background-color: #407A52;\r\n  color: whitesmoke;\r\n}\r\n\r\n.home-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #407A52;\r\n    position: absolute;\r\n    bottom: 0;\r\n}\r\n\r\n/*Volunteer画面のレイアウト*/\r\n.volunteer-header {\r\n  height: 100px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  background-color: #264348;\r\n  color: whitesmoke;\r\n}\r\n\r\n.volunteer-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #264348;\r\n    position: absolute;\r\n    bottom: 0;\r\n}\r\n\r\n/*farmer画面のレイアウト*/\r\n.farmer-header {\r\n  height: 100px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n}\r\n\r\n.farmer-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #E29C45;\r\n    position: absolute;\r\n    bottom: 0;\r\n}", ""]);
+exports.push([module.i, "* {\r\n    margin:0; padding:0;\r\n  }\r\n\r\n  .header {\r\n    height: 100px;\r\n    width: 100%;\r\n    padding: 15px 0;\r\n    background-color: #407A52;\r\n    color: whitesmoke;\r\n  }\r\n\r\n  .headline img{\r\n      height: 85px;\r\n      float: left;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n      line-height: 100px;\r\n      float: right;\r\n      margin-left: 30px;\r\n      list-style: none;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:21px;\r\n  }\r\n\r\n  .login-page {\r\n    width: 360px;\r\n    padding: 8% 0 0;\r\n    margin: auto;\r\n  }\r\n\r\n  .register-page{\r\n    width: 360px;\r\n    padding: 4% 0 0;\r\n    margin: auto;\r\n  }\r\n\r\n  .form {\r\n    position: relative;\r\n    z-index: 1;\r\n    background: whitesmoke;\r\n    max-width: 360px;\r\n    margin: 0 auto 100px;\r\n    padding: 45px;\r\n    text-align: center;\r\n    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);\r\n  }\r\n\r\n  .general{\r\n    color:#407A52;\r\n    border-bottom:solid 3px #407A52;\r\n  }\r\n\r\n  .form input {\r\n    font-family: \"Roboto\", sans-serif;\r\n    outline: 0;\r\n    background: #f2f2f2;\r\n    width: 100%;\r\n    border: 0;\r\n    margin: 0 0 15px;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 14px;\r\n  }\r\n  .form .general-button {\r\n    font-family: \"Roboto\", sans-serif;\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: #407A52;\r\n    width: 100%;\r\n    border: 0;\r\n    padding: 15px;\r\n    color: whitesmoke;\r\n    font-size: 14px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 12px;\r\n  }\r\n  .form .message a {\r\n    color: #407A52;\r\n    text-decoration: none;\r\n  }\r\n\r\n.footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #407A52;\r\n    position: absolute;\r\n    bottom: 0; \r\n}\r\n.footer-text {\r\n    color:whitesmoke;\r\n}\r\n\r\n/*Home画面のレイアウト*/\r\n.home-header {\r\n  height: 100px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  background-color: #407A52;\r\n  color: whitesmoke;\r\n}\r\n\r\n.home-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #407A52;\r\n    position: absolute;\r\n    bottom: 0;\r\n}\r\n\r\n/*Volunteer画面のレイアウト*/\r\n.volunteer-header {\r\n  height: 100px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  background-color: #264348;\r\n  color: whitesmoke;\r\n}\r\n\r\n.volunteer{\r\n  color:#264348;\r\n  border-bottom:solid 3px #264348;\r\n}\r\n\r\n.form .volunteer-button {\r\n  font-family: \"Roboto\", sans-serif;\r\n  text-transform: uppercase;\r\n  outline: 0;\r\n  background: #264348;\r\n  width: 100%;\r\n  border: 0;\r\n  padding: 15px;\r\n  color: whitesmoke;\r\n  font-size: 14px;\r\n  transition: all 0.3 ease;\r\n  cursor: pointer;\r\n}\r\n.form .volunteer-button:hover,.form .volunteer-button:active,.form .volunteer-button:focus {\r\n  background: #264348;\r\n}\r\n.form .volunteer-message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n.form .volunteer-message a {\r\n  color: #1f3a3f;\r\n  text-decoration: none;\r\n}\r\n\r\n.volunteer-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #264348;\r\n    position: absolute;\r\n    bottom: 0;\r\n}\r\n\r\n/*farmer画面のレイアウト*/\r\n.farmer-header {\r\n  height: 100px;\r\n  width: 100%;\r\n  padding: 15px 0;\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n}\r\n\r\n.farmer{\r\n  color:#E29C45;\r\n  border-bottom:solid 3px #E29C45;\r\n}\r\n\r\n.form .farmer-button {\r\n  font-family: \"Roboto\", sans-serif;\r\n  text-transform: uppercase;\r\n  outline: 0;\r\n  background: #E29C45;\r\n  width: 100%;\r\n  border: 0;\r\n  padding: 15px;\r\n  color: whitesmoke;\r\n  font-size: 14px;\r\n  transition: all 0.3 ease;\r\n  cursor: pointer;\r\n}\r\n.form .farmer-button:hover,.form .farmer-button:active,.form .farmer-button:focus {\r\n  background: rgb(241, 152, 43);\r\n}\r\n.form .farmer-message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n.form .farmer-message a {\r\n  color: #E29C45;\r\n  text-decoration: none;\r\n}\r\n\r\n.farmer-footer {\r\n    width: 100%;\r\n    height: 60px; \r\n    text-align: center;\r\n    padding: 20px 0;\r\n    background-color: #E29C45;\r\n    position: absolute;\r\n    bottom: 0;\r\n}\r\n\r\n/*新規登録申請画面のレイアウト*/\r\n* {\r\n  font-family: 'Roboto';\r\n  letter-spacing: 0.05em;\r\n}\r\n\r\nhtml, body {\r\n  text-align: center;\r\n  height: 100%;\r\n  overflow-x: hidden;\r\n}\r\n\r\n.step-bar {\r\n  text-transform: uppercase;\r\n  color: #264348;\r\n  font-size: 0.8em;\r\n  margin-top: 20px;\r\n}\r\n\r\n.step-bar li{\r\n  display: inline-block;\r\n  position: relative;\r\n  margin: 0px 30px; \r\n  width: 120px;\r\n}\r\n\r\n.step-bar .number{\r\n  transition: background-color 0.1s linear, color 0.1s linear;\r\n  display: inline-block;\r\n  position: relative;\r\n  color: #777;\r\n  background-color: whitesmoke; \r\n  width: 20px;\r\n  padding: 8px 5px;\r\n  margin-bottom: 4px;\r\n  font-weight: 700;\r\n  z-index: 1;\r\n}\r\n\r\n.step-bar .line {\r\n  background-color: whitesmoke;\r\n  width: 180px;\r\n  height: 5px;\r\n  position: absolute;\r\n  top: 15px;\r\n  right: 60px;\r\n  z-index: 0;\r\n}\r\n\r\n.step-bar .active {\r\n  background-color: #264348;\r\n  color: whitesmoke;\r\n}\r\n\r\n.register-form {\r\n  display: block;\r\n  background: whitesmoke;\r\n  padding: 20px 20px;\r\n  width: 450px;\r\n  text-align: center;\r\n  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);\r\n  border-radius: 3px;\r\n  margin-left: -50px;\r\n}\r\n\r\n.error {\r\n  border: 1px solid #E57373;\r\n  background-color: #FFEBEE;\r\n}\r\n\r\n.error-text {\r\n  text-align: left;\r\n  padding-left: 10px;\r\n  font-size: 0.7em;\r\n  color: #E57373;\r\n}\r\n\r\n.volunteer-form-name{\r\n  margin: 25px 0;\r\n  display: block;\r\n  color: #264348;\r\n  font-size: 1.15em;\r\n  text-transform: uppercase;\r\n  margin-bottom: 20px;\r\n  font-weight: 200;\r\n}\r\n\r\n.register-form h2 {\r\n  font-size: 1em;\r\n  color: #777;\r\n  font-weight: 400;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.register-form input {\r\n  padding: 15px; \r\n  margin: 5px 0;\r\n  width: 400px;\r\n}\r\n\r\n.register-form input::-moz-placeholder {\r\n  color: #aaa;\r\n}\r\n\r\n.register-form input:-ms-input-placeholder {\r\n  color: #aaa;\r\n}\r\n\r\n.register-form input::placeholder {\r\n  color: #aaa;\r\n}\r\n\r\n.register-form input.error::-moz-placeholder {\r\n  color: #555;\r\n}\r\n\r\n.register-form input.error:-ms-input-placeholder {\r\n  color: #555;\r\n}\r\n\r\n.register-form input.error::placeholder {\r\n  color: #555;\r\n}\r\n\r\n.button {\r\n  display: inline-block;\r\n  padding: 10px 40px;\r\n  background-color: #264348;\r\n  color: whitesmoke;\r\n  margin: 25px 0  10px 0;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  position: relative;\r\n}\r\n\r\n.button:hover {\r\n  background-color: #00897B;\r\n}\r\n\r\n.account-setup, .finish-step, .user-details {\r\n  transition: 1s all ease-in-out;\r\n  display: inline-block;\r\n  position: absolute;\r\n}\r\n\r\n.account-setup {\r\n  left: calc(50% - 175px);\r\n}\r\n\r\n.finish-step, .user-details {\r\n  left: 10000px;\r\n}\r\n\r\n.line {\r\n  transition: all 1s ease-in-out;\r\n  background: linear-gradient(to right, #264348 50%, whitesmoke 50%);\r\n  background-size: 200% 100%;\r\n  background-position: right bottom;\r\n}\r\n\r\n.line-active {\r\n  background-position: left bottom;\r\n}\r\n\r\nlabel {\r\n  display: block;\r\n  text-align: left;\r\n  font-size: 0.8em;\r\n  padding-left: 5px;\r\n  color: #444;\r\n}\r\n\r\n.accept-conditions {\r\n  margin-top: 20px;\r\n}\r\n\r\ninput::-moz-placeholder { \r\n  color:  #aaa;\r\n}\r\n\r\ninput:-ms-input-placeholder { \r\n  color:  #aaa;\r\n}\r\n\r\ninput::placeholder { \r\n  color:  #aaa;\r\n}\r\n\r\n.volunteer-message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n\r\n.volunteer-message a {\r\n  color: #264348;\r\n  text-decoration: none;\r\n}\r\n\r\n@media(max-width: 600px) {\r\n  .step-bar {\r\n    display: none;\r\n  }\r\n}\r\n\r\n\r\n/*新規登録申請画面のレイアウト2*/\r\n\r\n.step-bar2 {\r\n  text-transform: uppercase;\r\n  color: #E29C45;\r\n  font-size: 0.8em;\r\n  margin-top: 20px;\r\n}\r\n\r\n.step-bar2 li{\r\n  display: inline-block;\r\n  position: relative;\r\n  margin: 0px 30px; \r\n  width: 120px;\r\n}\r\n\r\n.step-bar2 .number2{\r\n  transition: background-color 0.1s linear, color 0.1s linear;\r\n  display: inline-block;\r\n  position: relative;\r\n  color: #777;\r\n  background-color: whitesmoke; \r\n  width: 20px;\r\n  padding: 8px 5px;\r\n  margin-bottom: 4px;\r\n  font-weight: 700;\r\n  z-index: 1;\r\n}\r\n\r\n.step-bar2 .line2 {\r\n  background-color: whitesmoke;\r\n  width: 180px;\r\n  height: 5px;\r\n  position: absolute;\r\n  top: 15px;\r\n  right: 60px;\r\n  z-index: 0;\r\n}\r\n\r\n.step-bar2 .active {\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n}\r\n\r\n.farmer-form-name{\r\n  margin: 25px 0;\r\n  display: block;\r\n  color: #E29C45;\r\n  font-size: 1.15em;\r\n  text-transform: uppercase;\r\n  margin-bottom: 20px;\r\n  font-weight: 200;\r\n}\r\n\r\n.button2 {\r\n  display: inline-block;\r\n  padding: 10px 40px;\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n  margin: 25px 0  10px 0;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  position: relative;\r\n}\r\n\r\n.button2:hover {\r\n  background-color: rgb(241, 152, 43);\r\n}\r\n\r\n.line2 {\r\n  transition: all 1s ease-in-out;\r\n  background: linear-gradient(to right, #E29C45 50%, whitesmoke 50%);\r\n  background-size: 200% 100%;\r\n  background-position: right bottom;\r\n}\r\n\r\n.line2-active {\r\n  background-position: left bottom;\r\n}\r\n\r\n.farmer-message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n\r\n.farmer-message a {\r\n  color: #E29C45;\r\n  text-decoration: none;\r\n}\r\n\r\ninput {\r\n  font-family: \"Roboto\", sans-serif;\r\n  outline: 0;\r\n  background: #f2f2f2;\r\n  width: 100%;\r\n  border: 0;\r\n  margin: 0 0 15px;\r\n  padding: 15px;\r\n  box-sizing: border-box;\r\n  font-size: 14px;\r\n}\r\n\r\n@media(max-width: 600px) {\r\n  .step2-bar {\r\n    display: none;\r\n  }\r\n}\r\n\r\n/*farmerとvolunteerのregister画面共通のレイアウト*/\r\n\r\n#postcode1, #postcode2 {\r\n  font-family: \"Roboto\", sans-serif;\r\n  outline: 0;\r\n  background: #f2f2f2;\r\n  width: 160px;\r\n  border: 0;\r\n  margin: 0 0 15px;\r\n  padding: 15px;\r\n  box-sizing: border-box;\r\n  font-size: 14px;\r\n}\r\n\r\n.cp_ipselect {\r\n\toverflow: hidden;\r\n\twidth: 90%;\r\n\tmargin: 2em auto;\r\n\ttext-align: center;\r\n}\r\n.cp_ipselect select {\r\n\twidth: 100%;\r\n\tpadding-right: 1em;\r\n\tcursor: pointer;\r\n\ttext-indent: 0.01px;\r\n\ttext-overflow: ellipsis;\r\n\tborder: none;\r\n\toutline: none;\r\n\tbackground: transparent;\r\n\tbackground-image: none;\r\n\tbox-shadow: none;\r\n\t-webkit-appearance: none;\r\n\t-moz-appearance: none;\r\n\t     appearance: none;\r\n}\r\n.cp_ipselect select::-ms-expand {\r\n    display: none;\r\n}\r\n.cp_ipselect.cp_sl03 {\r\n\tposition: relative;\r\n\tborder: 2px solid #E29C45;\r\n\tbackground: whitesmoke;\r\n}\r\n.cp_ipselect.cp_sl03::before {\r\n\tposition: absolute;\r\n\ttop: 0.8em;\r\n\tright: 0.8em;\r\n\twidth: 0;\r\n\theight: 0;\r\n\tpadding: 0;\r\n\tcontent: '';\r\n\tborder-left: 6px solid transparent;\r\n\tborder-right: 6px solid transparent;\r\n\tborder-top: 6px solid #E29C45;\r\n\tpointer-events: none;\r\n}\r\n.cp_ipselect.cp_sl03 select {\r\n\tpadding: 8px 38px 8px 8px;\r\n\tcolor: #E29C45;\r\n}\r\n\r\n/*ボランティアレイアウト*/\r\n\r\n.cp_ipselect.vo_sl03 {\r\n\tposition: relative;\r\n\tborder: 2px solid #264348;\r\n\tbackground: whitesmoke;\r\n}\r\n.cp_ipselect.vo_sl03::before {\r\n\tposition: absolute;\r\n\ttop: 0.8em;\r\n\tright: 0.8em;\r\n\twidth: 0;\r\n\theight: 0;\r\n\tpadding: 0;\r\n\tcontent: '';\r\n\tborder-left: 6px solid transparent;\r\n\tborder-right: 6px solid transparent;\r\n\tborder-top: 6px solid #264348;\r\n\tpointer-events: none;\r\n}\r\n.cp_ipselect.vo_sl03 select {\r\n\tpadding: 8px 38px 8px 8px;\r\n\tcolor: #264348;\r\n}", ""]);
 
 // exports
 
@@ -70519,11 +70519,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _general_Cart__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./general/Cart */ "./resources/js/components/general/Cart.js");
 /* harmony import */ var _general_Top__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./general/Top */ "./resources/js/components/general/Top.js");
 /* harmony import */ var _general_Login__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./general/Login */ "./resources/js/components/general/Login.js");
-/* harmony import */ var _general_Register__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./general/Register */ "./resources/js/components/general/Register.js");
-/* harmony import */ var _management_login__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./management/login */ "./resources/js/components/management/login.js");
-/* harmony import */ var _farmer_login__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./farmer/login */ "./resources/js/components/farmer/login.js");
-/* harmony import */ var _volunteer_login__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./volunteer/login */ "./resources/js/components/volunteer/login.js");
-/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Home */ "./resources/js/components/Home.js");
+/* harmony import */ var _management_login__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./management/login */ "./resources/js/components/management/login.js");
+/* harmony import */ var _farmer_login__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./farmer/login */ "./resources/js/components/farmer/login.js");
+/* harmony import */ var _volunteer_login__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./volunteer/login */ "./resources/js/components/volunteer/login.js");
+/* harmony import */ var _general_Register__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./general/Register */ "./resources/js/components/general/Register.js");
+/* harmony import */ var _farmer_register__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./farmer/register */ "./resources/js/components/farmer/register.js");
+/* harmony import */ var _volunteer_register__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./volunteer/register */ "./resources/js/components/volunteer/register.js");
+/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Home */ "./resources/js/components/Home.js");
+
+
 
 
 
@@ -70540,7 +70544,7 @@ function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["BrowserRouter"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/",
     exact: true,
-    component: _Home__WEBPACK_IMPORTED_MODULE_10__["default"]
+    component: _Home__WEBPACK_IMPORTED_MODULE_12__["default"]
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/farmteer/top",
     component: _general_Top__WEBPACK_IMPORTED_MODULE_4__["default"]
@@ -70551,17 +70555,23 @@ function App() {
     path: "/farmteer/login",
     component: _general_Login__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-    path: "/farmteer/register",
-    component: _general_Register__WEBPACK_IMPORTED_MODULE_6__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/management/login",
-    component: _management_login__WEBPACK_IMPORTED_MODULE_7__["default"]
+    component: _management_login__WEBPACK_IMPORTED_MODULE_6__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/farmer/login",
-    component: _farmer_login__WEBPACK_IMPORTED_MODULE_8__["default"]
+    component: _farmer_login__WEBPACK_IMPORTED_MODULE_7__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/volunteer/login",
-    component: _volunteer_login__WEBPACK_IMPORTED_MODULE_9__["default"]
+    component: _volunteer_login__WEBPACK_IMPORTED_MODULE_8__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/farmteer/register",
+    component: _general_Register__WEBPACK_IMPORTED_MODULE_9__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/volunteer/register",
+    component: _volunteer_register__WEBPACK_IMPORTED_MODULE_11__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/farmer/register",
+    component: _farmer_register__WEBPACK_IMPORTED_MODULE_10__["default"]
   }))));
 }
 
@@ -70603,7 +70613,7 @@ function Header() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "headline"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/farmteer/top"
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "\u30ED\u30B4"
@@ -70698,29 +70708,296 @@ function Login() {
     href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "headline"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
     alt: "\u30ED\u30B4"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "login-page"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "login-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    "class": "login-form"
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "farmer"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "login-form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "username"
+    placeholder: "\u30E6\u30FC\u30B6\u30FC\u540D"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
-    placeholder: "password"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    "class": "message"
+    placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "farmer-button"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "farmer-message"
   }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u3067\u306A\u3044\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/farmteer/register"
-  }, "\u65B0\u898F\u4F5C\u6210"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+    to: "/farmer/register"
+  }, "\u65B0\u898F\u767B\u9332"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Login);
+
+/***/ }),
+
+/***/ "./resources/js/components/farmer/register.js":
+/*!****************************************************!*\
+  !*** ./resources/js/components/farmer/register.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _fFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fFooter */ "./resources/js/components/farmer/fFooter.js");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../css/components/App.css */ "./resources/css/components/App.css");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../images/FTlogo.png */ "./resources/images/FTlogo.png");
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+
+function Register() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "farmer-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "headline"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "\u30ED\u30B4"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "step-bar2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "number2 active"
+  }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u60C5\u5831")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "number2"
+  }, "2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "\u4F4F\u6240"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "line2"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "number2"
+  }, "3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "\u30E1\u30FC\u30EB\u30FB\u96FB\u8A71\u756A\u53F7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "line2"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "farmer-form-name"
+  }, "\u65B0\u898F\u767B\u9332\u7533\u8ACB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "account-setup register-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Step 1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "farmername",
+    type: "text",
+    placeholder: "\u8FB2\u696D\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "farmerfurigane",
+    type: "text",
+    placeholder: "\u8FB2\u696D\u540D(\u30D5\u30EA\u30AC\u30CA)"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "name",
+    type: "text",
+    placeholder: "\u6C0F\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "furigana",
+    type: "text",
+    placeholder: "\u6C0F\u540D(\u30D5\u30EA\u30AC\u30CA)"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button2 firstNext"
+  }, "\u6B21\u3078")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "user-details register-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Step 2"), "\u3012", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "postcode1",
+    name: "postcode1",
+    maxLength: "3",
+    placeholder: "\u90F5\u4FBF\u756A\u53F7"
+  }), "\u30FC", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "postcode2",
+    name: "postcode2",
+    maxLength: "4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "cp_ipselect cp_sl03"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    id: "address1",
+    name: "address1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+  }, "\u90FD\u9053\u5E9C\u770C\u3092\u9078\u629E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "1"
+  }, "\u5317\u6D77\u9053"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "2"
+  }, "\u9752\u68EE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "3"
+  }, "\u5CA9\u624B\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "4"
+  }, "\u5BAE\u57CE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "5"
+  }, "\u79CB\u7530\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "6"
+  }, "\u5C71\u5F62\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "7"
+  }, "\u798F\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "8"
+  }, "\u8328\u57CE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "9"
+  }, "\u6803\u6728\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "10"
+  }, "\u7FA4\u99AC\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "11"
+  }, "\u57FC\u7389\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "12"
+  }, "\u5343\u8449\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "13"
+  }, "\u6771\u4EAC\u90FD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "14"
+  }, "\u795E\u5948\u5DDD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "15"
+  }, "\u65B0\u6F5F\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "16"
+  }, "\u5BCC\u5C71\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "17"
+  }, "\u77F3\u5DDD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "18"
+  }, "\u798F\u4E95\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "19"
+  }, "\u5C71\u68A8\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "20"
+  }, "\u9577\u91CE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "21"
+  }, "\u5C90\u961C\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "22"
+  }, "\u9759\u5CA1\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "23"
+  }, "\u611B\u77E5\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "24"
+  }, "\u4E09\u91CD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "25"
+  }, "\u6ECB\u8CC0\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "26"
+  }, "\u4EAC\u90FD\u5E9C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "27"
+  }, "\u5927\u962A\u5E9C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "28"
+  }, "\u5175\u5EAB\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "29"
+  }, "\u5948\u826F\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "30"
+  }, "\u548C\u6B4C\u5C71\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "31"
+  }, "\u9CE5\u53D6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "32"
+  }, "\u5CF6\u6839\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "33"
+  }, "\u5CA1\u5C71\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "34"
+  }, "\u5E83\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "35"
+  }, "\u5C71\u53E3\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "36"
+  }, "\u5FB3\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "37"
+  }, "\u9999\u5DDD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "38"
+  }, "\u611B\u5A9B\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "39"
+  }, "\u9AD8\u77E5\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "40"
+  }, "\u798F\u5CA1\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "41"
+  }, "\u4F50\u8CC0\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "42"
+  }, "\u9577\u5D0E\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "43"
+  }, "\u718A\u672C\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "44"
+  }, "\u5927\u5206\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "45"
+  }, "\u5BAE\u5D0E\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "46"
+  }, "\u9E7F\u5150\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "47"
+  }, "\u6C96\u7E04\u770C"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "address2",
+    name: "address2",
+    placeholder: "\u5E02\u533A\u753A\u6751"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "address3",
+    name: "address3",
+    placeholder: "\u756A\u5730\u30FB\u30D3\u30EB\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button2 firstPrev"
+  }, "\u623B\u308B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button2 secondNext"
+  }, "\u6B21\u3078")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "finish-step register-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Step 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "\u96FB\u8A71\u756A\u53F7"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button2 secondPrev"
+  }, "\u623B\u308B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button2 disabled"
+  }, "\u78BA\u8A8D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "farmer-message"
+  }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u306E\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/farmer/login"
+  }, "\u30ED\u30B0\u30A4\u30F3")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Register);
+document.addEventListener('DOMContentLoaded', function () {
+  var steps = $('.step-bar2 ul li'); // First step
+
+  $('.firstNext').on('click', function (e) {
+    setTimeout(function () {
+      $(steps[1]).find('.number2').addClass('active');
+    }, 1000);
+    $(steps[1]).find('.line2').addClass('line2-active');
+    $('.account-setup').css('left', '-4000px');
+    $('.user-details').css('left', 'calc(50% - 175px)');
+  }); // Second step
+
+  $('.secondNext').on('click', function (e) {
+    setTimeout(function () {
+      $(steps[2]).find('.number2').addClass('active');
+    }, 1000);
+    $(steps[2]).find('.line2').addClass('line2-active');
+    $('.user-details').css('left', '-4000px');
+    $('.finish-step').css('left', 'calc(50% - 175px)');
+  });
+  $('.firstPrev').on('click', function (e) {
+    $(steps[1]).find('.number2').removeClass('active');
+    $(steps[1]).find('.line2').removeClass('line2-active');
+    $('.user-details').css('left', '4000px');
+    $('.account-setup').css('left', 'calc(50% - 175px)');
+  }); // Last step
+
+  $('.secondPrev').on('click', function (e) {
+    $(steps[2]).find('.number2').removeClass('active');
+    $(steps[2]).find('.line2').removeClass('line2-active');
+    $('.finish-step').css('left', '4000px');
+    $('.user-details').css('left', 'calc(50% - 175px)');
+  });
+});
 
 /***/ }),
 
@@ -70862,19 +71139,23 @@ function Login() {
     rel: "stylesheet",
     href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_4___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "login-page"
+    className: "login-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    "class": "login-form"
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "general"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "login-form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "username"
+    placeholder: "\u30E6\u30FC\u30B6\u30FC\u540D"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
-    placeholder: "password"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    "class": "message"
+    placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "general-button"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "message"
   }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u3067\u306A\u3044\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/farmteer/register"
   }, "\u65B0\u898F\u4F5C\u6210"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
@@ -70911,22 +71192,29 @@ function Register() {
     rel: "stylesheet",
     href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_4___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "login-page"
+    className: "register-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    "class": "register-form"
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "general"
+  }, "\u65B0\u898F\u4F5C\u6210"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "register-form-general"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "name"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "password",
-    placeholder: "password"
+    placeholder: "\u6C0F\u540D"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "email address"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "\u4F5C\u6210"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    "class": "message"
+    placeholder: "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "password",
+    placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "password",
+    placeholder: "\u78BA\u8A8D\u306E\u305F\u3081\u3082\u3046\u4E00\u5EA6\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "general-button"
+  }, "\u4F5C\u6210"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "message"
   }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u306E\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/farmteer/login"
   }, "\u30ED\u30B0\u30A4\u30F3"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
@@ -70947,14 +71235,46 @@ function Register() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./resources/js/components/general/Header.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/general/Footer.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../css/components/App.css */ "./resources/css/components/App.css");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/general/Footer.js");
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../images/FTlogo.png */ "./resources/images/FTlogo.png");
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__);
+
+
 
 
 
 
 function Top() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "TOP\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_2___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "headline"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "\u30ED\u30B4"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "nav-list"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/farmteer/register"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-list-item"
+  }, "\u65B0\u898F\u767B\u9332")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/farmteer/login"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-list-item"
+  }, "\u30ED\u30B0\u30A4\u30F3")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/farmteer/cart"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    className: "nav-list-item"
+  }, "\u30AB\u30FC\u30C8")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "TOP\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Top);
@@ -70991,23 +71311,27 @@ function Login() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "headline"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/management/top"
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "\u30ED\u30B4"
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "login-page"
+    className: "login-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    "class": "login-form"
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "general"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "login-form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "username"
+    placeholder: "\u7BA1\u7406\u8005\u540D"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
-    placeholder: "password"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "\u30ED\u30B0\u30A4\u30F3")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "general-button"
+  }, "\u30ED\u30B0\u30A4\u30F3")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "home-footer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer-text"
@@ -71049,32 +71373,299 @@ function Login() {
     href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "headline"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
     alt: "\u30ED\u30B4"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
     href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "login-page"
+    className: "login-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    "class": "form"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    "class": "login-form"
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "volunteer"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "login-form"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "username"
+    placeholder: "\u30E6\u30FC\u30B6\u30FC\u540D"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
-    placeholder: "password"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    "class": "message"
+    placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "volunteer-button"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "volunteer-message"
   }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u3067\u306A\u3044\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/volunteer/register"
-  }, "\u65B0\u898F\u4F5C\u6210"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_vFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+  }, "\u65B0\u898F\u767B\u9332"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_vFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Login);
+
+/***/ }),
+
+/***/ "./resources/js/components/volunteer/register.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/volunteer/register.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _vFooter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./vFooter */ "./resources/js/components/volunteer/vFooter.js");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../css/components/App.css */ "./resources/css/components/App.css");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../images/FTlogo.png */ "./resources/images/FTlogo.png");
+/* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+
+function Register() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_3___default.a
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "volunteer-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "headline"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "\u30ED\u30B4"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "step-bar"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "number active"
+  }, "1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u60C5\u5831")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "number"
+  }, "2"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "\u4F4F\u6240"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "line"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "number"
+  }, "3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text"
+  }, "\u30E1\u30FC\u30EB\u30FB\u96FB\u8A71\u756A\u53F7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "line"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "volunteer-form-name"
+  }, "\u65B0\u898F\u767B\u9332\u7533\u8ACB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "account-setup register-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Step 1"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "volunteername",
+    type: "text",
+    placeholder: "\u56E3\u4F53\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "volunteerfurigana",
+    type: "text",
+    placeholder: "\u56E3\u4F53\u540D(\u30D5\u30EA\u30AC\u30CA)"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "name",
+    type: "text",
+    placeholder: "\u6C0F\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    name: "furigana",
+    type: "text",
+    placeholder: "\u6C0F\u540D(\u30D5\u30EA\u30AC\u30CA)"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button firstNext"
+  }, "\u6B21\u3078")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "user-details register-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Step 2"), "\u3012", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "postcode1",
+    name: "postcode1",
+    maxLength: "3",
+    placeholder: "\u90F5\u4FBF\u756A\u53F7"
+  }), "\u30FC", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "postcode2",
+    name: "postcode2",
+    maxLength: "4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "cp_ipselect vo_sl03"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    id: "address1",
+    name: "address1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "\u9078\u629E\u3057\u3066\u304F\u3060\u3055\u3044"
+  }, "\u90FD\u9053\u5E9C\u770C\u3092\u9078\u629E"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "1"
+  }, "\u5317\u6D77\u9053"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "2"
+  }, "\u9752\u68EE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "3"
+  }, "\u5CA9\u624B\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "4"
+  }, "\u5BAE\u57CE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "5"
+  }, "\u79CB\u7530\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "6"
+  }, "\u5C71\u5F62\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "7"
+  }, "\u798F\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "8"
+  }, "\u8328\u57CE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "9"
+  }, "\u6803\u6728\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "10"
+  }, "\u7FA4\u99AC\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "11"
+  }, "\u57FC\u7389\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "12"
+  }, "\u5343\u8449\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "13"
+  }, "\u6771\u4EAC\u90FD"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "14"
+  }, "\u795E\u5948\u5DDD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "15"
+  }, "\u65B0\u6F5F\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "16"
+  }, "\u5BCC\u5C71\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "17"
+  }, "\u77F3\u5DDD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "18"
+  }, "\u798F\u4E95\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "19"
+  }, "\u5C71\u68A8\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "20"
+  }, "\u9577\u91CE\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "21"
+  }, "\u5C90\u961C\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "22"
+  }, "\u9759\u5CA1\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "23"
+  }, "\u611B\u77E5\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "24"
+  }, "\u4E09\u91CD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "25"
+  }, "\u6ECB\u8CC0\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "26"
+  }, "\u4EAC\u90FD\u5E9C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "27"
+  }, "\u5927\u962A\u5E9C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "28"
+  }, "\u5175\u5EAB\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "29"
+  }, "\u5948\u826F\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "30"
+  }, "\u548C\u6B4C\u5C71\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "31"
+  }, "\u9CE5\u53D6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "32"
+  }, "\u5CF6\u6839\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "33"
+  }, "\u5CA1\u5C71\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "34"
+  }, "\u5E83\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "35"
+  }, "\u5C71\u53E3\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "36"
+  }, "\u5FB3\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "37"
+  }, "\u9999\u5DDD\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "38"
+  }, "\u611B\u5A9B\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "39"
+  }, "\u9AD8\u77E5\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "40"
+  }, "\u798F\u5CA1\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "41"
+  }, "\u4F50\u8CC0\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "42"
+  }, "\u9577\u5D0E\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "43"
+  }, "\u718A\u672C\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "44"
+  }, "\u5927\u5206\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "45"
+  }, "\u5BAE\u5D0E\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "46"
+  }, "\u9E7F\u5150\u5CF6\u770C"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "47"
+  }, "\u6C96\u7E04\u770C"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "address2",
+    name: "address2",
+    placeholder: "\u5E02\u533A\u753A\u6751"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "address3",
+    name: "address3",
+    placeholder: "\u756A\u5730\u30FB\u30D3\u30EB\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button firstPrev"
+  }, "\u623B\u308B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button secondNext"
+  }, "\u6B21\u3078")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "finish-step register-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Step 3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "\u96FB\u8A71\u756A\u53F7"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button secondPrev"
+  }, "\u623B\u308B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "button disabled"
+  }, "\u78BA\u8A8D"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "volunteer-message"
+  }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u306E\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/volunteer/login"
+  }, "\u30ED\u30B0\u30A4\u30F3")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_vFooter__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Register);
+$('document').ready(function () {
+  var steps = $('.step-bar ul li'); // First step
+
+  $('.firstNext').on('click', function (e) {
+    setTimeout(function () {
+      $(steps[1]).find('.number').addClass('active');
+    }, 1000);
+    $(steps[1]).find('.line').addClass('line-active');
+    $('.account-setup').css('left', '-4000px');
+    $('.user-details').css('left', 'calc(50% - 175px)');
+  }); // Second step
+
+  $('.secondNext').on('click', function (e) {
+    setTimeout(function () {
+      $(steps[2]).find('.number').addClass('active');
+    }, 1000);
+    $(steps[2]).find('.line').addClass('line-active');
+    $('.user-details').css('left', '-4000px');
+    $('.finish-step').css('left', 'calc(50% - 175px)');
+  });
+  $('.firstPrev').on('click', function (e) {
+    $(steps[1]).find('.number').removeClass('active');
+    $(steps[1]).find('.line').removeClass('line-active');
+    $('.user-details').css('left', '4000px');
+    $('.account-setup').css('left', 'calc(50% - 175px)');
+  }); // Last step
+
+  $('.secondPrev').on('click', function (e) {
+    $(steps[2]).find('.number').removeClass('active');
+    $(steps[2]).find('.line').removeClass('line-active');
+    $('.finish-step').css('left', '4000px');
+    $('.user-details').css('left', 'calc(50% - 175px)');
+  });
+});
 
 /***/ }),
 

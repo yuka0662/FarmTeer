@@ -10,16 +10,19 @@ function Login() {
             <div className="farmer-header">
                 <link rel="stylesheet" href={css} />
                 <div className="headline">
-                    <img src={Icon} alt="ロゴ" />
+                    <Link to="/">
+                        <img src={Icon} alt="ロゴ" />
+                    </Link>
                 </div>
             </div>
-            <div class="login-page">
-                <div class="form">
-                    <form class="login-form">
-                        <input type="text" placeholder="username" />
-                        <input type="password" placeholder="password" />
-                        <button>ログイン</button>
-                        <p class="message">アカウントをお持ちでない方はこちら <Link to="/farmteer/register">新規作成</Link></p>
+            <div className="login-page">
+                <div className="form">
+                    <h2 className="farmer">ログイン</h2>
+                    <form className="login-form">
+                        <input type="text" placeholder="ユーザー名" />
+                        <input type="password" placeholder="パスワード" />
+                        <button className="farmer-button">ログイン</button>
+                        <p className="farmer-message">アカウントをお持ちでない方はこちら <Link to="/farmer/register">新規登録</Link></p>
                     </form>
                 </div>
             </div>

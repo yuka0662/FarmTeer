@@ -9,17 +9,18 @@ function Login() {
             <div className="home-header">
                 <link rel="stylesheet" href={css} />
                 <div className="headline">
-                    <Link to="/management/top">
+                    <Link to="/">
                         <img src={Icon} alt="ロゴ" />
                     </Link>
                 </div>
             </div>
-            <div class="login-page">
-                <div class="form">
-                    <form class="login-form">
-                        <input type="text" placeholder="username" />
-                        <input type="password" placeholder="password" />
-                        <button>ログイン</button>
+            <div className="login-page">
+                <div className="form">
+                <h2 className="general">ログイン</h2>
+                    <form className="login-form">
+                        <input type="text" placeholder="管理者名" />
+                        <input type="password" placeholder="パスワード" />
+                        <button className="general-button">ログイン</button>
                     </form>
                 </div>
             </div>

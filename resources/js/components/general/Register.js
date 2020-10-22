@@ -9,14 +9,16 @@ function Register() {
         <nav>
             <Header />
             <link rel="stylesheet" href={css} />
-            <div class="login-page">
-                <div class="form">
-                    <form class="register-form">
-                        <input type="text" placeholder="name" />
-                        <input type="password" placeholder="password" />
-                        <input type="text" placeholder="email address" />
-                        <button>作成</button>
-                        <p class="message">アカウントをお持ちの方はこちら <Link to="/farmteer/login">ログイン</Link></p>
+            <div className="register-page">
+                <div className="form">
+                <h2 className="general">新規作成</h2>
+                    <form className="register-form-general">
+                        <input type="text" placeholder="氏名" />
+                        <input type="text" placeholder="メールアドレス" />
+                        <input type="password" placeholder="パスワード" />
+                        <input type="password" placeholder="確認のためもう一度入力してください" />
+                        <button className="general-button">作成</button>
+                        <p className="message">アカウントをお持ちの方はこちら <Link to="/farmteer/login">ログイン</Link></p>
                     </form>
                 </div>
             </div>

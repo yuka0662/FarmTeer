@@ -10,17 +10,20 @@ function Login() {
             <div className="volunteer-header">
                 <link rel="stylesheet" href={css} />
                 <div className="headline">
-                    <img src={Icon} alt="ロゴ" />
+                    <Link to="/">
+                        <img src={Icon} alt="ロゴ" />
+                    </Link>
                 </div>
             </div>
             <link rel="stylesheet" href={css} />
-            <div class="login-page">
-                <div class="form">
-                    <form class="login-form">
-                        <input type="text" placeholder="username" />
-                        <input type="password" placeholder="password" />
-                        <button>ログイン</button>
-                        <p class="message">アカウントをお持ちでない方はこちら <Link to="/volunteer/register">新規作成</Link></p>
+            <div className="login-page">
+                <div className="form">
+                    <h2 className="volunteer">ログイン</h2>
+                    <form className="login-form">
+                        <input type="text" placeholder="ユーザー名" />
+                        <input type="password" placeholder="パスワード" />
+                        <button className="volunteer-button">ログイン</button>
+                        <p className="volunteer-message">アカウントをお持ちでない方はこちら <Link to="/volunteer/register">新規登録</Link></p>
                     </form>
                 </div>
             </div>
