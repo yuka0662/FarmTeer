@@ -115,7 +115,9 @@ function Register() {
                     <p className="volunteer-message">アカウントをお持ちの方はこちら <Link to="/volunteer/login">ログイン</Link></p>
                 </div>
             </form>
-            <Footer />
+            <footer>
+                <Footer />
+            </footer>
         </div>
     )
 }

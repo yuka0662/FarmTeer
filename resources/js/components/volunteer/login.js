@@ -22,12 +22,14 @@ function Login() {
                     <form className="login-form">
                         <input type="text" placeholder="ユーザー名" />
                         <input type="password" placeholder="パスワード" />
-                        <button className="volunteer-button">ログイン</button>
+                        <button className="volunteer-button"><Link to="/volunteer/top">ログイン</Link></button>
                         <p className="volunteer-message">アカウントをお持ちでない方はこちら <Link to="/volunteer/register">新規登録</Link></p>
                     </form>
                 </div>
             </div>
-            <Footer />
+            <footer>
+                <Footer />
+            </footer>
         </nav>
     )
 }

@@ -16,17 +16,19 @@ function Login() {
             </div>
             <div className="login-page">
                 <div className="form">
-                <h2 className="general">ログイン</h2>
+                    <h2 className="general">ログイン</h2>
                     <form className="login-form">
                         <input type="text" placeholder="管理者名" />
                         <input type="password" placeholder="パスワード" />
-                        <button className="general-button">ログイン</button>
+                        <button className="general-button"><Link to="/management/top">ログイン</Link></button>
                     </form>
                 </div>
             </div>
-            <div className="home-footer">
-                <div className="footer-text">copyright@farmteer all rights reserved.</div>
-            </div>
+            <footer>
+                <div className="home-footer">
+                    <div className="footer-text">copyright@farmteer all rights reserved.</div>
+                </div>
+            </footer>
         </nav>
     )
 }

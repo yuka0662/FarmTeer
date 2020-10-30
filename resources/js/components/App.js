@@ -4,6 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Cart from './general/Cart'
 import Top from './general/Top'
+import fTop from './farmer/top'
+import vTop from './volunteer/top'
+import mTop from './management/top'
 import Login from './general/Login'
 import mLogin from './management/login'
 import fLogin from './farmer/login'
@@ -12,6 +15,8 @@ import Register from './general/Register'
 import fRegister from './farmer/register'
 import vRegister from './volunteer/register'
 import Home from './Home'
+
+{/** farmerのログイン、新規登録申請画面とvolunteerのログイン、新規登録申請画面と管理者のログイン画面のfooter、headerを削除する */}
 
 function App() {
     return(
@@ -28,6 +33,9 @@ function App() {
             <Route path="/farmteer/register" component={Register} />
             <Route path="/volunteer/register" component={vRegister} />
             <Route path="/farmer/register" component={fRegister} />
+            <Route path="/farmer/top" component={fTop} />
+            <Route path="/volunteer/top" component={vTop} />
+            <Route path="/management/top" component={mTop} />
             </Switch>
         </div>
     </Router>

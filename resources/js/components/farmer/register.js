@@ -113,7 +113,9 @@ function Register() {
                     <p className="farmer-message">アカウントをお持ちの方はこちら <Link to="/farmer/login" >ログイン</Link></p>
                 </div>
             </form>
-            <Footer />
+            <footer>
+                <Footer />
+            </footer>
         </nav >
     )
 }

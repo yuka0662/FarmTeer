@@ -28,9 +28,11 @@ function Header() {
                     </Link>
                 </ul>
             </div>
-            <div className="home-footer">
-                <div className="footer-text">copyright@farmteer all rights reserved.</div>
-            </div>
+            <footer>
+                <div className="home-footer">
+                    <div className="footer-text">copyright@farmteer all rights reserved.</div>
+                </div>
+            </footer>
         </nav>
     )
 }

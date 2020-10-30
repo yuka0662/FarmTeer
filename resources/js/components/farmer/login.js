@@ -21,12 +21,14 @@ function Login() {
                     <form className="login-form">
                         <input type="text" placeholder="ユーザー名" />
                         <input type="password" placeholder="パスワード" />
-                        <button className="farmer-button">ログイン</button>
+                        <button className="farmer-button"><Link to="/farmer/top">ログイン</Link></button>
                         <p className="farmer-message">アカウントをお持ちでない方はこちら <Link to="/farmer/register">新規登録</Link></p>
                     </form>
                 </div>
             </div>
-            <Footer />
+            <footer>
+                <Footer />
+            </footer>
         </nav>
     )
 }
