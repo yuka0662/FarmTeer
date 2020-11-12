@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center',
         width: 350,
         margin: '3px 400px',
-        position:"fixed",
+        position: "fixed",
     },
     input: {
         marginLeft: theme.spacing(1),
@@ -51,17 +51,17 @@ function Header() {
                 </IconButton>
             </Paper>
             <div className="headline-item">
-            <ul className="nav-list">
-                <Link to="/farmteer/farmteer">
-                    <li className="nav-list-item"><HelpOutlineIcon />FarmTeerとは</li>
-                </Link>
-                <Link to="/farmteer/register">
-                    <li className="nav-list-item"><AccountCircleIcon />新規登録</li>
-                </Link>
-                <Link to="/farmteer/login">
-                    <li className="nav-list-item">ログイン</li>
-                </Link>
-            </ul>
+                <ul className="nav-list">
+                    <Link to="/farmteer/farmteer">
+                        <li className="nav-list-item"><HelpOutlineIcon />FarmTeerとは</li>
+                    </Link>
+                    <li className="nav-list-item"><div className="nav-item-name"><AccountCircleIcon />新規登録・ログイン</div>
+                        <ul className="item">
+                            <Link to="/farmteer/login"><li className="item-list">ログイン</li></Link><br />
+                            <Link to="/farmteer/register"><li className="item-list">新規登録</li></Link>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </nav>
     )
