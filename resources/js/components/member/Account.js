@@ -1,7 +1,7 @@
 import React from 'react';
 
-function Mypage() {
+function Account() {
     return <h1>マイページ</h1>;
 }
 
-export default Mypage;
+export default Account;

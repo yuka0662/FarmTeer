@@ -1,19 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Icon from '../../../images/FTlogo.png'
-import css from '../../../css/components/App.css'
 
 function Login() {
     return (
         <nav>
-            <div className="home-header">
-                <link rel="stylesheet" href={css} />
-                <div className="headline">
-                    <Link to="/">
-                        <img src={Icon} alt="ロゴ" />
-                    </Link>
-                </div>
-            </div>
             <div className="login-page">
                 <div className="form">
                     <h2 className="general">ログイン</h2>
@@ -24,11 +14,6 @@ function Login() {
                     </form>
                 </div>
             </div>
-            <footer>
-                <div className="home-footer">
-                    <div className="footer-text">copyright@farmteer all rights reserved.</div>
-                </div>
-            </footer>
         </nav>
     )
 }

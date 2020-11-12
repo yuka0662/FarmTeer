@@ -1,55 +1,42 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Footer from './vFooter'
-import css from '../../../css/components/App.css'
-import Icon from '../../../images/FTlogo.png'
 
 function Register() {
     return (
-        <div>
-            <div>
-                <link rel="stylesheet" href={css} />
-            </div>
-            <div className="volunteer-header">
-                <div className="headline">
-                    <Link to="/">
-                        <img src={Icon} alt="ロゴ" />
-                    </Link>
-                </div>
-            </div>
-            <div className="step-bar">
+        <nav>
+            <div className="step-bar2">
                 <ul>
                     <li>
-                        <div className="number active">1</div>
+                        <div className="number2 active">1</div>
                         <div className="text">アカウント情報</div>
                     </li>
                     <li>
-                        <div className="number">2</div>
+                        <div className="number2">2</div>
                         <div className="text">住所</div>
-                        <div className="line"></div>
+                        <div className="line2"></div>
                     </li>
                     <li>
-                        <div className="number">3</div>
+                        <div className="number2">3</div>
                         <div className="text">メール・電話番号</div>
-                        <div className="line"></div>
+                        <div className="line2"></div>
                     </li>
                 </ul>
             </div>
-            <h1 className="volunteer-form-name">新規登録申請</h1>
+            <h1 className="farmer-form-name">新規登録申請</h1>
             <form>
                 <div className="account-setup register-form">
                     <h2>Step 1</h2>
-                    <input name="volunteername" type="text" placeholder="団体名" />
-                    <input name="volunteerfurigana" type="text" placeholder="団体名(フリガナ)" />
+                    <input name="farmername" type="text" placeholder="農業名" />
+                    <input name="farmerfurigane" type="text" placeholder="農業名(フリガナ)" />
                     <input name="name" type="text" placeholder="氏名" />
                     <input name="furigana" type="text" placeholder="氏名(フリガナ)" />
-                    <div className="button firstNext">次へ</div>
+                    <div className="button2 firstNext">次へ</div>
                 </div>
                 <div className="user-details register-form">
                     <h2>Step 2</h2>
                     〒<input type="text" id="postcode1" name="postcode1" maxLength="3" placeholder="郵便番号" />
                     ー<input type="text" id="postcode2" name="postcode2" maxLength="4" />
-                    <div className="cp_ipselect vo_sl03">
+                    <div className="cp_ipselect cp_sl03">
                         <select id="address1" name="address1">
                             <option value="選択してください" >都道府県を選択</option>
                             <option value="1">北海道</option>
@@ -103,37 +90,34 @@ function Register() {
                     </div>
                     <input type="text" id="address2" name="address2" placeholder="市区町村" />
                     <input type="text" id="address3" name="address3" placeholder="番地・ビル名" />
-                    <div className="button firstPrev">戻る</div>
-                    <div className="button secondNext">次へ</div>
+                    <div className="button2 firstPrev">戻る</div>
+                    <div className="button2 secondNext">次へ</div>
                 </div>
                 <div className="finish-step register-form">
                     <h2>Step 3</h2>
                     <input type="text" placeholder="メールアドレス" />
                     <input type="text" placeholder="電話番号" />
-                    <div className="button secondPrev">戻る</div>
-                    <div className="button disabled">確認</div>
-                    <p className="volunteer-message">アカウントをお持ちの方はこちら <Link to="/volunteer/login">ログイン</Link></p>
+                    <div className="button2 secondPrev">戻る</div>
+                    <div className="button2 disabled">確認</div>
+                    <p className="farmer-message">アカウントをお持ちの方はこちら <Link to="/farmer/login" >ログイン</Link></p>
                 </div>
             </form>
-            <footer>
-                <Footer />
-            </footer>
-        </div>
+        </nav >
     )
 }
 
 export default Register;
 
-$('document').ready(function () {
-    let steps = $('.step-bar ul li');
+document.addEventListener('DOMContentLoaded', function () {
+    let steps = $('.step-bar2 ul li');
 
     // First step
     $('.firstNext').on('click', (e) => {
         setTimeout(() => {
-            $(steps[1]).find('.number').addClass('active');
+            $(steps[1]).find('.number2').addClass('active');
         }, 1000);
 
-        $(steps[1]).find('.line').addClass('line-active');
+        $(steps[1]).find('.line2').addClass('line2-active');
         $('.account-setup').css('left', '-4000px');
         $('.user-details').css('left', 'calc(50% - 175px)');
     });
@@ -141,25 +125,25 @@ $('document').ready(function () {
     // Second step
     $('.secondNext').on('click', (e) => {
         setTimeout(() => {
-            $(steps[2]).find('.number').addClass('active');
+            $(steps[2]).find('.number2').addClass('active');
         }, 1000);
 
-        $(steps[2]).find('.line').addClass('line-active');
+        $(steps[2]).find('.line2').addClass('line2-active');
         $('.user-details').css('left', '-4000px');
         $('.finish-step').css('left', 'calc(50% - 175px)');
     });
 
     $('.firstPrev').on('click', (e) => {
-        $(steps[1]).find('.number').removeClass('active');
-        $(steps[1]).find('.line').removeClass('line-active');
+        $(steps[1]).find('.number2').removeClass('active');
+        $(steps[1]).find('.line2').removeClass('line2-active');
         $('.user-details').css('left', '4000px');
         $('.account-setup').css('left', 'calc(50% - 175px)');
     });
 
     // Last step
     $('.secondPrev').on('click', (e) => {
-        $(steps[2]).find('.number').removeClass('active');
-        $(steps[2]).find('.line').removeClass('line-active');
+        $(steps[2]).find('.number2').removeClass('active');
+        $(steps[2]).find('.line2').removeClass('line2-active');
         $('.finish-step').css('left', '4000px');
         $('.user-details').css('left', 'calc(50% - 175px)')
     });
