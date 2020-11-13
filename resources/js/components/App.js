@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import mTop from './management/mTop'
 import mLogin from './management/mLlogin'
+import Login from './general/Login'
+import Register from './general/Register'
 import Top from './Top'
 import Header from './Header'
 import Footer from './Footer'
@@ -23,6 +25,8 @@ function App() {
             <Route path="/" exact component={Top} /> {/**一番最初に表示されるところ */}
             <Route path="/management/login" component={mLogin} />
             <Route path="/management/top" component={mTop} />
+            <Route path="/farmteer/login" component={Login} />
+            <Route path="/farmteer/register" component={Register} />
             </Switch>
         </div>
         <Footer />

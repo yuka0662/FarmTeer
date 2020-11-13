@@ -1,11 +1,19 @@
 * {
     margin:0; padding:0;
   }
+  html, body {
+    text-align: center;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  body{
+    background-color: white;
+  }
 
   /*headerとfooter*/
   .header {
     height: 70px;
-    width: 99%;
+    width: 98.9%;
     padding: 7px 0 0 12%;
     background-color: rgb(96, 151, 114);
     color: whitesmoke;
@@ -87,130 +95,74 @@
     color:#444;
 }
 
-
-  /*
+/*ログインページ*/
   .login-page {
-    width: 360px;
-    padding: 8% 0 0;
-    margin: auto;
+    width: 75%;
+    padding: 90px 0 0 0;
+    margin: auto auto 10px auto;
   }
-
-  .register-page{
-    width: 360px;
-    padding: 4% 0 0;
-    margin: auto;
-  }
-
   .form {
-    position: relative;
-    z-index: 1;
-    background: whitesmoke;
-    max-width: 360px;
-    margin: 0 auto 100px;
-    padding: 45px;
+    position: static;
+    z-index: 0;
+    background:#f3f2f2;
+    margin: 0 auto 100px auto;
+    padding: 0 20% 100px 20%;
     text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
-
   .general{
     color:rgb(96, 151, 114);
-    border-bottom:solid 3px rgb(96, 151, 114);
+    border-bottom:solid 1.5px rgb(96, 151, 114);
+    padding: 30px;
+    margin-bottom: 20px;
   }
 
-  .form input {
-    font-family: "Roboto", sans-serif;
-    outline: 0;
-    background: #f2f2f2;
-    width: 100%;
-    border: 0;
-    margin: 0 0 15px;
-    padding: 15px;
-    box-sizing: border-box;
-    font-size: 14px;
-  }
-  .form .general-button {
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    outline: 0;
-    background: rgb(96, 151, 114);
-    width: 100%;
-    border: 0;
-    padding: 15px;
-    color: whitesmoke;
-    font-size: 14px;
-    -webkit-transition: all 0.3 ease;
-    transition: all 0.3 ease;
-    cursor: pointer;
-  }
   .form .general-button:hover,.form .general-button:active,.form .general-button:focus {
     background: rgb(54, 114, 57);
   }
   .form .message {
     margin: 15px 0 0;
     color: #b3b3b3;
-    font-size: 12px;
+    font-size: 16px;
   }
   .form .message a {
     color: rgb(96, 151, 114);
     text-decoration: none;
   }
-  */
 
+  .form input {
+    outline: 0;
+    background-color: white;
+    width: 55%;
+    border: 0;
+    margin: 20px 0 30px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  .form .general-button {
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(70, 110, 83);
+    width: 55%;
+    border: 0;
+    padding: 15px;
+    margin: 10px 0 30px 0;
+    color: whitesmoke;
+    font-size: 16px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
 
-/*farmer画面のレイアウト*/
-.farmer{
-  color:#E29C45;
-  border-bottom:solid 3px #E29C45;
-}
+  /*新規登録画面*/
+  .register-page{
+    width: 75%;
+    padding: 90px 0 0 0;
+    margin: auto auto 10px auto;
+  }
 
-.form .farmer-button {
-  font-family: "Roboto", sans-serif;
-  text-transform: uppercase;
-  outline: 0;
-  background: #E29C45;
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: whitesmoke;
-  font-size: 14px;
-  -webkit-transition: all 0.3 ease;
-  transition: all 0.3 ease;
-  cursor: pointer;
-}
-.form .farmer-button:hover,.form .farmer-button:active,.form .farmer-button:focus {
-  background: rgb(241, 152, 43);
-}
-.form .farmer-message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
-}
-.form .farmer-message a {
-  color: #E29C45;
-  text-decoration: none;
-}
-
-.farmer-footer {
-    width: 100%;
-    height: 60px; 
-    text-align: center;
-    padding: 20px 0;
-    background-color: #E29C45;
-}
 
 /*新規登録申請画面のレイアウト*/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-* {
-  font-family: 'Roboto';
-  letter-spacing: 0.05em;
-}
-
-html, body {
-  text-align: center;
-  height: 100%;
-  overflow-x: hidden;
-}
-
 .step-bar li{
   display: inline-block;
   position: relative;
