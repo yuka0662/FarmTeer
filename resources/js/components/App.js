@@ -9,6 +9,8 @@ import Register from './general/Register'
 import Top from './Top'
 import Header from './Header'
 import Footer from './Footer'
+import Guide from './Guide'
+import Farmteer from './Farmteer';
 
 {/** 
     farmerのログイン、新規登録申請画面とvolunteerのログイン、新規登録申請画面と管理者のログイン画面のfooter、headerを削除する
@@ -27,6 +29,8 @@ function App() {
             <Route path="/management/top" component={mTop} />
             <Route path="/farmteer/login" component={Login} />
             <Route path="/farmteer/register" component={Register} />
+            <Route path="/guide" component={Guide} />
+            <Route path="/first" component={Farmteer} />
             </Switch>
         </div>
         <Footer />

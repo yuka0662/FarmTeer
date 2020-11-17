@@ -52,7 +52,7 @@ function Header() {
             </Paper>
             <div className="headline-item">
                 <ul className="nav-list">
-                    <Link to="/farmteer/farmteer">
+                    <Link to="/first">
                         <li className="nav-list-item"><HelpOutlineIcon />FarmTeerとは</li>
                     </Link>
                     <li className="nav-list-item"><div className="nav-item-name"><AccountCircleIcon />新規登録・ログイン</div>

@@ -5,7 +5,7 @@ import Image from '../../images/bg_image.png'
 function Top() {
     return (
         <nav>
-            <div>
+            <div className="image-style">
                 <img src={Image} alt="画像" />
             </div>
             <div>

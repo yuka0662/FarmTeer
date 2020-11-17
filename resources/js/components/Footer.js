@@ -2,6 +2,7 @@ import React from 'react';
 import css from '../../css/components/App.css'
 import { Link } from 'react-router-dom';
 import Icon from '../../images/FTlogo.png'
+import Img from '../../images/img05.png'
 
 function Footer() {
     return (
@@ -20,6 +21,9 @@ function Footer() {
                 </div>
                 <img src={Icon} alt="ロゴ" />
                 <p>copyright@farmteer all rights reserved.</p>
+            </div>
+            <div className="footer-text2">
+                <img src={Img} alt="サイトのイメージキャラクター" />
             </div>
         </nav>
     )

@@ -15318,7 +15318,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "* {\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: center;\r\n    color:#444;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n\r\n/*新規登録申請画面のレイアウト*/\r\n.step-bar li{\r\n  display: inline-block;\r\n  position: relative;\r\n  margin: 0px 30px; \r\n  width: 120px;\r\n}\r\n\r\n.step-bar .number{\r\n  transition: background-color 0.1s linear, color 0.1s linear;\r\n  display: inline-block;\r\n  position: relative;\r\n  color: #777;\r\n  background-color: whitesmoke; \r\n  width: 20px;\r\n  padding: 8px 5px;\r\n  margin-bottom: 4px;\r\n  font-weight: 700;\r\n  z-index: 1;\r\n}\r\n\r\n.step-bar .line {\r\n  background-color: whitesmoke;\r\n  width: 180px;\r\n  height: 5px;\r\n  position: absolute;\r\n  top: 15px;\r\n  right: 60px;\r\n  z-index: 0;\r\n}\r\n\r\n.register-form {\r\n  display: block;\r\n  background: whitesmoke;\r\n  padding: 20px 20px;\r\n  width: 450px;\r\n  text-align: center;\r\n  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);\r\n  border-radius: 3px;\r\n  margin-left: -50px;\r\n}\r\n\r\n.error {\r\n  border: 1px solid #E57373;\r\n  background-color: #FFEBEE;\r\n}\r\n\r\n.error-text {\r\n  text-align: left;\r\n  padding-left: 10px;\r\n  font-size: 0.7em;\r\n  color: #E57373;\r\n}\r\n.register-form h2 {\r\n  font-size: 1em;\r\n  color: #777;\r\n  font-weight: 400;\r\n  margin-bottom: 10px;\r\n}\r\n\r\n.register-form input {\r\n  padding: 15px; \r\n  margin: 5px 0;\r\n  width: 400px;\r\n}\r\n\r\n.register-form input::-moz-placeholder {\r\n  color: #aaa;\r\n}\r\n\r\n.register-form input:-ms-input-placeholder {\r\n  color: #aaa;\r\n}\r\n\r\n.register-form input::placeholder {\r\n  color: #aaa;\r\n}\r\n\r\n.register-form input.error::-moz-placeholder {\r\n  color: #555;\r\n}\r\n\r\n.register-form input.error:-ms-input-placeholder {\r\n  color: #555;\r\n}\r\n\r\n.register-form input.error::placeholder {\r\n  color: #555;\r\n}\r\n\r\n.account-setup, .finish-step, .user-details {\r\n  transition: 1s all ease-in-out;\r\n  display: inline-block;\r\n  position: absolute;\r\n}\r\n\r\n.account-setup {\r\n  left: calc(50% - 175px);\r\n}\r\n\r\n.finish-step, .user-details {\r\n  left: 10000px;\r\n}\r\n\r\n.line-active {\r\n  background-position: left bottom;\r\n}\r\n\r\nlabel {\r\n  display: block;\r\n  text-align: left;\r\n  font-size: 0.8em;\r\n  padding-left: 5px;\r\n  color: #444;\r\n}\r\n\r\n.accept-conditions {\r\n  margin-top: 20px;\r\n}\r\n\r\ninput::-moz-placeholder { \r\n  color:  #aaa;\r\n}\r\n\r\ninput:-ms-input-placeholder { \r\n  color:  #aaa;\r\n}\r\n\r\ninput::placeholder { \r\n  color:  #aaa;\r\n}\r\n\r\n/*新規登録申請画面のレイアウト2*/\r\n\r\n.step-bar2 {\r\n  text-transform: uppercase;\r\n  color: #E29C45;\r\n  font-size: 0.8em;\r\n  margin-top: 20px;\r\n}\r\n\r\n.step-bar2 li{\r\n  display: inline-block;\r\n  position: relative;\r\n  margin: 0px 30px; \r\n  width: 120px;\r\n}\r\n\r\n.step-bar2 .number2{\r\n  transition: background-color 0.1s linear, color 0.1s linear;\r\n  display: inline-block;\r\n  position: relative;\r\n  color: #777;\r\n  background-color: whitesmoke; \r\n  width: 20px;\r\n  padding: 8px 5px;\r\n  margin-bottom: 4px;\r\n  font-weight: 700;\r\n  z-index: 1;\r\n}\r\n\r\n.step-bar2 .line2 {\r\n  background-color: whitesmoke;\r\n  width: 180px;\r\n  height: 5px;\r\n  position: absolute;\r\n  top: 15px;\r\n  right: 60px;\r\n  z-index: 0;\r\n}\r\n\r\n.step-bar2 .active {\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n}\r\n\r\n.farmer-form-name{\r\n  margin: 25px 0;\r\n  display: block;\r\n  color: #E29C45;\r\n  font-size: 1.15em;\r\n  text-transform: uppercase;\r\n  margin-bottom: 20px;\r\n  font-weight: 200;\r\n}\r\n\r\n.button2 {\r\n  display: inline-block;\r\n  padding: 10px 40px;\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n  margin: 25px 0  10px 0;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  position: relative;\r\n}\r\n\r\n.button2:hover {\r\n  background-color: rgb(241, 152, 43);\r\n}\r\n\r\n.line2 {\r\n  transition: all 1s ease-in-out;\r\n  background: linear-gradient(to right, #E29C45 50%, whitesmoke 50%);\r\n  background-size: 200% 100%;\r\n  background-position: right bottom;\r\n}\r\n\r\n.line2-active {\r\n  background-position: left bottom;\r\n}\r\n\r\n.farmer-message {\r\n  margin: 15px 0 0;\r\n  color: #b3b3b3;\r\n  font-size: 12px;\r\n}\r\n\r\n.farmer-message a {\r\n  color: #E29C45;\r\n  text-decoration: none;\r\n}\r\n\r\ninput {\r\n  font-family: \"Roboto\", sans-serif;\r\n  outline: 0;\r\n  background: #f2f2f2;\r\n  width: 100%;\r\n  border: 0;\r\n  margin: 0 0 15px;\r\n  padding: 15px;\r\n  box-sizing: border-box;\r\n  font-size: 14px;\r\n}\r\n\r\n@media(max-width: 600px) {\r\n  .step2-bar {\r\n    display: none;\r\n  }\r\n}\r\n\r\n/*farmerとvolunteerのregister画面共通のレイアウト*/\r\n\r\n#postcode1, #postcode2 {\r\n  font-family: \"Roboto\", sans-serif;\r\n  outline: 0;\r\n  background: #f2f2f2;\r\n  width: 160px;\r\n  border: 0;\r\n  margin: 0 0 15px;\r\n  padding: 15px;\r\n  box-sizing: border-box;\r\n  font-size: 14px;\r\n}\r\n\r\n.cp_ipselect {\r\n\toverflow: hidden;\r\n\twidth: 90%;\r\n\tmargin: 2em auto;\r\n\ttext-align: center;\r\n}\r\n.cp_ipselect select {\r\n\twidth: 100%;\r\n\tpadding-right: 1em;\r\n\tcursor: pointer;\r\n\ttext-indent: 0.01px;\r\n\ttext-overflow: ellipsis;\r\n\tborder: none;\r\n\toutline: none;\r\n\tbackground: transparent;\r\n\tbackground-image: none;\r\n\tbox-shadow: none;\r\n\t-webkit-appearance: none;\r\n\t-moz-appearance: none;\r\n\t     appearance: none;\r\n}\r\n.cp_ipselect select::-ms-expand {\r\n    display: none;\r\n}\r\n.cp_ipselect.cp_sl03 {\r\n\tposition: relative;\r\n\tborder: 2px solid #E29C45;\r\n\tbackground: whitesmoke;\r\n}\r\n.cp_ipselect.cp_sl03::before {\r\n\tposition: absolute;\r\n\ttop: 0.8em;\r\n\tright: 0.8em;\r\n\twidth: 0;\r\n\theight: 0;\r\n\tpadding: 0;\r\n\tcontent: '';\r\n\tborder-left: 6px solid transparent;\r\n\tborder-right: 6px solid transparent;\r\n\tborder-top: 6px solid #E29C45;\r\n\tpointer-events: none;\r\n}\r\n.cp_ipselect.cp_sl03 select {\r\n\tpadding: 8px 38px 8px 8px;\r\n\tcolor: #E29C45;\r\n}\r\n\r\n\r\n.top-page {\r\n  width: 100%;\r\n  display: flex;\r\n}\r\n\r\n.list-form{\r\n  padding-left: 50px;\r\n  text-align: left;\r\n  width: 50%;\r\n  float: left;\r\n}\r\n.edit-form{\r\n  padding-right: 50px;\r\n  text-align: right;\r\n  width: 50%;\r\n  float: left;\r\n}\r\n.edit-form input{\r\n  width: 500px;\r\n}\r\n.edit-form h2{\r\n  text-align: center;\r\n  color: rgb(96, 151, 114);\r\n}\r\n.edit-button{\r\n  padding: 10px 40px;\r\n  background-color: rgb(96, 151, 114);\r\n  color: whitesmoke;\r\n  margin: 10px 30px 10px 30px;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  position: relative;\r\n  border: none;\r\n}\r\n.edit-button:hover{\r\n  background-color: rgb(54, 114, 57);\r\n}\r\n\r\n.button-blue{\r\n  position: relative;\r\n  display: inline-block;\r\n  border:none;\r\n  margin-top: 30px;\r\n  background-color: #264348;\r\n  font-size: 20px;\r\n  color: whitesmoke;\r\n}\r\n\r\n.button-farmer{\r\n  position: relative;\r\n  display: inline-block;\r\n  border:none;\r\n  margin-top: 30px;\r\n  background-color: #E29C45;\r\n  font-size: 20px;\r\n  color: whitesmoke;\r\n}\r\n\r\n.header-link{\r\n  text-align: right;\r\n  float: left;\r\n}\r\n\r\n/*　農家　*/\r\n.account-page .farmer-text{\r\n  padding-left: 10%;\r\n  color: #E29C45;\r\n}\r\n.edit-form .farmer-text{\r\n  text-align: center;\r\n  color: #E29C45;\r\n}\r\n.farmer-edit-button{\r\n  padding: 10px 40px;\r\n  background-color: #E29C45;\r\n  color: whitesmoke;\r\n  margin: 10px 30px 10px 30px;\r\n  -webkit-user-select: none;\r\n     -moz-user-select: none;\r\n      -ms-user-select: none;\r\n          user-select: none;\r\n  cursor: pointer;\r\n  border: none;\r\n}\r\n.farmer-edit-button:hover{\r\n  background-color:rgb(241, 152, 43);\r\n}\r\n\r\n.cp_sl0 select {\r\n  width: 500px;\r\n  margin-bottom: 30px;\r\n  background-color:#f2f2f2; \r\n\tpadding: 8px 38px 8px 8px;\r\n  color: #E29C45;\r\n  border: none;\r\n}\r\n\r\n.vo_sl0 select {\r\n  width: 500px;\r\n  margin-bottom: 30px;\r\n  background-color:#f2f2f2; \r\n\tpadding: 8px 38px 8px 8px;\r\n  color: #264348;\r\n  border: none;\r\n}\r\n\r\n.account-page input{\r\n  width: 70%;\r\n}\r\n.account-page {\r\n  padding-left: 10%;\r\n  text-align: left;\r\n}\r\n\r\n\r\n.ipselect {\r\n\toverflow: hidden;\r\n\twidth: 50%;\r\n\tmargin: 2em 0;\r\n\ttext-align: left;\r\n}\r\n.ipselect select {\r\n\twidth: 100%;\r\n\tpadding-right: 1em;\r\n\tcursor: pointer;\r\n\ttext-indent: 0.01px;\r\n\ttext-overflow: ellipsis;\r\n\tborder: none;\r\n\toutline: none;\r\n\tbackground: transparent;\r\n\tbackground-image: none;\r\n\tbox-shadow: none;\r\n\t-webkit-appearance: none;\r\n\t-moz-appearance: none;\r\n\t     appearance: none;\r\n}\r\n.ipselect select::-ms-expand {\r\n    display: none;\r\n}\r\n.ipselect.cp_sl03 {\r\n\tposition: relative;\r\n\tborder: 2px solid #E29C45;\r\n\tbackground: whitesmoke;\r\n}\r\n.ipselect.cp_sl03::before {\r\n\tposition: absolute;\r\n\ttop: 0.8em;\r\n\tright: 0.8em;\r\n\twidth: 0;\r\n\theight: 0;\r\n\tpadding: 0;\r\n\tcontent: '';\r\n\tborder-left: 6px solid transparent;\r\n\tborder-right: 6px solid transparent;\r\n\tborder-top: 6px solid #E29C45;\r\n\tpointer-events: none;\r\n}\r\n.ipselect.cp_sl03 select {\r\n\tpadding: 8px 38px 8px 8px;\r\n\tcolor: #E29C45;\r\n}\r\n\r\n.ipselect.vo_sl03 {\r\n\tposition: relative;\r\n\tborder: 2px solid #264348;\r\n\tbackground: whitesmoke;\r\n}\r\n.ipselect.vo_sl03::before {\r\n\tposition: absolute;\r\n\ttop: 0.8em;\r\n\tright: 0.8em;\r\n\twidth: 0;\r\n\theight: 0;\r\n\tpadding: 0;\r\n\tcontent: '';\r\n\tborder-left: 6px solid transparent;\r\n\tborder-right: 6px solid transparent;\r\n\tborder-top: 6px solid #264348;\r\n\tpointer-events: none;\r\n}\r\n.ipselect.vo_sl03 select {\r\n\tpadding: 8px 38px 8px 8px;\r\n\tcolor: #264348;\r\n}", ""]);
+exports.push([module.i, "* {\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.image-style{\r\n  width: 100%;\r\n  text-align: center;\r\n}\r\n.image-style img{\r\n  width: 60%;\r\n}\r\n\r\n/*新規登録申請画面のレイアウト*/\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}", ""]);
 
 // exports
 
@@ -85111,6 +85111,50 @@ module.exports = "/images/FTlogo.png?27d6ac9717c324ee4e507ee6f9958880";
 
 /***/ }),
 
+/***/ "./resources/images/Img01.png":
+/*!************************************!*\
+  !*** ./resources/images/Img01.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Img01.png?c222ba2672d9779380affb405a1563aa";
+
+/***/ }),
+
+/***/ "./resources/images/Img02.png":
+/*!************************************!*\
+  !*** ./resources/images/Img02.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Img02.png?cf8988bd04ddc4fcd248236b1965b06d";
+
+/***/ }),
+
+/***/ "./resources/images/Img03.png":
+/*!************************************!*\
+  !*** ./resources/images/Img03.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Img03.png?f6bce8fe6173085c617ad9f7846ba69b";
+
+/***/ }),
+
+/***/ "./resources/images/Img04.png":
+/*!************************************!*\
+  !*** ./resources/images/Img04.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/Img04.png?4e15709889e7265f889032be48898ea2";
+
+/***/ }),
+
 /***/ "./resources/images/bg_image.png":
 /*!***************************************!*\
   !*** ./resources/images/bg_image.png ***!
@@ -85119,6 +85163,17 @@ module.exports = "/images/FTlogo.png?27d6ac9717c324ee4e507ee6f9958880";
 /***/ (function(module, exports) {
 
 module.exports = "/images/bg_image.png?ea62f9605af1e6a7b82516fa76c42e82";
+
+/***/ }),
+
+/***/ "./resources/images/img05.png":
+/*!************************************!*\
+  !*** ./resources/images/img05.png ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/img05.png?760d765275148f1018844f8e40b7d263";
 
 /***/ }),
 
@@ -85212,6 +85267,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Top__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Top */ "./resources/js/components/Top.js");
 /* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.js");
+/* harmony import */ var _Guide__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Guide */ "./resources/js/components/Guide.js");
+/* harmony import */ var _Farmteer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Farmteer */ "./resources/js/components/Farmteer.js");
+
+
 
 
 
@@ -85247,12 +85306,73 @@ function App() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/farmteer/register",
     component: _general_Register__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/guide",
+    component: _Guide__WEBPACK_IMPORTED_MODULE_10__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/first",
+    component: _Farmteer__WEBPACK_IMPORTED_MODULE_11__["default"]
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_9__["default"], null));
 }
 
 if (document.getElementById('app')) {
   react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(App, null), document.getElementById('app'));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/Farmteer.js":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Farmteer.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _images_Img01_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../images/Img01.png */ "./resources/images/Img01.png");
+/* harmony import */ var _images_Img01_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_images_Img01_png__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _images_Img02_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../images/Img02.png */ "./resources/images/Img02.png");
+/* harmony import */ var _images_Img02_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_images_Img02_png__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_Img03_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/Img03.png */ "./resources/images/Img03.png");
+/* harmony import */ var _images_Img03_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_Img03_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _images_Img04_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/Img04.png */ "./resources/images/Img04.png");
+/* harmony import */ var _images_Img04_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_Img04_png__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+
+function Farmteer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "first-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "slideBox"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "item1",
+    src: _images_Img01_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    alt: "\u91CE\u83DC"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "item1",
+    src: _images_Img02_png__WEBPACK_IMPORTED_MODULE_2___default.a,
+    alt: "\u91CE\u83DC"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "item1",
+    src: _images_Img03_png__WEBPACK_IMPORTED_MODULE_3___default.a,
+    alt: "\u91CE\u83DC"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "item1",
+    src: _images_Img04_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "\u30DC\u30E9\u30F3\u30C6\u30A3\u30A2"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "first"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Farmteer\u3063\u3066\u306A\u306B\uFF1F"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Farmteer\u306F\u91CE\u83DC\u3084\u679C\u7269\u306A\u3069\u3092\u304A\u5F97\u306B\u8CB7\u3048\u3001 1\u8CFC\u5165=120\u5186\u9014\u4E0A\u56FD\u306E\u98DF\u7CE7\u652F\u63F4\u306E\u305F\u3081\u52DF\u91D1\u3055\u308C\u308B\u3001 \u305D\u3093\u306A\u30AA\u30F3\u30E9\u30A4\u30F3\u306E\u30D5\u30A1\u30FC\u30DE\u30FC\u30BA\u30DE\u30FC\u30B1\u30C3\u30C8\u3067\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u7686\u3055\u3093\u3001\u77E5\u3063\u3066\u3044\u307E\u3059\u304B\uFF1F", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "\u65E5\u672C\u30671\u5E74\u9593\u306B\u6368\u3066\u3089\u308C\u308B\u98DF\u54C1\u306E\u91CF\u306F\u7D04612\u4E07\u30C8\u30F3\u3067\u3042\u308A\u3001 \u56FD\u9023WFP\u304C1\u5E74\u9593\u3067\u652F\u63F4\u3059\u308B\u91CF\u306E1.5\u500D\u306E\u91CF\u3067\u3059\u3002 \u305D\u3057\u3066\u3001\u5F62\u304C\u60AA\u3044\u30FB\u898F\u683C\u306B\u5408\u308F\u306A\u3044(\u5927\u304D\u3059\u304E\u308B\u30FB\u5C0F\u3055\u3059\u304E\u308B)\u30FB \u50B7\u304C\u3064\u3044\u3066\u3044\u308B\u306A\u3069\u306E\u7406\u7531\u3067\u5E02\u5834\u306B\u51FA\u8377\u3067\u304D\u305A\u3001 \u6368\u3066\u3089\u308C\u3066\u3057\u307E\u3046\u91CE\u83DC\u3084\u679C\u7269\u306F1\u5E74\u9593\u3067200\u4E07\u30C8\u30F3\u3042\u308A\u307E\u3059\u3002 \u4E2D\u8EAB\u306F\u540C\u3058\u306A\u306E\u306B\u6368\u3066\u3089\u308C\u3066\u3057\u307E\u3046\u306E\u306F\u3082\u3063\u305F\u3044\u306A\u3044\u3002 \u98DF\u54C1\u30ED\u30B9\u524A\u6E1B\u306E\u53D6\u308A\u7D44\u307F\u3092\u5BC4\u4ED8\u3068\u3057\u3066\u3001\u9014\u4E0A\u56FD\u306E\u98DF\u7CE7\u652F\u63F4\u306B\u5F79\u7ACB\u3066\u305F\u3044\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u300C\u30E6\u30CB\u30FC\u30AF\u300D\u306A\u898B\u305F\u76EE\u306E\u91CE\u83DC\u3084\u679C\u7269\u3092\u3001 \u751F\u7523\u8005\u3068\u76F4\u63A5\u30B3\u30DF\u30E5\u30CB\u30B1\u30FC\u30B7\u30E7\u30F3\u3092\u53D6\u308A\u306A\u304C\u3089\u81EA\u7531\u306B\u53D6\u5F15\u3057\u3066\u3082\u3089\u3046\u3053\u3068\u3067\u3001 1\u8CFC\u5165\uFF1D120\u5186\u306E\u5BC4\u4ED8\u306B\u306A\u308A\u3001\u9014\u4E0A\u56FD\u3078\u306E\u98DF\u7CE7\u652F\u63F4\u3068\u306A\u308A\u307E\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Farmteer);
 
 /***/ }),
 
@@ -85272,6 +85392,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../images/FTlogo.png */ "./resources/images/FTlogo.png");
 /* harmony import */ var _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_images_FTlogo_png__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _images_img05_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../images/img05.png */ "./resources/images/img05.png");
+/* harmony import */ var _images_img05_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_images_img05_png__WEBPACK_IMPORTED_MODULE_4__);
+
 
 
 
@@ -85298,10 +85421,48 @@ function Footer() {
   }, "\u30AC\u30A4\u30C9")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _images_FTlogo_png__WEBPACK_IMPORTED_MODULE_3___default.a,
     alt: "\u30ED\u30B4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "copyright@farmteer all rights reserved.")));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "copyright@farmteer all rights reserved.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer-text2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _images_img05_png__WEBPACK_IMPORTED_MODULE_4___default.a,
+    alt: "\u30B5\u30A4\u30C8\u306E\u30A4\u30E1\u30FC\u30B8\u30AD\u30E3\u30E9\u30AF\u30BF\u30FC"
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./resources/js/components/Guide.js":
+/*!******************************************!*\
+  !*** ./resources/js/components/Guide.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../css/components/App.css */ "./resources/css/components/App.css");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function Guide() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_1___default.a
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "guide-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "general"
+  }, "\u30AC\u30A4\u30C9"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u30AC\u30A4\u30C9\u30DA\u30FC\u30B8\u306F\u305F\u3060\u3044\u307E\u4F5C\u6210\u4E2D\u3067\u3059\u3002"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u3054\u8FF7\u60D1\u3092\u304A\u304B\u3051\u3057\u307E\u3059\u304C\u3001\u4ECA\u3057\u3070\u3089\u304F\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002"))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Guide);
 
 /***/ }),
 
@@ -85394,7 +85555,7 @@ function Header() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "nav-list"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/farmteer/farmteer"
+    to: "/first"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     className: "nav-list-item"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_HelpOutline__WEBPACK_IMPORTED_MODULE_10___default.a, null), "FarmTeer\u3068\u306F")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -85437,7 +85598,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Top() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "image-style"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: _images_bg_image_png__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "\u753B\u50CF"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5BC4\u4ED8\u5BFE\u8C61\u5546\u54C1")));
@@ -85508,12 +85671,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Header */ "./resources/js/components/Header.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Footer */ "./resources/js/components/Footer.js");
-/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../css/components/App.css */ "./resources/css/components/App.css");
-/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_4__);
-
-
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../css/components/App.css */ "./resources/css/components/App.css");
+/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_2__);
 
 
 
@@ -85521,7 +85680,7 @@ __webpack_require__.r(__webpack_exports__);
 function Register() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
-    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_4___default.a
+    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_2___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "register-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {

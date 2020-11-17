@@ -18,6 +18,7 @@
     background-color: rgb(96, 151, 114);
     color: whitesmoke;
     position: absolute;
+    z-index: 10;
   }
 
   .headline{
@@ -82,6 +83,14 @@
     text-align: left;
     color:#444;
 }
+.footer-text2{
+  float: left;
+  text-align: right;
+  width: 35%;
+}
+.footer-text2 img{
+  height: 270px;
+}
 .footer-link{
   display: inline-block;
   color: #444;
@@ -91,8 +100,10 @@
   height: 110px;
 }
 .footer .footer-text {
-    text-align: center;
+    text-align: right;
     color:#444;
+    float: left;
+    width: 60%;
 }
 
 /*ログインページ*/
@@ -161,464 +172,112 @@
     margin: auto auto 10px auto;
   }
 
+/*Top画面レイアウト*/
+.image-style{
+  width: 100%;
+  text-align: center;
+}
+.image-style img{
+  width: 60%;
+}
 
 /*新規登録申請画面のレイアウト*/
-.step-bar li{
-  display: inline-block;
-  position: relative;
-  margin: 0px 30px; 
-  width: 120px;
-}
 
-.step-bar .number{
-  transition: background-color 0.1s linear, color 0.1s linear;
-  display: inline-block;
-  position: relative;
-  color: #777;
-  background-color: whitesmoke; 
-  width: 20px;
-  padding: 8px 5px;
-  margin-bottom: 4px;
-  font-weight: 700;
-  z-index: 1;
+/*FarmTeerについての画面*/
+.first-page{
+  width:100%;
+  height: 100%;
 }
-
-.step-bar .line {
-  background-color: whitesmoke;
-  width: 180px;
-  height: 5px;
-  position: absolute;
-  top: 15px;
-  right: 60px;
-  z-index: 0;
-}
-
-.register-form {
-  display: block;
-  background: whitesmoke;
-  padding: 20px 20px;
-  width: 450px;
-  text-align: center;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.3);
-  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
-  border-radius: 3px;
-  margin-left: -50px;
-}
-
-.error {
-  border: 1px solid #E57373;
-  background-color: #FFEBEE;
-}
-
-.error-text {
-  text-align: left;
-  padding-left: 10px;
-  font-size: 0.7em;
-  color: #E57373;
-}
-.register-form h2 {
-  font-size: 1em;
-  color: #777;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-
-.register-form input {
-  padding: 15px; 
-  margin: 5px 0;
-  width: 400px;
-}
-
-.register-form input::placeholder {
-  color: #aaa;
-}
-
-.register-form input.error::placeholder {
-  color: #555;
-}
-
-.account-setup, .finish-step, .user-details {
-  transition: 1s all ease-in-out;
-  display: inline-block;
-  position: absolute;
-}
-
-.account-setup {
-  left: calc(50% - 175px);
-}
-
-.finish-step, .user-details {
-  left: 10000px;
-}
-
-.line-active {
-  background-position: left bottom;
-}
-
-label {
-  display: block;
-  text-align: left;
-  font-size: 0.8em;
-  padding-left: 5px;
-  color: #444;
-}
-
-.accept-conditions {
-  margin-top: 20px;
-}
-
-input::placeholder { 
-  color:  #aaa;
-}
-
-/*新規登録申請画面のレイアウト2*/
-
-.step-bar2 {
-  text-transform: uppercase;
-  color: #E29C45;
-  font-size: 0.8em;
-  margin-top: 20px;
-}
-
-.step-bar2 li{
-  display: inline-block;
-  position: relative;
-  margin: 0px 30px; 
-  width: 120px;
-}
-
-.step-bar2 .number2{
-  transition: background-color 0.1s linear, color 0.1s linear;
-  display: inline-block;
-  position: relative;
-  color: #777;
-  background-color: whitesmoke; 
-  width: 20px;
-  padding: 8px 5px;
-  margin-bottom: 4px;
-  font-weight: 700;
-  z-index: 1;
-}
-
-.step-bar2 .line2 {
-  background-color: whitesmoke;
-  width: 180px;
-  height: 5px;
-  position: absolute;
-  top: 15px;
-  right: 60px;
-  z-index: 0;
-}
-
-.step-bar2 .active {
-  background-color: #E29C45;
-  color: whitesmoke;
-}
-
-.farmer-form-name{
-  margin: 25px 0;
-  display: block;
-  color: #E29C45;
-  font-size: 1.15em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  font-weight: 200;
-}
-
-.button2 {
-  display: inline-block;
-  padding: 10px 40px;
-  background-color: #E29C45;
-  color: whitesmoke;
-  margin: 25px 0  10px 0;
-  user-select: none;
-  cursor: pointer;
-  position: relative;
-}
-
-.button2:hover {
-  background-color: rgb(241, 152, 43);
-}
-
-.line2 {
-  transition: all 1s ease-in-out;
-  background: linear-gradient(to right, #E29C45 50%, whitesmoke 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-}
-
-.line2-active {
-  background-position: left bottom;
-}
-
-.farmer-message {
-  margin: 15px 0 0;
-  color: #b3b3b3;
-  font-size: 12px;
-}
-
-.farmer-message a {
-  color: #E29C45;
-  text-decoration: none;
-}
-
-input {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
+.slideBox {
   width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
+  height:550px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
 }
 
-@media(max-width: 600px) {
-  .step2-bar {
-    display: none;
+/* imgのみ */
+.item1 {
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  opacity: 0;
+  width: 880px;
+  object-fit: cover;
+  position: absolute;
+  -webkit-animation: anime 20s 0s infinite;
+  animation: anime 20s 0s infinite;
+}
+
+.item1:nth-of-type(2) {
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+
+.item1:nth-of-type(3) {
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
+.item1:nth-of-type(4) {
+  -webkit-animation-delay: 15s;
+  animation-delay: 15s;
+}
+
+/* ふわっとアニメーション */
+@keyframes anime {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
-/*farmerとvolunteerのregister画面共通のレイアウト*/
-
-#postcode1, #postcode2 {
-  font-family: "Roboto", sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 160px;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
+@-webkit-keyframes anime {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
-.cp_ipselect {
-	overflow: hidden;
-	width: 90%;
-	margin: 2em auto;
-	text-align: center;
+.first-page .first{
+  width: 45%;
+  margin: auto auto 10px auto; 
 }
-.cp_ipselect select {
-	width: 100%;
-	padding-right: 1em;
-	cursor: pointer;
-	text-indent: 0.01px;
-	text-overflow: ellipsis;
-	border: none;
-	outline: none;
-	background: transparent;
-	background-image: none;
-	box-shadow: none;
-	-webkit-appearance: none;
-	appearance: none;
-}
-.cp_ipselect select::-ms-expand {
-    display: none;
-}
-.cp_ipselect.cp_sl03 {
-	position: relative;
-	border: 2px solid #E29C45;
-	background: whitesmoke;
-}
-.cp_ipselect.cp_sl03::before {
-	position: absolute;
-	top: 0.8em;
-	right: 0.8em;
-	width: 0;
-	height: 0;
-	padding: 0;
-	content: '';
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 6px solid #E29C45;
-	pointer-events: none;
-}
-.cp_ipselect.cp_sl03 select {
-	padding: 8px 38px 8px 8px;
-	color: #E29C45;
-}
-
-
-.top-page {
-  width: 100%;
-  display: flex;
-}
-
-.list-form{
-  padding-left: 50px;
-  text-align: left;
-  width: 50%;
-  float: left;
-}
-.edit-form{
-  padding-right: 50px;
-  text-align: right;
-  width: 50%;
-  float: left;
-}
-.edit-form input{
-  width: 500px;
-}
-.edit-form h2{
-  text-align: center;
+.first h2{
+  margin: 30px 0;
   color: rgb(96, 151, 114);
-}
-.edit-button{
-  padding: 10px 40px;
-  background-color: rgb(96, 151, 114);
-  color: whitesmoke;
-  margin: 10px 30px 10px 30px;
-  user-select: none;
-  cursor: pointer;
-  position: relative;
-  border: none;
-}
-.edit-button:hover{
-  background-color: rgb(54, 114, 57);
-}
-
-.button-blue{
-  position: relative;
-  display: inline-block;
-  border:none;
-  margin-top: 30px;
-  background-color: #264348;
-  font-size: 20px;
-  color: whitesmoke;
-}
-
-.button-farmer{
-  position: relative;
-  display: inline-block;
-  border:none;
-  margin-top: 30px;
-  background-color: #E29C45;
-  font-size: 20px;
-  color: whitesmoke;
-}
-
-.header-link{
-  text-align: right;
-  float: left;
-}
-
-/*　農家　*/
-.account-page .farmer-text{
-  padding-left: 10%;
-  color: #E29C45;
-}
-.edit-form .farmer-text{
   text-align: center;
-  color: #E29C45;
 }
-.farmer-edit-button{
-  padding: 10px 40px;
-  background-color: #E29C45;
-  color: whitesmoke;
-  margin: 10px 30px 10px 30px;
-  user-select: none;
-  cursor: pointer;
-  border: none;
-}
-.farmer-edit-button:hover{
-  background-color:rgb(241, 152, 43);
-}
-
-.cp_sl0 select {
-  width: 500px;
-  margin-bottom: 30px;
-  background-color:#f2f2f2; 
-	padding: 8px 38px 8px 8px;
-  color: #E29C45;
-  border: none;
-}
-
-.vo_sl0 select {
-  width: 500px;
-  margin-bottom: 30px;
-  background-color:#f2f2f2; 
-	padding: 8px 38px 8px 8px;
-  color: #264348;
-  border: none;
-}
-
-.account-page input{
-  width: 70%;
-}
-.account-page {
-  padding-left: 10%;
+.first p{
   text-align: left;
+  font-size: 15px;
+  line-height: 30px;
 }
-
-
-.ipselect {
-	overflow: hidden;
-	width: 50%;
-	margin: 2em 0;
-	text-align: left;
-}
-.ipselect select {
-	width: 100%;
-	padding-right: 1em;
-	cursor: pointer;
-	text-indent: 0.01px;
-	text-overflow: ellipsis;
-	border: none;
-	outline: none;
-	background: transparent;
-	background-image: none;
-	box-shadow: none;
-	-webkit-appearance: none;
-	appearance: none;
-}
-.ipselect select::-ms-expand {
-    display: none;
-}
-.ipselect.cp_sl03 {
-	position: relative;
-	border: 2px solid #E29C45;
-	background: whitesmoke;
-}
-.ipselect.cp_sl03::before {
-	position: absolute;
-	top: 0.8em;
-	right: 0.8em;
-	width: 0;
-	height: 0;
-	padding: 0;
-	content: '';
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 6px solid #E29C45;
-	pointer-events: none;
-}
-.ipselect.cp_sl03 select {
-	padding: 8px 38px 8px 8px;
-	color: #E29C45;
-}
-
-.ipselect.vo_sl03 {
-	position: relative;
-	border: 2px solid #264348;
-	background: whitesmoke;
-}
-.ipselect.vo_sl03::before {
-	position: absolute;
-	top: 0.8em;
-	right: 0.8em;
-	width: 0;
-	height: 0;
-	padding: 0;
-	content: '';
-	border-left: 6px solid transparent;
-	border-right: 6px solid transparent;
-	border-top: 6px solid #264348;
-	pointer-events: none;
-}
-.ipselect.vo_sl03 select {
-	padding: 8px 38px 8px 8px;
-	color: #264348;
+/*ガイド画面*/
+.guide-page{
+  width: 75%;
+  padding: 90px 0 0 0;
+  margin: auto auto 10px auto;
 }
