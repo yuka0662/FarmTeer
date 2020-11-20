@@ -14,7 +14,7 @@ class PartitionsTableSeeder extends Seeder
     {
         //
         
-        DB::insert([
+        DB::table('partitions')->insert([
            [
                'partname' => '農家'
            ],
