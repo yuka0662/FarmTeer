@@ -14,7 +14,7 @@ class PaymentsTableSeeder extends Seeder
     {
         //
         
-        DB::insert([
+        DB::table('payments')->insert([
             [
                 'payname' => 'クレジット'
             ],
