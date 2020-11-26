@@ -173,15 +173,77 @@
   }
 
 /*Top画面レイアウト*/
-.image-style{
-  width: 100%;
+.photos {
+	position: relative;
   text-align: center;
+	width: 100%;
+	height: 450px;
 }
-.image-style img{
-  width: 60%;
+.item2{
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 880px;
+  position: absolute;
 }
 
-/*新規登録申請画面のレイアウト*/
+.top-layout{
+  display: flex;
+}
+.top-item-list{
+  width: 100%;
+  margin: 40px;
+  text-align: left;
+}
+.top-item-list img{
+  width: 250px;
+}
+.top-item-list h3{
+  color:rgb(96, 151, 114);
+  border-bottom:solid 1.5px rgb(96, 151, 114);
+}
+.general-top{
+  text-align: right;
+}
+.general-top .koukoku{
+  padding-right: 14%;
+}
+
+/*商品詳細画面レイアウト*/
+.products-page{
+  width: 75%;
+  padding: 90px 0 0 0;
+  margin: auto auto 10px auto;
+}
+.title{
+  font-size: 24px;
+  font-weight: bold;
+}
+.products-page img {
+  width: 70%;
+}
+.price{
+  font-size: 16px;
+  margin: 20px;
+}
+.product-layout{
+  font-size: 16px;
+  text-align: right;
+}
+.product{
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.product-layout input{
+  background-color: white;
+  width: 500px;
+  margin: 0 0 10px 30px;
+  text-align: center;
+}
 
 /*FarmTeerについての画面*/
 .first-page{
