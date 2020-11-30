@@ -245,6 +245,25 @@
   text-align: center;
 }
 
+/*商品通報画面*/
+.notice-page{
+  width: 75%;
+  padding: 90px 0 0 0;
+  margin: auto auto 10px auto;
+  font-size: 18px;
+}
+.notice-page h3{
+  color: rgb(70, 110, 83);
+  border-bottom:solid 1px #b3b3b3;
+}
+.notice-product{
+  padding: 20px;
+  text-align: left;
+}
+.notice-product img{
+  width: 30%;
+}
+
 /*FarmTeerについての画面*/
 .first-page{
   width:100%;

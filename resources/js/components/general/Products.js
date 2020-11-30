@@ -1,6 +1,7 @@
 import React from 'react';
-import css from '../../../css/components/App.css'
+import css from '../../../css/components/App.css';
 import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 function Products() {
     return (
@@ -41,8 +42,8 @@ function Products() {
                             評価:<input type="text" value="" readOnly /><br />
                         </div>
                         <br />
-                        <button className="general-button">購入手続き</button>
-                        <button className="general-button">商品を通報</button>
+                        <Link to="/buy"><button className="general-button">購入手続き</button></Link>
+                        <Link to="/notice"><button className="general-button">商品を通報</button></Link>
                         <div className="evaluation">
                             <input type="text" className="comment" />
                             <Button primary="true" className="general-button">コメントする</Button>
