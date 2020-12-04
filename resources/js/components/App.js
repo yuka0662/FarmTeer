@@ -10,6 +10,9 @@ import Top from './Top'
 import Product from './general/Products'
 import Notice from './general/Notice'
 import Buy from './general/Buy'
+import Address from './general/Address'
+import Payment from './general/payment'
+import Creditadd from './general/Creditadd'
 import Header from './Header'
 import Footer from './Footer'
 import Guide from './Guide'
@@ -35,6 +38,9 @@ function App() {
             <Route path="/products" component={Product} />
             <Route path="/notice" component={Notice} />
             <Route path="/buy" component={Buy} />
+            <Route path="/address" component={Address} />
+            <Route path="/payment" component={Payment} />
+            <Route path="/creditadd" component={Creditadd} />
             <Route path="/guide" component={Guide} />
             <Route path="/first" component={Farmteer} />
             </Switch>
