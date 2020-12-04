@@ -1,17 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Login() {
+function fLogin() {
     return (
         <nav>
             <div className="login-page">
                 <div className="form">
-                    <h2 className="farmer">ログイン</h2>
-                    <form className="login-form">
-                        <input type="text" placeholder="ユーザー名" />
-                        <input type="password" placeholder="パスワード" />
-                        <button className="farmer-button"><Link to="/farmer/top">ログイン</Link></button>
-                        <p className="farmer-message">アカウントをお持ちでない方はこちら <Link to="/farmer/register">新規登録</Link></p>
+                    <h2 className="general">会員の方</h2>
+                    <form className="farmlogin">
+                        <p>
+                            メールアドレス：<input type="text" placeholder="xxxx@xx.xxx" />
+                        </p>
+                        <p>
+                            パスワード：<input type="password"/>
+                        </p>
+                        <input type="submit" className="farm-button" value="ログイン"/>
                     </form>
                 </div>
             </div>
@@ -19,4 +22,4 @@ function Login() {
     )
 }
 
-export default Login;
+export default fLogin;
