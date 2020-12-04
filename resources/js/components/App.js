@@ -14,6 +14,10 @@ import Header from './Header'
 import Footer from './Footer'
 import Guide from './Guide'
 import Farmteer from './Farmteer';
+import Flogin from './farmteer/fLogin';
+import Fregister from './farmteer/fRegister';
+import Ftop from './farmteer/fTop';
+import Fgoods from './farmteer/fGoodsadd';
 
 {/** 
     farmerのログイン、新規登録申請画面とvolunteerのログイン、新規登録申請画面と管理者のログイン画面のfooter、headerを削除する
@@ -37,6 +41,10 @@ function App() {
             <Route path="/buy" component={Buy} />
             <Route path="/guide" component={Guide} />
             <Route path="/first" component={Farmteer} />
+            <Route path="/farmlogin" component={Flogin}/>
+            <Route path="/farmregister" component={Fregister} />
+            <Route path="/farmtop" component={Ftop} />
+            <Route path="/farmgoodsadd" component={Fgoods} />
             </Switch>
         </div>
         <Footer />
