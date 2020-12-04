@@ -7,6 +7,9 @@ import mLogin from './management/mLlogin'
 import Login from './general/Login'
 import Register from './general/Register'
 import Top from './Top'
+import Product from './general/Products'
+import Notice from './general/Notice'
+import Buy from './general/Buy'
 import Header from './Header'
 import Footer from './Footer'
 import Guide from './Guide'
@@ -33,6 +36,9 @@ function App() {
             <Route path="/management/top" component={mTop} />
             <Route path="/farmteer/login" component={Login} />
             <Route path="/farmteer/register" component={Register} />
+            <Route path="/products" component={Product} />
+            <Route path="/notice" component={Notice} />
+            <Route path="/buy" component={Buy} />
             <Route path="/guide" component={Guide} />
             <Route path="/first" component={Farmteer} />
             <Route path="/farmlogin" component={Flogin}/>
