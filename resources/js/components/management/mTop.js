@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 
-function Top() {
-    return (
-        <nav>
+
+export default class Top extends Component {
+    render() {
+        return (
             <div className="top-page">
                 <div className="list-form">
+                    <table className="usertable">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>名前</th>
+                                <th>フリガナ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <RenderRows users={this.state.users} />
+                        </tbody>
+                    </table>
                 </div>
                 <div className="edit-form">
                     <h2>アカウント登録</h2>
@@ -23,8 +37,8 @@ function Top() {
                     <button className="edit-button">削除</button>
                 </div>
             </div>
-        </nav>
-    )
+        )
+    }
 }
 
-export default Top;
+ReactDOM.render(<mTop />, document.getElementById('mtop'));
