@@ -271,7 +271,7 @@
 }
 
 /*農家管理者の画面*/
-.farm-top{
+.farm-top,list-form{
     padding-top: 80px;
     /*margin: auto auto 10px auto;*/
 }
@@ -466,4 +466,18 @@
   width: 75%;
   padding: 90px 0 0 0;
   margin: auto auto 10px auto;
+}
+
+/*ユーザー管理者画面*/
+.top-page{
+  padding-top: 80px;
+}
+.list-form{
+  float: left;
+  width: 40%;
+  height: 500px;
+}
+
+.usertable{
+  margin-left: 80px;
 }
