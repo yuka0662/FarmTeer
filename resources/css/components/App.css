@@ -151,7 +151,7 @@
     box-sizing: border-box;
     font-size: 16px;
   }
-  .form .general-button {
+  .form .general-button{
     text-transform: uppercase;
     outline: 0;
     background: rgb(70, 110, 83);
@@ -469,15 +469,29 @@
 }
 
 /*ユーザー管理者画面*/
-.top-page{
+.top-page,.userdetail-page{
   padding-top: 80px;
 }
+.top-page h2{
+  width: 500px;
+  text-align: center;
+  padding:10px;
+}
 .list-form{
-  float: left;
+  display: inline-block;
   width: 40%;
   height: 500px;
 }
-
+.edit-form{
+  display: inline-block;
+  background-color: #f3f2f2;
+  text-align: right;
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
 .usertable{
   margin-left: 80px;
 }

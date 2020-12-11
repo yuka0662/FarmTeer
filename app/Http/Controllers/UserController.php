@@ -7,28 +7,26 @@ use App\member;
 
 class UserController extends Controller
 {
-    //getUsers
-    public function getUsers(){
-        $users = member::all();
-        return $users;
-    }
-
     //adduser
     public function addUser(Request $request)
     {
-       $user = new Todo;
+       $user = new member;
        $user->name = $request->name;
+       /*
        $user->kana = $request->kana;
-       $user->kana = $request->kana;
-       $user->kana = $request->kana;
-       $user->kana = $request->kana;
-       $user->kana = $request->kana;
-       $user->kana = $request->kana;
+       $user->password = Hash::make($request->password);
+       $user->postcode = $request->postcode;
+       $user->pref = $request->pref;
+       $user->municipality = $request->municipality;
+       $user->building = $request->building;
        $user->email = $request->email;
+       $user->email_verified_at = now();
        $user->TEL = $request->TEL;
+       $user->part_id = $request->part_id;
+       */
        $user->save();
 
-       $users = Todo::all();
+       $users = member::all();
        return $users;
     }
 }
