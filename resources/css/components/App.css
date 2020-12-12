@@ -151,7 +151,7 @@
     box-sizing: border-box;
     font-size: 16px;
   }
-  .form .general-button {
+  .form .general-button{
     text-transform: uppercase;
     outline: 0;
     background: rgb(70, 110, 83);
@@ -271,7 +271,7 @@
 }
 
 /*農家管理者の画面*/
-.farm-top{
+.farm-top,list-form{
     padding-top: 80px;
     /*margin: auto auto 10px auto;*/
 }
@@ -466,4 +466,46 @@
   width: 75%;
   padding: 90px 0 0 0;
   margin: auto auto 10px auto;
+}
+
+/*ユーザー管理者画面*/
+.top-page,.userdetail-page{
+  padding-top: 80px;
+  font-size: 16px;
+}
+.top-page h2{
+  width: 500px;
+  text-align: center;
+  padding:10px;
+}
+.list-form{
+  display: inline-block;
+  width: 40%;
+  height: 500px;
+}
+.edit-form{
+  display: inline-block;
+  background-color: #f3f2f2;
+  text-align: right;
+  width: 50%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+.usertable{
+  margin-left: 80px;
+}
+
+.top-page .general-button{
+  background: rgb(70, 110, 83);
+  border: 0;
+  padding: 15px;
+  margin: 10px 0 30px 0;
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{
+  background: rgb(54, 114, 57);
 }
