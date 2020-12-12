@@ -471,6 +471,7 @@
 /*ユーザー管理者画面*/
 .top-page,.userdetail-page{
   padding-top: 80px;
+  font-size: 16px;
 }
 .top-page h2{
   width: 500px;
@@ -494,4 +495,17 @@
 }
 .usertable{
   margin-left: 80px;
+}
+
+.top-page .general-button{
+  background: rgb(70, 110, 83);
+  border: 0;
+  padding: 15px;
+  margin: 10px 0 30px 0;
+  color: whitesmoke;
+  font-size: 16px;
+}
+
+.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{
+  background: rgb(54, 114, 57);
 }

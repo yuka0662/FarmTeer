@@ -17,10 +17,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::group(['middleware' => 'api'],function(){
-    Route::post('del', 'UserController@deleteUser');
-});
-
 Route::get('/users',function (Request $request){
     $users = App\member::all();
     return response()->json(['users' => $users]);
@@ -35,9 +31,9 @@ Route::post('/users', function (Request $request){
     $user->pref = "テスト";
     $user->municipality = "テスト";
     $user->building = "テスト";
-    $user->email = "テスト@eccccomp.com";
+    $user->email = "test@eccccomp.com";
     $user->email_verified_at = now();
-    $user->TEL = 01201111111;
+    $user->TEL = 0120111111;
     $user->part_id = 1;
     $user->pay_id = 1;
     $user->save();
