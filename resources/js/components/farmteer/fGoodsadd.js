@@ -1,33 +1,38 @@
-import React from 'react';
-import src from '../../../images/ei-picture.png';
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import axios from "axios";
 
-function fGoods() {
-    return (
-        <div className="farm-top">
-            <div className="column">
-                <div className="add1">
-                <h2>商品追加</h2>
-                    <div>商品名<input className="textm" type="text" /></div>
-                    <div>価格　<input className="textm" type="text" /></div>
-                    <div>数量　<input className="textm" type="text" /></div>
-
-                    <div>
-                        <input className="rad" type="radio" name="nouyaku" value="no" />無農薬
-                    </div>
-                    <div>
-                        <input className="rad" type="radio" name="nouyaku" value="yes" />農薬を使用している
-                    </div>
-                    <div><input className="textm" type="text" /> </div>
+export default class FGoods extends Component {
+    constructor() {
+        super();
+        this.state = {
+            tasks: []
+        };
+    }
+    componentDidMount(){
+        axios
+            .post('/api/fgoods')
+            .then(Response => {
+                this.setState({
+                    fgoods:Response.data
+                });
+            }).catch(error => {
+                console.log(error);
+            });
+        }
+        render(){
+            const list = this.state.tasks.map((item) => {
+                return <li key={item.id}>{item.title}</li>;
+                ReactDOM.render(<Fgoods />, document.getElementById('fgoods'));
+            });
+            return(
+                <div>
+                    <ul>
+                        {list}
+                    </ul>
                 </div>
-                <div className="add2">
-                    <div>詳細　<textarea className="textm" /></div>
-                    <div>種別　<input className="textm" type="text" /></div>
-                    <div><input className="photobtn" type="button" value="写真を追加する" /></div>
-                    <div><input className="farmbtn" type="button" value="追加" /></div>
-                </div>
-            </div>
-        </div>
-    );
-}
+                
+            );
+        }
+    }
 
-export default fGoods;
