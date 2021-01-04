@@ -18,7 +18,10 @@ class CreateAddsellersTable extends Migration
             $table->string('farmname');
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
-            $table->integer('userid');
+            $table->integer('postcode');
+            $table->string('pref');
+            $table->string('municipality');
+            $table->string('building');
             $table->timestamps();
         });
     }

@@ -17,6 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('/fgoods', 'app\Http\Controllers\GoodsController@index');
 Route::get('/users',function (Request $request){
     $users = App\member::all();
     return response()->json(['users' => $users]);

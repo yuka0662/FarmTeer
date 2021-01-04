@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePartitionsTable extends Migration
+class CreateCreditsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,14 @@ class CreatePartitionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('partitions', function (Blueprint $table) {
+        Schema::create('credits', function (Blueprint $table) {
             $table->increments('id')->unsigned();
-            $table->string('partname');
+            $table->integer('cardnum');
+            $table->string('cardname');
+            $table->integer('month');
+            $table->integer('year');
+            $table->integer('securitycode');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
@@ -27,6 +32,6 @@ class CreatePartitionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('partitions');
+        Schema::dropIfExists('credits');
     }
 }
