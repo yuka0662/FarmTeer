@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import mTop from './management/mTop'
+import mUserDetail from './management/UserDetail'
 import mLogin from './management/mLlogin'
 import Login from './general/Login'
 import Register from './general/Register'
@@ -37,6 +38,7 @@ function App() {
             <Route path="/" exact component={Top} /> {/**一番最初に表示されるところ */}
             <Route path="/management/login" component={mLogin} />
             <Route path="/management/top" component={mTop} />
+            <Route path="/management/user/:id" component={mUserDetail} />
             <Route path="/farmteer/login" component={Login} />
             <Route path="/farmteer/register" component={Register} />
             <Route path="/products" component={Product} />
