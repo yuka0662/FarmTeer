@@ -37,21 +37,22 @@ function App() {
             <Switch>
             <Route path="/" exact component={Top} /> {/**一番最初に表示されるところ */}
             <Route path="/management/login" component={mLogin} />
-            <Route path="/management/top" component={mTop} />
-            <Route path="/management/user/:id" component={mUserDetail} />
             <Route path="/farmteer/login" component={Login} />
             <Route path="/farmteer/register" component={Register} />
-            <Route path="/products" component={Product} />
+            <Route path="/farmlogin" component={Flogin}/>
+            <Route path="/farmregister" component={Fregister} />
             <Route path="/notice" component={Notice} />
+            <Route path="/products" component={Product} />
+            <Route path="/guide" component={Guide} />
+            <Route path="/first" component={Farmteer} />
+            <Route path="/farmtop" component={Ftop} />
+
+            <Route path="/management/top" component={mTop} />
+            <Route path="/management/user/:id" component={mUserDetail} />
             <Route path="/buy" component={Buy} />
             <Route path="/address" component={Address} />
             <Route path="/payment" component={Payment} />
             <Route path="/creditadd" component={Creditadd} />
-            <Route path="/guide" component={Guide} />
-            <Route path="/first" component={Farmteer} />
-            <Route path="/farmlogin" component={Flogin}/>
-            <Route path="/farmregister" component={Fregister} />
-            <Route path="/farmtop" component={Ftop} />
             <Route path="/farmgoodsadd" component={Fgoods} />
             </Switch>
         </div>
