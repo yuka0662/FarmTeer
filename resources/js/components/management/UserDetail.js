@@ -18,13 +18,16 @@ function UserDetail(props) {
     return (
         <div className="userdetail-page">
             <h1 className="general">User詳細ページ</h1>
-            区分１：農家　区分２：一般
-            <p>ID：{user.id}</p>
-            <p>区分：{user.part_id}</p>
+            <p>アカウント名：{user.account_name}</p>
+            <p>農場名：{user.farmname}</p>
             <p>名前：{user.name}</p>
             <p>名前(フリガナ)：{user.kana}</p>
             <p>電話番号：{user.TEL}</p>
             <p>メールアドレス：{user.email}</p>
+            <p>郵便番号：{user.postcode}</p>
+            <p>都道府県：{user.pref}</p>
+            <p>市区町村名：{user.municipality}</p>
+            <p>番地・建物名：{user.building}</p>
         </div>
     );
 }

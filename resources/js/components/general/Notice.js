@@ -1,21 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 
-function Notice() {
+function Notice(props) {
+    const [good, setGood] = useState([]);
+    
+    useEffect(() => {
+        getGood()
+    },[])
+
+    const getGood = async () => {
+        // console.log(props.match)
+        const response = await axios.get(`/api/good/${props.match.params.id}`);
+        setGood(response.data.good)
+        alert("ご報告いただいた内容は、詳細を調査の上、適切に対応いたします。該当商品の削除をお約束するものではありませんので、あらかじめご了承ください。");
+    }
+
     const buttonclick = () => {
         alert("報告が完了しました");
         window.location.href = '/';
     }
-    $(document).ready(function () {
-        alert("ご報告いただいた内容は、詳細を調査の上、適切に対応いたします。該当商品の削除をお約束するものではありませんので、あらかじめご了承ください。");
-    });
     return (
         <nav className="notice-page">
             <div className="form">
                 <h3　className="notice-product">対象商品</h3>
                 <div className="notice-product">
+                {/**dbからとってきた画像を挿入 */}
                     <img src="../../../images/tomato.jpg" alt="対象商品" />
-                    国産トマト
+                    {good.goodsname}
                 </div>
                 <h3　className="notice-product">報告理由</h3>
                 <div　className="notice-product">

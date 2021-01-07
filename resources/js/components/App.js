@@ -36,20 +36,20 @@ function App() {
         <div>
             <Switch>
             <Route path="/" exact component={Top} /> {/**一番最初に表示されるところ */}
-            <Route path="/management/login" component={mLogin} />
-            <Route path="/farmteer/login" component={Login} />
-            <Route path="/farmteer/register" component={Register} />
-            <Route path="/farmlogin" component={Flogin}/>
-            <Route path="/farmregister" component={Fregister} />
-            <Route path="/notice" component={Notice} />
-            <Route path="/products" component={Product} />
-            <Route path="/guide" component={Guide} />
-            <Route path="/first" component={Farmteer} />
-            <Route path="/farmtop" component={Ftop} />
+            <Route path="/management/login" component={mLogin} />{/**農家ユーザー管理者のログイン画面 */}
+            <Route path="/farmteer/login" component={Login} />{/**一般のログイン画面 */}
+            <Route path="/farmteer/register" component={Register} />{/**一般の新規登録画面 */}
+            <Route path="/farmlogin" component={Flogin}/>{/**農家側のログイン画面 */}
+            <Route path="/farmregister" component={Fregister} />{/**農家側の登録申請画面 */}
+            <Route path="/products/notice/:id" component={Notice} />    {/**商品報告画面 */}
+            <Route path="/products/:id" component={Product} /> {/**商品詳細画面 */}
+            <Route path="/guide" component={Guide} />    {/**ガイド画面 */}
+            <Route path="/first" component={Farmteer} /> {/**farmteerについて */}
+            <Route path="/farmtop" component={Ftop} />   {/**農家側のトップ画面 */}
 
             <Route path="/management/top" component={mTop} />
             <Route path="/management/user/:id" component={mUserDetail} />
-            <Route path="/buy" component={Buy} />
+            <Route path="/products/buy/:id" component={Buy} />
             <Route path="/address" component={Address} />
             <Route path="/payment" component={Payment} />
             <Route path="/creditadd" component={Creditadd} />

@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from "axios";
 import { Link } from 'react-router-dom';
 import Image from '../../images/sellerjoin.jpg'
 import Ykoukoku from '../../images/Ykoukoku.jpg'
@@ -24,6 +25,16 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Top() {
+    const [goods, setGoods] = useState([]);
+
+    useEffect(() => {
+        getGoods();
+    }, [])
+
+    const getGoods = async () => {
+        const response = await axios.get('/api/goods');
+        setGoods(response.data.goods)
+    }
 
     const classes = useStyles();
     const [open, setOpen] = React.useState(true);
@@ -37,6 +48,7 @@ function Top() {
 
     return (
         <nav className="general-top">
+            <p className="top-font">農家の新規登録、会員の方はこちらから☟</p>
             <div className="photos ">
                 <Link to="/farmTop"><img className="item2" src={Image} alt="画像" /></Link>
             </div>
@@ -85,9 +97,11 @@ function Top() {
                 </List>
                 <div className="top-item-list">
                     <h3>商品一覧</h3>
-                    <Link to="/products">
-                        <img src="../../images/tomato.jpg" alt="トマトの画像" />
-                    </Link>
+                    {goods.map(good => (
+                        <a href={`/products/${good.id}`} key={good.id}>
+                            <img src="../../images/tomato.jpg" alt="トマトの画像" />
+                        </a>        
+                    ))}
                     <Link to="/products">
                         <img src="../../images/asparagus.jpg" alt="アスパラガスの画像" />
                     </Link>

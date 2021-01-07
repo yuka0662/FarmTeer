@@ -201,8 +201,9 @@
 .photos {
 	position: relative;
   text-align: center;
+  margin-bottom: 100px;
 	width: 100%;
-	height: 450px;
+	height: 250px;
 }
 .item2{
   top: 90px;
@@ -229,7 +230,13 @@
   color:rgb(96, 151, 114);
   border-bottom:solid 1.5px rgb(96, 151, 114);
 }
+.top-font{
+  padding-left:20%;
+  text-align: left;
+  font-size: 20px;
+}
 .general-top{
+  padding-top: 90px;
   text-align: right;
 }
 .general-top .koukoku{
@@ -489,21 +496,23 @@
   text-align: right;
   width: 50%;
   padding-left: 10%;
-  padding-right: 10%;
+  padding-right: 7%;
   padding-bottom: 50px;
   margin-bottom: 30px;
 }
 .usertable{
   margin-left: 80px;
+  width: 400px;
 }
 
 .top-page .general-button{
   background: rgb(70, 110, 83);
   border: 0;
-  padding: 15px;
-  margin: 10px 0 30px 0;
+  padding: 10px;
+  margin: 10px 15px 30px 0;
   color: whitesmoke;
   font-size: 16px;
+  width: 100px;
 }
 
 .top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{
