@@ -57,7 +57,7 @@ function Products(props) {
                             評価:<input type="text" value="" readOnly /><br />
                         </div>
                         <br />
-                        <Link to={`/products/buy/${good.id}`}><button className="general-button">購入手続き</button></Link>
+                        <Link to="/products/buy"><button className="general-button">購入手続き</button></Link>
                         <Link to={`/products/notice/${good.id}`}><button className="general-button">商品を通報</button></Link>
                         <div className="evaluation">
                             <input type="text" className="comment" />
