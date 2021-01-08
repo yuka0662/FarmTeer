@@ -16,10 +16,16 @@ class CreateFarmlistsTable extends Migration
     {
         Schema::create('farmlists', function (Blueprint $table) {
             $table->increments('id')->unsigned();
+            $table->string('farmname')->comment('農場名');
             $table->string('goodsname')->comment('商品名');
             $table->string('quantity');
+            $table->string('expired')->comment('賞味/消費期限');
             $table->integer('price')->comment('値段');
             $table->integer('carriage')->comment('送料');
+            $table->string('burden')->comment('送料負担者');
+            $table->string('howcarri')->comment('発送方法');
+            $table->string('carridays')->comment('発送できるまでの日数');
+            $table->string('carriarea')->comment('配送元地域');
             $table->string('pesticides')->nullable()->comment('使用している農薬名、使用していない場合はnull');
             $table->string('detail')->comment('商品詳細');
             $table->integer('category_id')->unsigned()->comment('外部キーcategories');
