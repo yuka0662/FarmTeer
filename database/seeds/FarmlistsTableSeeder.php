@@ -33,7 +33,6 @@ class FarmlistsTableSeeder extends Seeder
                 'profit' => 2900,
                 'state' => TRUE,
                 'members_id'=> 1,
-                'delistatus'=>'未発送'
             ],
             [
                 'farmname' => 'スイタ農場',
@@ -53,7 +52,6 @@ class FarmlistsTableSeeder extends Seeder
                 'profit' => 4000,
                 'state' => TRUE,
                 'members_id'=> 2,
-                'delistatus'=>'未発送'
             ],
             [
                 'farmname' => 'コカ農場',
@@ -73,7 +71,6 @@ class FarmlistsTableSeeder extends Seeder
                 'profit' => 4000,
                 'state' => TRUE,
                 'members_id'=> 3,
-                'delistatus'=>'未発送'
             ]
         ]);
     }
