@@ -20,8 +20,11 @@ class CreateLogsTable extends Migration
             $table->string('quantity');
             $table->integer('price');
             $table->integer('carriage');
-            $table->date('buydate');
-            $table->integer('members_id');
+            $table->integer('total')->comment('支払金額');
+            $table->date('buydate')->comment('購入日');
+            $table->integer('list_id')->comment('購入した商品id');
+            $table->integer('gene_id')->comment('購入者のid');
+            $table->string('delistatus')->comment('発送状況');
             $table->timestamps();
         });
     }
