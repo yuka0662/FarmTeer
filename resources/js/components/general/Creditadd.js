@@ -2,15 +2,17 @@ import React from 'react';
 
 function Creditadd() {
     return (
-        <nav className="creditadd-page">
-            <h1>クレジットカードの追加</h1>
-            <div>
-                期限
+        <nav className="buy-page">
+            <div className="form">
+                <h2 className="general">クレジットカードの追加</h2>
+                <div>
+                    期限
+                </div>
+                <div>
+                    セキュリティコード
+                </div>
+                <input className="general-button" type="submit" value="追加する" />
             </div>
-            <div>
-                セキュリティコード
-            </div>
-            <input type="submit" value="追加する" />
         </nav>
     )
 }

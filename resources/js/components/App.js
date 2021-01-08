@@ -14,6 +14,7 @@ import Buy from './general/Buy'
 import Address from './general/Address'
 import Payment from './general/payment'
 import Creditadd from './general/Creditadd'
+import Confirmation from './general/Confirmation'
 import Header from './Header'
 import Footer from './Footer'
 import Guide from './Guide'
@@ -49,10 +50,11 @@ function App() {
 
             <Route path="/management/top" component={mTop} />
             <Route path="/management/user/:id" component={mUserDetail} />
-            <Route path="/buy/:id" component={Buy} />
-            <Route path="/address" component={Address} />
-            <Route path="/payment" component={Payment} />
-            <Route path="/creditadd" component={Creditadd} />
+            <Route path="/buy/:id" component={Buy} /> {/**購入画面 */}
+            <Route path="/confirmation/:id" component={Confirmation} /> {/**購入画面 */}
+            <Route path="/address" component={Address} /> {/**住所変更画面 */}
+            <Route path="/payment" component={Payment} /> {/**支払変更画面 */}
+            <Route path="/creditadd" component={Creditadd} /> {/**クレジット情報の追加画面 */}
             <Route path="/farmgoodsadd" component={Fgoods} />
             </Switch>
         </div>

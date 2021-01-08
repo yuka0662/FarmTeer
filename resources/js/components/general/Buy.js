@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 function Buy(props) {
     const [good, setGood] = useState([]);
-    
+
     useEffect(() => {
         getGood()
-    },[])
+    }, [])
 
     const getGood = async () => {
         // console.log(props.match)
@@ -17,28 +17,32 @@ function Buy(props) {
 
     return (
         <nav className="buy-page">
-            <h1>購入手続き</h1>
-            <div><img src="../../../images/tomato.jpg" alt="対象商品" /></div>
-            {good.goodsname}
-            <p>{good.price}円</p>
-            <div>
-                支払い方法
-                <Link to="/payment">クレジット払い</Link>
-            </div>
-            <div>
-                支払い金額
-                ￥{good.price}
-            </div>
-            <Link to="/address">
-                <div>
-                    名前
-                    郵便番号
-                    住所
+            <div className="form">
+                <h2 className="general">購入手続き</h2>
+                <div className="notice-product">
+                    <img src="../../../images/tomato.jpg" alt="対象商品" />
+                    {good.goodsname}
                 </div>
-            </Link>
-            <Link to="/confirmation">
-                <button className="general">注文を確認する</button>
-            </Link>
+                <p>数量：{good.quantity}　　値段：{good.price}円</p>
+                <div>
+                    支払い方法：
+                <Link to="/payment">クレジット払い</Link>
+                </div>
+                <div>
+                    支払い金額：
+                    ￥{good.price + good.carriage}
+                </div>
+                <Link to="/address">
+                    <div>
+                        名前
+                        郵便番号
+                        住所
+                </div>
+                </Link>
+                <Link to={`/confirmation/${good.id}`}>
+                    <button className="general-button">注文を確認する</button>
+                </Link>
+            </div>
         </nav>
     )
 }
