@@ -49,7 +49,7 @@ function App() {
 
             <Route path="/management/top" component={mTop} />
             <Route path="/management/user/:id" component={mUserDetail} />
-            <Route path="/products/buy" component={Buy} />
+            <Route path="/buy/:id" component={Buy} />
             <Route path="/address" component={Address} />
             <Route path="/payment" component={Payment} />
             <Route path="/creditadd" component={Creditadd} />
