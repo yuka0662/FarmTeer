@@ -98,9 +98,11 @@ function Top() {
                 <div className="top-item-list">
                     <h3>商品一覧</h3>
                     {goods.map(good => (
+                        good.state == true ? (
                         <a href={`/products/${good.id}`} key={good.id}>
                             <img src="../../images/tomato.jpg" alt="トマトの画像" />
-                        </a>        
+                        </a>  
+                        ):(null)
                     ))}
                     <Link to="/products">
                         <img src="../../images/asparagus.jpg" alt="アスパラガスの画像" />
