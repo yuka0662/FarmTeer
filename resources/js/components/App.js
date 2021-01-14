@@ -2,9 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import mTop from './management/mTop'
-import mUserDetail from './management/UserDetail'
-import mLogin from './management/mLlogin'
+import Management from './Management';
+
 import Login from './general/Login'
 import Register from './general/Register'
 import Top from './Top'
@@ -31,35 +30,33 @@ import Fgoods from './farmteer/fGoodsadd';
  */}
 
 function App() {
-    return(
-    <Router>
-        <Header />
-        <div>
-            <Switch>
-            <Route path="/" exact component={Top} /> {/**一番最初に表示されるところ */}
-            <Route path="/management/login" component={mLogin} />{/**農家ユーザー管理者のログイン画面 */}
-            <Route path="/farmteer/login" component={Login} />{/**一般のログイン画面 */}
-            <Route path="/farmteer/register" component={Register} />{/**一般の新規登録画面 */}
-            <Route path="/farmlogin" component={Flogin}/>{/**農家側のログイン画面 */}
-            <Route path="/farmregister" component={Fregister} />{/**農家側の登録申請画面 */}
-            <Route path="/products/notice/:id" component={Notice} />    {/**商品報告画面 */}
-            <Route path="/products/:id" component={Product} /> {/**商品詳細画面 */}
-            <Route path="/guide" component={Guide} />    {/**ガイド画面 */}
-            <Route path="/first" component={Farmteer} /> {/**farmteerについて */}
-            <Route path="/farmtop" component={Ftop} />   {/**農家側のトップ画面 */}
+    return (
+        <Router>
+            <Header />
+            <div>
+                <Switch>
+                    <Route path="/" exact component={Top} /> {/**一番最初に表示されるところ */}
+                    <Route path="/farmteer/login" component={Login} />{/**一般のログイン画面 */}
+                    <Route path="/farmteer/register" component={Register} />{/**一般の新規登録画面 */}
+                    <Route path="/farmlogin" component={Flogin} />{/**農家側のログイン画面 */}
+                    <Route path="/farmregister" component={Fregister} />{/**農家側の登録申請画面 */}
+                    <Route path="/products/notice/:id" component={Notice} />    {/**商品報告画面 */}
+                    <Route path="/products/:id" component={Product} /> {/**商品詳細画面 */}
+                    <Route path="/guide" component={Guide} />    {/**ガイド画面 */}
+                    <Route path="/first" component={Farmteer} /> {/**farmteerについて */}
+                    <Route path="/farmtop" component={Ftop} />   {/**農家側のトップ画面 */}
 
-            <Route path="/management/top" component={mTop} />
-            <Route path="/management/user/:id" component={mUserDetail} />
-            <Route path="/buy/:id" component={Buy} /> {/**購入画面 */}
-            <Route path="/confirmation/:id" component={Confirmation} /> {/**購入画面 */}
-            <Route path="/address" component={Address} /> {/**住所変更画面 */}
-            <Route path="/payment" component={Payment} /> {/**支払変更画面 */}
-            <Route path="/creditadd" component={Creditadd} /> {/**クレジット情報の追加画面 */}
-            <Route path="/farmgoodsadd" component={Fgoods} />
-            </Switch>
-        </div>
-        <Footer />
-    </Router>
+                    <Route path="/buy/:id" component={Buy} /> {/**購入画面 */}
+                    <Route path="/confirmation/:id" component={Confirmation} /> {/**購入画面 */}
+                    <Route path="/address" component={Address} /> {/**住所変更画面 */}
+                    <Route path="/payment" component={Payment} /> {/**支払変更画面 */}
+                    <Route path="/creditadd" component={Creditadd} /> {/**クレジット情報の追加画面 */}
+                    <Route path="/farmgoodsadd" component={Fgoods} />
+                    <Management />
+                </Switch>
+            </div>
+            <Footer />
+        </Router>
     )
 }
 

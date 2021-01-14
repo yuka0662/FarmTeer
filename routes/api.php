@@ -28,17 +28,17 @@ Route::get('/users',function (Request $request){
 Route::post('/users', function (Request $request){
     $user = new App\member();
     $user->account_name = $request->account_name;
-    $user->farmname = "テスト";
+    $user->farmname = $request->farmname;
     $user->name = $request->name;
-    $user->kana = "テスト";
-    $user->email = "test@eccccomp.com";
+    $user->kana = $request->kana;
+    $user->email = $request->email;
     $user->email_verified_at = now();
-    $user->password = Hash::make("password");
-    $user->postcode = 5300000;
-    $user->pref = "テスト";
-    $user->municipality = "テスト";
-    $user->building = "テスト";
-    $user->TEL = 0120111111;
+    $user->password = Hash::make($request->password);
+    $user->postcode = $request->postcode;
+    $user->pref = $request->pref;
+    $user->municipality = $request->municipality;
+    $user->building = $request->building;
+    $user->TEL = $request->TEL;
     $user->save();
     return response("OK", 200);
 });

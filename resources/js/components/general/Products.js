@@ -25,8 +25,7 @@ function Products(props) {
                     <h2 className="general">商品詳細</h2>
                     <form>
                         <p className="title">{good.goodsname}</p>
-                        {/*データベースからとってきたイメージ画像が入る*/}
-                        <img src="../../../images/tomato.jpg" />
+                        <img src={`../../images/${good.photo}`} alt="商品画像" />
                         <div className="price">
                             数量：{good.quantity}　　値段：{good.price}円
                         </div>
@@ -41,18 +40,12 @@ function Products(props) {
                                 ):(
                                     good.pesticides
                                 )} readOnly /><br />
-                            {/*データベースからとってきた消費期限・賞味期限が入る*/}
-                            賞味期限・消費期限:<input type="text" value="常温で2週間" readOnly /><br />
-                            {/*データベースからとってきた送料(どちらが負担するのか)が入る*/}
-                            配送料負担:<input type="text" value={good.carriage+'円（出品者負担）'} readOnly /><br />
-                            {/*データベースからとってきた配送元地域が入る*/}
-                            配送元地域:<input type="text" value="鹿児島県" readOnly /><br />
-                            {/*データベースからとってきた発送までの日数が入る*/}
-                            発送までの日数:<input type="text" value="3～4日" readOnly /><br />
-                            {/*データベースからとってきた発送方法が入る*/}
-                            配送方法:<input type="text" value="ゆうパック" readOnly /><br />
-                            {/*データベースからとってきた出品者名が入る*/}
-                            出品者:<input type="text" value="" readOnly /><br />
+                            賞味期限・消費期限:<input type="text" value={good.expired} readOnly /><br />
+                            配送料負担:<input type="text" value={good.carriage+'円（'+good.burden+'負担）'} readOnly /><br />
+                            配送元地域:<input type="text" value={good.carriarea} readOnly /><br />
+                            発送までの日数:<input type="text" value={good.carridays} readOnly /><br />
+                            配送方法:<input type="text" value={good.howcarri} readOnly /><br />
+                            出品者:<input type="text" value={good.farmname} readOnly /><br />
                             {/*データベースからとってきた評価が入る*/}
                             評価:<input type="text" value="" readOnly /><br />
                         </div>

@@ -25,8 +25,7 @@ function Notice(props) {
             <div className="form">
                 <h3　className="notice-product">対象商品</h3>
                 <div className="notice-product">
-                {/**dbからとってきた画像を挿入 */}
-                    <img src="../../../images/tomato.jpg" alt="対象商品" />
+                    <img src={`../../../images/${good.photo}`} alt="対象商品" />
                     {good.goodsname}
                 </div>
                 <h3　className="notice-product">報告理由</h3>

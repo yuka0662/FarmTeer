@@ -100,13 +100,10 @@ function Top() {
                     {goods.map(good => (
                         good.state == true ? (
                         <a href={`/products/${good.id}`} key={good.id}>
-                            <img src="../../images/tomato.jpg" alt="トマトの画像" />
+                            <img src={`../../images/${good.photo}`} alt="商品画像" />
                         </a>  
                         ):(null)
                     ))}
-                    <Link to="/products">
-                        <img src="../../images/asparagus.jpg" alt="アスパラガスの画像" />
-                    </Link>
                 </div>
             </div>
             <img className="koukoku" src={Ykoukoku} alt="横長広告" height="85" /><br /><br />

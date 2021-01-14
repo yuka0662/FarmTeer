@@ -20,7 +20,7 @@ function Confirmation(props) {
             <div className="form">
                 <h2 className="general">購入確認</h2>
                 <div className="notice-product">
-                    <img src="../../../images/tomato.jpg" alt="対象商品" />
+                    <img src={`../../images/${good.photo}`} alt="商品画像" />
                     {good.goodsname}
                 </div>
                 <p>数量：{good.quantity}　　値段：{good.price}円</p>
