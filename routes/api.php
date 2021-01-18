@@ -64,3 +64,26 @@ Route::get('/goods',function (Request $request){
 Route::get('/good/{good}',function(App\farmlist $good){
     return response()->json(['good' => $good]);
 });
+
+/**商品の追加 */
+Route::post('/goodsadd', function (Request $request){
+    $gadd = new App\farmlist();
+    $gadd->farmname = $request->farmname;
+    $gadd->goodsname = $request->goodsname;
+    $gadd->quantity = $request->quantity;
+    $gadd->expired = $request->expired;
+    $gadd->carriage = $request->carriage;
+    $gadd->burden = $request->burden;
+    $gadd->howcarri = $request->howcarri;
+    $gadd->carridays = $request->carridays;
+    $gadd->carriarea = $request->carriarea;
+    $gadd->pesticides = $request->pesticides;
+    $gadd->detail = $request->detail;
+    $gadd->category_id = $request->category_id;
+    $gadd->photo = $request->photo;
+    $gadd->profit = $request->profit;
+    $gadd->state = TRUE;
+    $gadd->members_id = $request->members_id;
+    $gadd->save();
+    return response("OK", 200);
+});
