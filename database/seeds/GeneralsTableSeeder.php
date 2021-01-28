@@ -16,8 +16,8 @@ class GeneralsTableSeeder extends Seeder
         DB::table('generals')->insert([
             [
                 'account_name'=>'おいしいやさい',
-                'name'=>'山田',
-                'kana'=>'花子',
+                'name'=>'山田花子',
+                'kana'=>'ヤマダハナコ',
                 'email'=>'yamadahanako@saikou.com',
                 'email_verified_at'=>now(),
                 'password'=>Hash::make('password'),

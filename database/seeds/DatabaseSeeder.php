@@ -19,10 +19,10 @@ class DatabaseSeeder extends Seeder
             //FarmlistsTableSeeder::class
             //LogsTableSeeder::class
             //AddsellersTableSeeder::class
-            //GeneralsTableSeeder::class
+            GeneralsTableSeeder::class
             //CreditsTableSeeder::class
             //ManagementTableSeeder::class
-            ReviewsTableSeeder::class
+            //ReviewsTableSeeder::class
         );
     }
 }

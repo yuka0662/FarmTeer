@@ -17781,7 +17781,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}", ""]);
+exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n  margin-right: 10px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}\r\n\r\n#error{\r\n  color: brown;\r\n}", ""]);
 
 // exports
 
@@ -89950,18 +89950,35 @@ function Products(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../css/components/App.css */ "./resources/css/components/App.css");
-/* harmony import */ var _css_components_App_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_components_App_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 
 
 
 
 function Register() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
-    rel: "stylesheet",
-    href: _css_components_App_css__WEBPACK_IMPORTED_MODULE_2___default.a
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  //登録ボタンがクリックされたら
+  function addUser() {
+    if ($('#mail').val() != '' && $('#pass').val() != '') {
+      if ($('#pass').val() == $('#pass2').val()) {
+        var data = {
+          email: $('#mail').val(),
+          password: $('#pass').val()
+        };
+        axios__WEBPACK_IMPORTED_MODULE_1___default.a.post("/api/gusers", data).then(function () {
+          console.log("DB追加");
+        });
+      } else {
+        document.getElementById('error').innerHTML = 'パスワードが違います。';
+      }
+    } else {
+      document.getElementById('error').innerHTML = 'メールアドレスまたはパスワードが未入力です。';
+    }
+  }
+
+  ;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "register-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "form"
@@ -89969,20 +89986,26 @@ function Register() {
     className: "general"
   }, "\u30E6\u30FC\u30B6\u30FC\u767B\u9332"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     className: "register-form-general"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "error"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
+    id: "mail",
     placeholder: "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
+    id: "pass",
     placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
+    id: "pass2",
     placeholder: "\u78BA\u8A8D\u306E\u305F\u3081\u3082\u3046\u4E00\u5EA6\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "general-button"
+    className: "general-button",
+    onClick: addUser
   }, "\u767B\u9332"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "message"
-  }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u306E\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u304A\u6301\u3061\u306E\u65B9\u306F\u3053\u3061\u3089 ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     to: "/farmteer/login"
   }, "\u30ED\u30B0\u30A4\u30F3"))))));
 }
@@ -90125,68 +90148,31 @@ function UserDetail(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
 
+function mLogin() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "login-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "general"
+  }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "login-form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    className: "name",
+    placeholder: "\u7BA1\u7406\u8005\u540D"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "password",
+    placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "general-button",
+    onClick: onLogin
+  }, "\u30ED\u30B0\u30A4\u30F3")))));
+}
 
-var Login = /*#__PURE__*/function (_Component) {
-  _inherits(Login, _Component);
-
-  var _super = _createSuper(Login);
-
-  function Login() {
-    _classCallCheck(this, Login);
-
-    return _super.apply(this, arguments);
-  }
-
-  _createClass(Login, [{
-    key: "render",
-    value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "login-page"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "form"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-        className: "general"
-      }, "\u30ED\u30B0\u30A4\u30F3"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-        className: "login-form"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "text",
-        placeholder: "\u7BA1\u7406\u8005\u540D"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-        type: "password",
-        placeholder: "\u30D1\u30B9\u30EF\u30FC\u30C9"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-        className: "general-button"
-      }, "\u30ED\u30B0\u30A4\u30F3")))));
-    }
-  }]);
-
-  return Login;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Login);
+/* harmony default export */ __webpack_exports__["default"] = (mLogin);
 
 /***/ }),
 
