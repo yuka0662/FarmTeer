@@ -17810,11 +17810,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-<<<<<<< HEAD
-exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n\r\n/*商品登録画面*/\r\n.farm-page {\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-page p{\r\n  font-size: large;\r\n}\r\n\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}", ""]);
-=======
-exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n  margin-right: 10px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}\r\n\r\n#error{\r\n  color: brown;\r\n}", ""]);
->>>>>>> 2f86c9b37fcfcc4c9cc330280302c2a89bd9400e
+exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n  margin-right: 10px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n\r\n/*商品登録画面*/\r\n.farm-page {\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-page p{\r\n  font-size: large;\r\n}\r\n\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}\r\n\r\n#error{\r\n  color: brown;\r\n}", ""]);
 
 // exports
 
@@ -30680,46 +30676,18 @@ var defaultUnits = {
   'border-top-right-radius': px,
   'border-top-width': px,
   'border-width': px,
-  'border-block': px,
-  'border-block-end': px,
-  'border-block-end-width': px,
-  'border-block-start': px,
-  'border-block-start-width': px,
-  'border-block-width': px,
-  'border-inline': px,
-  'border-inline-end': px,
-  'border-inline-end-width': px,
-  'border-inline-start': px,
-  'border-inline-start-width': px,
-  'border-inline-width': px,
-  'border-start-start-radius': px,
-  'border-start-end-radius': px,
-  'border-end-start-radius': px,
-  'border-end-end-radius': px,
   // Margin properties
   margin: px,
   'margin-bottom': px,
   'margin-left': px,
   'margin-right': px,
   'margin-top': px,
-  'margin-block': px,
-  'margin-block-end': px,
-  'margin-block-start': px,
-  'margin-inline': px,
-  'margin-inline-end': px,
-  'margin-inline-start': px,
   // Padding properties
   padding: px,
   'padding-bottom': px,
   'padding-left': px,
   'padding-right': px,
   'padding-top': px,
-  'padding-block': px,
-  'padding-block-end': px,
-  'padding-block-start': px,
-  'padding-inline': px,
-  'padding-inline-end': px,
-  'padding-inline-start': px,
   // Mask properties
   'mask-position-x': px,
   'mask-position-y': px,
@@ -30736,13 +30704,6 @@ var defaultUnits = {
   left: px,
   top: px,
   right: px,
-  inset: px,
-  'inset-block': px,
-  'inset-block-end': px,
-  'inset-block-start': px,
-  'inset-inline': px,
-  'inset-inline-end': px,
-  'inset-inline-start': px,
   // Shadow properties
   'box-shadow': px,
   'text-shadow': px,
@@ -30784,7 +30745,6 @@ var defaultUnits = {
   // Some random properties
   'shape-margin': px,
   size: px,
-  gap: px,
   // Grid properties
   grid: px,
   'grid-gap': px,
@@ -30832,7 +30792,7 @@ var units = addCamelCasedVersion(defaultUnits);
  */
 
 function iterate(prop, value, options) {
-  if (value == null) return value;
+  if (!value) return value;
 
   if (Array.isArray(value)) {
     for (var i = 0; i < value.length; i++) {
@@ -30849,9 +30809,9 @@ function iterate(prop, value, options) {
       }
     }
   } else if (typeof value === 'number') {
-    var unit = options[prop] || units[prop]; // Add the unit if available, except for the special case of 0px.
+    var unit = options[prop] || units[prop];
 
-    if (unit && !(value === 0 && unit === px)) {
+    if (unit) {
       return typeof unit === 'function' ? unit(value).toString() : "" + value + unit;
     }
 
@@ -30953,7 +30913,7 @@ function () {
 
   _proto.addRule = function addRule(name, style, options) {
     var rule = this.rules.add(name, style, options);
-    if (rule) this.options.jss.plugins.onProcessRule(rule);
+    this.options.jss.plugins.onProcessRule(rule);
     return rule;
   }
   /**
@@ -31017,14 +30977,14 @@ function addScope(selector, scope) {
   return scoped;
 }
 
-function handleNestedGlobalContainerRule(rule, sheet) {
+function handleNestedGlobalContainerRule(rule) {
   var options = rule.options,
       style = rule.style;
   var rules = style ? style[at] : null;
   if (!rules) return;
 
   for (var name in rules) {
-    sheet.addRule(name, rules[name], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
+    options.sheet.addRule(name, rules[name], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
       selector: addScope(name, rule.selector)
     }));
   }
@@ -31032,14 +30992,14 @@ function handleNestedGlobalContainerRule(rule, sheet) {
   delete style[at];
 }
 
-function handlePrefixedGlobalRule(rule, sheet) {
+function handlePrefixedGlobalRule(rule) {
   var options = rule.options,
       style = rule.style;
 
   for (var prop in style) {
     if (prop[0] !== '@' || prop.substr(0, at.length) !== at) continue;
     var selector = addScope(prop.substr(at.length), rule.selector);
-    sheet.addRule(selector, style[prop], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
+    options.sheet.addRule(selector, style[prop], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
       selector: selector
     }));
     delete style[prop];
@@ -31080,10 +31040,10 @@ function jssGlobal() {
     return null;
   }
 
-  function onProcessRule(rule, sheet) {
-    if (rule.type !== 'style' || !sheet) return;
-    handleNestedGlobalContainerRule(rule, sheet);
-    handlePrefixedGlobalRule(rule, sheet);
+  function onProcessRule(rule) {
+    if (rule.type !== 'style') return;
+    handleNestedGlobalContainerRule(rule);
+    handlePrefixedGlobalRule(rule);
   }
 
   return {
@@ -31159,8 +31119,7 @@ function jssNested() {
   function getOptions(rule, container, prevOptions) {
     // Options has been already created, now we only increase index.
     if (prevOptions) return Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, prevOptions, {
-      index: prevOptions.index + 1 // $FlowFixMe[prop-missing]
-
+      index: prevOptions.index + 1
     });
     var nestingLevel = rule.options.nestingLevel;
     nestingLevel = nestingLevel === undefined ? 1 : nestingLevel + 1;
@@ -31202,8 +31161,7 @@ function jssNested() {
         // Place conditional right after the parent rule to ensure right ordering.
         container.addRule(prop, {}, options) // Flow expects more options but they aren't required
         // And flow doesn't know this will always be a StyleRule which has the addRule method
-        // $FlowFixMe[incompatible-use]
-        // $FlowFixMe[prop-missing]
+        // $FlowFixMe
         .addRule(styleRule.key, style[prop], {
           selector: styleRule.selector
         });
@@ -31283,8 +31241,7 @@ __webpack_require__.r(__webpack_exports__);
 var now = Date.now();
 var fnValuesNs = "fnValues" + now;
 var fnRuleNs = "fnStyle" + ++now;
-
-var functionPlugin = function functionPlugin() {
+function functionPlugin() {
   return {
     onCreateRule: function onCreateRule(name, decl, options) {
       if (typeof decl !== 'function') return null;
@@ -31305,15 +31262,14 @@ var functionPlugin = function functionPlugin() {
         if (typeof value !== 'function') continue;
         delete style[prop];
         fnValues[prop] = value;
-      } // $FlowFixMe[prop-missing]
+      } // $FlowFixMe
 
 
       rule[fnValuesNs] = fnValues;
       return style;
     },
     onUpdate: function onUpdate(data, rule, sheet, options) {
-      var styleRule = rule; // $FlowFixMe[prop-missing]
-
+      var styleRule = rule;
       var fnRule = styleRule[fnRuleNs]; // If we have a style function, the entire rule is dynamic and style object
       // will be returned from that function.
 
@@ -31330,8 +31286,7 @@ var functionPlugin = function functionPlugin() {
             }
           }
         }
-      } // $FlowFixMe[prop-missing]
-
+      }
 
       var fnValues = styleRule[fnValuesNs]; // If we have a fn values map, it is a rule with function values.
 
@@ -31342,7 +31297,7 @@ var functionPlugin = function functionPlugin() {
       }
     }
   };
-};
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (functionPlugin);
 
@@ -31440,7 +31395,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createRule", function() { return createRule; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getDynamicStyles", function() { return getDynamicStyles; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "hasCSSTOMSupport", function() { return hasCSSTOMSupport; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sheets", function() { return registry; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sheets", function() { return sheets; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "toCssValue", function() { return toCssValue; });
 /* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
 /* harmony import */ var is_in_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! is-in-browser */ "./node_modules/is-in-browser/dist/module.js");
@@ -31504,7 +31459,6 @@ var join = function join(value, by) {
 
   return result;
 };
-
 /**
  * Converts array values to string.
  *
@@ -31513,7 +31467,9 @@ var join = function join(value, by) {
  * `margin: [['5px', '10px'], '!important']` > `margin: 5px 10px !important;`
  * `color: ['red', !important]` > `color: red !important;`
  */
-var toCssValue = function toCssValue(value, ignoreImportant) {
+
+
+function toCssValue(value, ignoreImportant) {
   if (ignoreImportant === void 0) {
     ignoreImportant = false;
   }
@@ -31535,7 +31491,7 @@ var toCssValue = function toCssValue(value, ignoreImportant) {
   }
 
   return cssValue;
-};
+}
 
 /**
  * Indent a string.
@@ -31819,11 +31775,11 @@ function () {
     this.options = void 0;
     this.isProcessed = false;
     this.renderable = void 0;
-    this.key = key;
-    var atMatch = key.match(atRegExp);
-    this.at = atMatch ? atMatch[1] : 'unknown'; // Key might contain a unique suffix in case the `name` passed by user was duplicate.
+    this.key = key; // Key might contain a unique suffix in case the `name` passed by user was duplicate.
 
-    this.query = options.name || "@" + this.at;
+    this.query = options.name;
+    var atMatch = key.match(atRegExp);
+    this.at = atMatch ? atMatch[1] : 'unknown';
     this.options = options;
     this.rules = new RuleList(Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
       parent: this
@@ -32372,13 +32328,13 @@ function () {
     var options;
 
     if (typeof (arguments.length <= 0 ? undefined : arguments[0]) === 'string') {
-      name = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe[invalid-tuple-index]
+      name = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe
 
-      data = arguments.length <= 1 ? undefined : arguments[1]; // $FlowFixMe[invalid-tuple-index]
+      data = arguments.length <= 1 ? undefined : arguments[1]; // $FlowFixMe
 
       options = arguments.length <= 2 ? undefined : arguments[2];
     } else {
-      data = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe[invalid-tuple-index]
+      data = arguments.length <= 0 ? undefined : arguments[0]; // $FlowFixMe
 
       options = arguments.length <= 1 ? undefined : arguments[1];
       name = null;
@@ -32605,13 +32561,7 @@ function () {
 
   _proto.deleteRule = function deleteRule(name) {
     var rule = typeof name === 'object' ? name : this.rules.get(name);
-
-    if (!rule || // Style sheet was created without link: true and attached, in this case we
-    // won't be able to remove the CSS rule from the DOM.
-    this.attached && !rule.renderable) {
-      return false;
-    }
-
+    if (!rule) return false;
     this.rules.remove(rule);
 
     if (this.attached && rule.renderable && this.renderer) {
@@ -32718,7 +32668,7 @@ function () {
 
   _proto.onProcessStyle = function onProcessStyle(style, rule, sheet) {
     for (var i = 0; i < this.registry.onProcessStyle.length; i++) {
-      // $FlowFixMe[prop-missing]
+      // $FlowFixMe
       rule.style = this.registry.onProcessStyle[i](rule.style, rule, sheet);
     }
   }
@@ -32895,7 +32845,7 @@ function () {
  * each request in order to not leak sheets across requests.
  */
 
-var registry = new SheetsRegistry();
+var sheets = new SheetsRegistry();
 
 /* eslint-disable */
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -32961,11 +32911,12 @@ var memoize = function memoize(fn) {
     return value;
   };
 };
-
 /**
  * Get a style property value.
  */
-var getPropertyValue = function getPropertyValue(cssRule, prop) {
+
+
+function getPropertyValue(cssRule, prop) {
   try {
     // Support CSSTOM.
     if (cssRule.attributeStyleMap) {
@@ -32977,12 +32928,13 @@ var getPropertyValue = function getPropertyValue(cssRule, prop) {
     // IE may throw if property is unknown.
     return '';
   }
-};
-
+}
 /**
  * Set a style property.
  */
-var setProperty = function setProperty(cssRule, prop, value) {
+
+
+function setProperty(cssRule, prop, value) {
   try {
     var cssValue = value;
 
@@ -33007,12 +32959,13 @@ var setProperty = function setProperty(cssRule, prop, value) {
   }
 
   return true;
-};
-
+}
 /**
  * Remove a style property.
  */
-var removeProperty = function removeProperty(cssRule, prop) {
+
+
+function removeProperty(cssRule, prop) {
   try {
     // Support CSSTOM.
     if (cssRule.attributeStyleMap) {
@@ -33023,17 +32976,18 @@ var removeProperty = function removeProperty(cssRule, prop) {
   } catch (err) {
      true ? Object(tiny_warning__WEBPACK_IMPORTED_MODULE_2__["default"])(false, "[JSS] DOMException \"" + err.message + "\" was thrown. Tried to remove property \"" + prop + "\".") : undefined;
   }
-};
-
+}
 /**
  * Set the selector.
  */
-var setSelector = function setSelector(cssRule, selectorText) {
+
+
+function setSelector(cssRule, selectorText) {
   cssRule.selectorText = selectorText; // Return false if setter was not successful.
   // Currently works in chrome only.
 
   return cssRule.selectorText === selectorText;
-};
+}
 /**
  * Gets the `head` element upon the first call and caches it.
  * We assume it can't be null.
@@ -33097,11 +33051,11 @@ function findCommentNode(text) {
  * Find a node before which we can insert the sheet.
  */
 function findPrevNode(options) {
-  var registry$1 = registry.registry;
+  var registry = sheets.registry;
 
-  if (registry$1.length > 0) {
+  if (registry.length > 0) {
     // Try to insert before the next higher sheet.
-    var sheet = findHigherSheet(registry$1, options);
+    var sheet = findHigherSheet(registry, options);
 
     if (sheet && sheet.renderer) {
       return {
@@ -33111,7 +33065,7 @@ function findPrevNode(options) {
     } // Otherwise insert after the last attached.
 
 
-    sheet = findHighestSheet(registry$1, options);
+    sheet = findHighestSheet(registry, options);
 
     if (sheet && sheet.renderer) {
       return {
@@ -33177,6 +33131,13 @@ var getNonce = memoize(function () {
 });
 
 var _insertRule = function insertRule(container, rule, index) {
+  var maxIndex = container.cssRules.length; // In case previous insertion fails, passed index might be wrong
+
+  if (index === undefined || index > maxIndex) {
+    // eslint-disable-next-line no-param-reassign
+    index = maxIndex;
+  }
+
   try {
     if ('insertRule' in container) {
       var c = container;
@@ -33195,17 +33156,6 @@ var _insertRule = function insertRule(container, rule, index) {
   return container.cssRules[index];
 };
 
-var getValidRuleInsertionIndex = function getValidRuleInsertionIndex(container, index) {
-  var maxIndex = container.cssRules.length; // In case previous insertion fails, passed index might be wrong
-
-  if (index === undefined || index > maxIndex) {
-    // eslint-disable-next-line no-param-reassign
-    return maxIndex;
-  }
-
-  return index;
-};
-
 var createStyle = function createStyle() {
   var el = document.createElement('style'); // Without it, IE will have a broken source order specificity if we
   // insert rules after we insert the style tag.
@@ -33219,8 +33169,6 @@ var DomRenderer =
 /*#__PURE__*/
 function () {
   // HTMLStyleElement needs fixing https://github.com/facebook/flow/issues/2696
-  // Will be empty if link: true option is not set, because
-  // it is only for use together with insertRule API.
   function DomRenderer(sheet) {
     this.getPropertyValue = getPropertyValue;
     this.setProperty = setProperty;
@@ -33229,9 +33177,8 @@ function () {
     this.element = void 0;
     this.sheet = void 0;
     this.hasInsertedRules = false;
-    this.cssRules = [];
     // There is no sheet when the renderer is used from a standalone StyleRule.
-    if (sheet) registry.add(sheet);
+    if (sheet) sheets.add(sheet);
     this.sheet = sheet;
 
     var _ref = this.sheet ? this.sheet.options : {},
@@ -33272,15 +33219,8 @@ function () {
   ;
 
   _proto.detach = function detach() {
-    if (!this.sheet) return;
     var parentNode = this.element.parentNode;
-    if (parentNode) parentNode.removeChild(this.element); // In the most browsers, rules inserted using insertRule() API will be lost when style element is removed.
-    // Though IE will keep them and we need a consistent behavior.
-
-    if (this.sheet.options.link) {
-      this.cssRules = [];
-      this.element.textContent = '\n';
-    }
+    if (parentNode) parentNode.removeChild(this.element);
   }
   /**
    * Inject CSS string into element.
@@ -33323,46 +33263,39 @@ function () {
       var latestNativeParent = nativeParent;
 
       if (rule.type === 'conditional' || rule.type === 'keyframes') {
-        var _insertionIndex = getValidRuleInsertionIndex(nativeParent, index); // We need to render the container without children first.
-
-
+        // We need to render the container without children first.
         latestNativeParent = _insertRule(nativeParent, parent.toString({
           children: false
-        }), _insertionIndex);
+        }), index);
 
         if (latestNativeParent === false) {
           return false;
         }
-
-        this.refCssRule(rule, _insertionIndex, latestNativeParent);
       }
 
       this.insertRules(parent.rules, latestNativeParent);
       return latestNativeParent;
+    } // IE keeps the CSSStyleSheet after style node has been reattached,
+    // so we need to check if the `renderable` reference the right style sheet and not
+    // rerender those rules.
+
+
+    if (rule.renderable && rule.renderable.parentStyleSheet === this.element.sheet) {
+      return rule.renderable;
     }
 
     var ruleStr = rule.toString();
     if (!ruleStr) return false;
-    var insertionIndex = getValidRuleInsertionIndex(nativeParent, index);
 
-    var nativeRule = _insertRule(nativeParent, ruleStr, insertionIndex);
+    var nativeRule = _insertRule(nativeParent, ruleStr, index);
 
     if (nativeRule === false) {
       return false;
     }
 
     this.hasInsertedRules = true;
-    this.refCssRule(rule, insertionIndex, nativeRule);
+    rule.renderable = nativeRule;
     return nativeRule;
-  };
-
-  _proto.refCssRule = function refCssRule(rule, index, cssRule) {
-    rule.renderable = cssRule; // We only want to reference the top level rules, deleteRule API doesn't support removing nested rules
-    // like rules inside media queries or keyframes
-
-    if (rule.options.parent instanceof StyleSheet) {
-      this.cssRules[index] = cssRule;
-    }
   }
   /**
    * Delete a rule.
@@ -33374,7 +33307,6 @@ function () {
     var index = this.indexOf(cssRule);
     if (index === -1) return false;
     sheet.deleteRule(index);
-    this.cssRules.splice(index, 1);
     return true;
   }
   /**
@@ -33383,7 +33315,13 @@ function () {
   ;
 
   _proto.indexOf = function indexOf(cssRule) {
-    return this.cssRules.indexOf(cssRule);
+    var cssRules = this.element.sheet.cssRules;
+
+    for (var index = 0; index < cssRules.length; index++) {
+      if (cssRule === cssRules[index]) return index;
+    }
+
+    return -1;
   }
   /**
    * Generate a new CSS rule and replace the existing one.
@@ -33396,7 +33334,6 @@ function () {
     var index = this.indexOf(cssRule);
     if (index === -1) return false;
     this.element.sheet.deleteRule(index);
-    this.cssRules.splice(index, 1);
     return this.insertRule(rule, index);
   }
   /**
@@ -33418,7 +33355,7 @@ var Jss =
 function () {
   function Jss(options) {
     this.id = instanceCounter++;
-    this.version = "10.5.0";
+    this.version = "10.4.0";
     this.plugins = new PluginsRegistry();
     this.options = {
       id: {
@@ -33490,7 +33427,7 @@ function () {
         index = _options.index;
 
     if (typeof index !== 'number') {
-      index = registry.index === 0 ? 0 : registry.index + 1;
+      index = sheets.index === 0 ? 0 : sheets.index + 1;
     }
 
     var sheet = new StyleSheet(styles, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
@@ -33510,7 +33447,7 @@ function () {
 
   _proto.removeStyleSheet = function removeStyleSheet(sheet) {
     sheet.detach();
-    registry.remove(sheet);
+    sheets.remove(sheet);
     return this;
   }
   /**
@@ -33530,9 +33467,9 @@ function () {
 
     // Enable rule without name for inline styles.
     if (typeof name === 'object') {
-      // $FlowFixMe[incompatible-call]
+      // $FlowIgnore
       return this.createRule(undefined, name, style);
-    } // $FlowFixMe[incompatible-type]
+    } // $FlowIgnore
 
 
     var ruleOptions = Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, options, {
@@ -33676,7 +33613,7 @@ function () {
  * Export a constant indicating if this browser has CSSTOM support.
  * https://developers.google.com/web/updates/2018/03/cssom
  */
-var hasCSSTOMSupport = typeof CSS === 'object' && CSS != null && 'number' in CSS;
+var hasCSSTOMSupport = typeof CSS !== 'undefined' && CSS && 'number' in CSS;
 /**
  * Creates a new instance of Jss.
  */
@@ -33688,9 +33625,9 @@ var create = function create(options) {
  * A global Jss instance.
  */
 
-var jss = create();
+var index = create();
 
-/* harmony default export */ __webpack_exports__["default"] = (jss);
+/* harmony default export */ __webpack_exports__["default"] = (index);
 
 
 
@@ -88509,7 +88446,7 @@ module.exports = "/images/img05.png?760d765275148f1018844f8e40b7d263";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/images/sellerjoin.jpg?9d513f31c23ec0223ee1a08a2a2000da";
+module.exports = "/images/sellerjoin.jpg?eea758cf6a55e919d53f37547645ec35";
 
 /***/ }),
 
@@ -88605,25 +88542,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _general_Products__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./general/Products */ "./resources/js/components/general/Products.js");
 /* harmony import */ var _general_Notice__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./general/Notice */ "./resources/js/components/general/Notice.js");
 /* harmony import */ var _general_Buy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./general/Buy */ "./resources/js/components/general/Buy.js");
-<<<<<<< HEAD
-/* harmony import */ var _general_Address__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./general/Address */ "./resources/js/components/general/Address.js");
-/* harmony import */ var _general_payment__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./general/payment */ "./resources/js/components/general/payment.js");
-/* harmony import */ var _general_Creditadd__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./general/Creditadd */ "./resources/js/components/general/Creditadd.js");
-/* harmony import */ var _general_Confirmation__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./general/Confirmation */ "./resources/js/components/general/Confirmation.js");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./Footer */ "./resources/js/components/Footer.js");
-/* harmony import */ var _Guide__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./Guide */ "./resources/js/components/Guide.js");
-/* harmony import */ var _Farmteer__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Farmteer */ "./resources/js/components/Farmteer.js");
-/* harmony import */ var _farmteer_fLogin__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./farmteer/fLogin */ "./resources/js/components/farmteer/fLogin.js");
-/* harmony import */ var _farmteer_fRegister__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./farmteer/fRegister */ "./resources/js/components/farmteer/fRegister.js");
-/* harmony import */ var _farmteer_fTop__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./farmteer/fTop */ "./resources/js/components/farmteer/fTop.js");
-/* harmony import */ var _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./farmteer/fGoodsadd */ "./resources/js/components/farmteer/fGoodsadd.js");
-/* harmony import */ var _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./farmteer/fGoods */ "./resources/js/components/farmteer/fGoods.js");
-/* harmony import */ var _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./farmteer/goodsDetail */ "./resources/js/components/farmteer/goodsDetail.js");
-
-
-
-=======
 /* harmony import */ var _general_payment__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./general/payment */ "./resources/js/components/general/payment.js");
 /* harmony import */ var _general_Creditadd__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./general/Creditadd */ "./resources/js/components/general/Creditadd.js");
 /* harmony import */ var _general_Confirmation__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./general/Confirmation */ "./resources/js/components/general/Confirmation.js");
@@ -88635,7 +88553,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _farmteer_fRegister__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./farmteer/fRegister */ "./resources/js/components/farmteer/fRegister.js");
 /* harmony import */ var _farmteer_fTop__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./farmteer/fTop */ "./resources/js/components/farmteer/fTop.js");
 /* harmony import */ var _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./farmteer/fGoodsadd */ "./resources/js/components/farmteer/fGoodsadd.js");
->>>>>>> 342e301ab7b23036fdfc0efb30ea35d68cd388c0
+/* harmony import */ var _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./farmteer/fGoods */ "./resources/js/components/farmteer/fGoods.js");
+/* harmony import */ var _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./farmteer/goodsDetail */ "./resources/js/components/farmteer/goodsDetail.js");
+
+
 
 
 
@@ -88710,21 +88631,15 @@ function App() {
     path: "/creditadd",
     component: _general_Creditadd__WEBPACK_IMPORTED_MODULE_11__["default"]
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-<<<<<<< HEAD
     path: "/fgoodsadd",
-    component: _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_21__["default"]
+    component: _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_20__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/fgoods",
-    component: _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_22__["default"]
+    component: _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_21__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/fgoods/:id",
-    component: _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_23__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Management__WEBPACK_IMPORTED_MODULE_3__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], null));
-=======
-    path: "/farmgoodsadd",
-    component: _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_20__["default"]
+    component: _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_22__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Management__WEBPACK_IMPORTED_MODULE_3__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_14__["default"], null));
->>>>>>> 342e301ab7b23036fdfc0efb30ea35d68cd388c0
 }
 
 if (document.getElementById('app')) {
@@ -89720,7 +89635,6 @@ function fTop() {
 
 /***/ }),
 
-<<<<<<< HEAD
 /***/ "./resources/js/components/farmteer/goodsDetail.js":
 /*!*********************************************************!*\
   !*** ./resources/js/components/farmteer/goodsDetail.js ***!
@@ -89775,7 +89689,7 @@ function GoodsDetail(props) {
           switch (_context.prev = _context.next) {
             case 0:
               _context.next = 2;
-              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/good/".concat(props.match.params.id));
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/gdetail/".concat(props.match.params.id));
 
             case 2:
               response = _context.sent;
@@ -89805,40 +89719,6 @@ function GoodsDetail(props) {
 
 /***/ }),
 
-/***/ "./resources/js/components/general/Address.js":
-/*!****************************************************!*\
-  !*** ./resources/js/components/general/Address.js ***!
-  \****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-
-
-
-function Address() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-    className: "buy-page"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "form"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "general"
-  }, "\u4F4F\u6240\u4E00\u89A7"), "\u3054\u81EA\u5B85/\u52E4\u52D9\u5148\u306A\u3069", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u540D\u524D(\u30D5\u30EA\u30AC\u30CA)\u90F5\u4FBF\u756A\u53F7\u4F4F\u6240"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "\u540D\u524D\u30D5\u30EA\u30AC\u30CA\u90F5\u4FBF\u756A\u53F7\u4F4F\u6240"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "general-button",
-    onClick: "addressadd"
-  }, "\u65B0\u3057\u3044\u4F4F\u6240\u3092\u8FFD\u52A0\u3059\u308B"))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Address);
-
-/***/ }),
-
-=======
->>>>>>> 342e301ab7b23036fdfc0efb30ea35d68cd388c0
 /***/ "./resources/js/components/general/Buy.js":
 /*!************************************************!*\
   !*** ./resources/js/components/general/Buy.js ***!
@@ -90977,8 +90857,8 @@ function MTop() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\farmteer\FarmTeer\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\farmteer\FarmTeer\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\farmteer\react-farmteer\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\farmteer\react-farmteer\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
