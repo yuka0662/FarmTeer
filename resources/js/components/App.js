@@ -10,7 +10,6 @@ import Top from './Top'
 import Product from './general/Products'
 import Notice from './general/Notice'
 import Buy from './general/Buy'
-import Address from './general/Address'
 import Payment from './general/payment'
 import Creditadd from './general/Creditadd'
 import Confirmation from './general/Confirmation'
@@ -48,7 +47,6 @@ function App() {
 
                     <Route path="/buy/:id" component={Buy} /> {/**購入画面 */}
                     <Route path="/confirmation/:id" component={Confirmation} /> {/**購入画面 */}
-                    <Route path="/address" component={Address} /> {/**住所変更画面 */}
                     <Route path="/payment" component={Payment} /> {/**支払変更画面 */}
                     <Route path="/creditadd" component={Creditadd} /> {/**クレジット情報の追加画面 */}
                     <Route path="/farmgoodsadd" component={Fgoods} />

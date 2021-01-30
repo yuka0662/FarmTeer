@@ -26,19 +26,21 @@ function Buy(props) {
                 <p>数量：{good.quantity}　　値段：{good.price}円</p>
                 <div>
                     支払い方法：
-                <Link to="/payment">クレジット払い</Link>
+                <Link to="/payment">
+                {props.name == null ?(
+                    'クレジット(手数料￥0)'
+                ):(props.name)}
+                </Link>
                 </div>
                 <div>
                     支払い金額：
                     ￥{good.price + good.carriage}
                 </div>
-                <Link to="/address">
-                    <div>
-                        名前
-                        郵便番号
-                        住所
+                <div>
+                    名前
+                    郵便番号
+                    住所
                 </div>
-                </Link>
                 <Link to={`/confirmation/${good.id}`}>
                     <button className="general-button">注文を確認する</button>
                 </Link>
