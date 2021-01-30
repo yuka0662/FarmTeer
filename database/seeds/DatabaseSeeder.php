@@ -16,13 +16,13 @@ class DatabaseSeeder extends Seeder
             //CategoriesTableSeeder::class
             //PaymentsTableSeeder::class
             //MembersTableSeeder::class
-            //FarmlistsTableSeeder::class
+            FarmlistsTableSeeder::class
             //LogsTableSeeder::class
             //AddsellersTableSeeder::class
             //GeneralsTableSeeder::class
             //CreditsTableSeeder::class
             //ManagementTableSeeder::class
-            ReviewsTableSeeder::class
+            //ReviewsTableSeeder::class
         );
     }
 }

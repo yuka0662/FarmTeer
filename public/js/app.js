@@ -17781,7 +17781,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}", ""]);
+exports.push([module.i, "* {\r\n    font-family: '\\30E1\\30A4\\30EA\\30AA';\r\n    margin:0; padding:0;\r\n  }\r\n  html, body {\r\n    text-align: center;\r\n    height: 100%;\r\n    overflow-x: hidden;\r\n  }\r\n  body{\r\n    background-color: white;\r\n  }\r\n\r\n  /*headerとfooter*/\r\n  .header {\r\n    height: 70px;\r\n    width: 98.9%;\r\n    padding: 7px 0 0 12%;\r\n    background-color: rgb(96, 151, 114);\r\n    color: whitesmoke;\r\n    position: absolute;\r\n    z-index: 10;\r\n  }\r\n\r\n  .headline{\r\n    float: left;\r\n    width: 800px;\r\n    text-align: left;\r\n  }\r\n  .headline-item{\r\n    float: left;\r\n  }\r\n  .headline img{\r\n      height: 57px;\r\n      margin-left: 100px;\r\n  }\r\n  .nav-list {\r\n    white-space: nowrap;\r\n    margin-top: 10px;\r\n    list-style: none;\r\n    position: fixed;\r\n  }\r\n  .nav-list-item {\r\n    list-style: none;\r\n    display: inline-block;\r\n    margin: 0 20px;\r\n    color: whitesmoke;\r\n    font-size:18px;\r\n  }\r\n  .item{\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin: 0;\r\n    position: absolute;\r\n    opacity: 0;\r\n    z-index: -1;\r\n    width: 11em;\r\n  }\r\n  .nav-list:after {\r\n    content: \"\";\r\n    clear: both;\r\n    display: block;\r\n  }\r\n  .nav-item-name:hover + .item, .item:hover {\r\n    opacity: 1;\r\n    z-index: 1;\r\n    background-color: rgb(116, 173, 135);\r\n  }\r\n  .item-list{\r\n    display: inline-block;\r\n    color: whitesmoke;\r\n  }\r\n.footer {\r\n    border-top: rgb(96, 151, 114) solid 5px;\r\n    width: 100%;\r\n    height: 300px; \r\n    padding: 20px 0;\r\n    background-color: #e2e0e0;\r\n    /*position: absolute;*/\r\n    bottom: 0; \r\n}\r\n.footer .footer-item{\r\n    margin-left: 100px;\r\n    text-align: left;\r\n    color:#444;\r\n}\r\n.footer-text2{\r\n  float: left;\r\n  text-align: right;\r\n  width: 35%;\r\n}\r\n.footer-text2 img{\r\n  height: 270px;\r\n}\r\n.footer-link{\r\n  display: inline-block;\r\n  color: #444;\r\n  list-style-type: none;\r\n}\r\n.footer-text img{\r\n  height: 110px;\r\n}\r\n.footer .footer-text {\r\n    text-align: right;\r\n    color:#444;\r\n    float: left;\r\n    width: 60%;\r\n}\r\n\r\n/*ログインページ*/\r\n  .login-page {\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n  .form {\r\n    position: static;\r\n    z-index: 0;\r\n    background:#f3f2f2;\r\n    margin: 0 auto 100px auto;\r\n    padding: 0 20% 100px 20%;\r\n    text-align: center;\r\n  }\r\n  .general{\r\n    color:rgb(96, 151, 114);\r\n    border-bottom:solid 1.5px rgb(96, 151, 114);\r\n    padding: 30px;\r\n    margin-bottom: 20px;\r\n  }\r\n\r\n  .form .general-button:hover,.form .general-button:active,.form .general-button:focus {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n  .form .message {\r\n    margin: 15px 0 0;\r\n    color: #b3b3b3;\r\n    font-size: 16px;\r\n  }\r\n  .form .message a {\r\n    color: rgb(96, 151, 114);\r\n    text-decoration: none;\r\n  }\r\n\r\n  .form input {\r\n    outline: 0;\r\n    background-color: white;\r\n    width: 55%;\r\n    border: 0;\r\n    margin: 20px 0 30px 0;\r\n    padding: 15px;\r\n    box-sizing: border-box;\r\n    font-size: 16px;\r\n  }\r\n  .form .general-button{\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 16px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*2020/11/20 Sugimori*/\r\n  .farmlogin{\r\n    font-size: 20px;\r\n  }\r\n\r\n  .form .farm-button:hover,.form .farm-button:active,.form .farm-button:focus, .farmbtn:hover {\r\n    background: rgb(54, 114, 57);\r\n  }\r\n\r\n  .form .farm-button {\r\n    text-transform: uppercase;\r\n    outline: 0;\r\n    background: rgb(70, 110, 83);\r\n    width: 55%;\r\n    border: 0;\r\n    padding: 15px;\r\n    margin: 10px 0 30px 0;\r\n    color: whitesmoke;\r\n    font-size: 20px;\r\n    transition: all 0.3 ease;\r\n    cursor: pointer;\r\n  }\r\n\r\n  /*新規登録画面*/\r\n  .register-page{\r\n    width: 75%;\r\n    padding: 90px 0 0 0;\r\n    margin: auto auto 10px auto;\r\n  }\r\n\r\n/*Top画面レイアウト*/\r\n.photos {\r\n\tposition: relative;\r\n  text-align: center;\r\n  margin-bottom: 100px;\r\n\twidth: 100%;\r\n\theight: 250px;\r\n}\r\n.item2{\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  width: 880px;\r\n  position: absolute;\r\n}\r\n\r\n.top-layout{\r\n  display: flex;\r\n}\r\n.top-item-list{\r\n  width: 100%;\r\n  margin: 40px;\r\n  text-align: left;\r\n}\r\n.top-item-list img{\r\n  width: 250px;\r\n}\r\n.top-item-list h3{\r\n  color:rgb(96, 151, 114);\r\n  border-bottom:solid 1.5px rgb(96, 151, 114);\r\n}\r\n.top-font{\r\n  padding-left:20%;\r\n  text-align: left;\r\n  font-size: 20px;\r\n}\r\n.general-top{\r\n  padding-top: 90px;\r\n  text-align: right;\r\n}\r\n.general-top .koukoku{\r\n  padding-right: 14%;\r\n}\r\n\r\n/*商品詳細画面レイアウト*/\r\n.products-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n.title{\r\n  font-size: 24px;\r\n  font-weight: bold;\r\n}\r\n.products-page img {\r\n  width: 70%;\r\n}\r\n.price{\r\n  font-size: 16px;\r\n  margin: 20px;\r\n}\r\n.product-layout{\r\n  font-size: 16px;\r\n  text-align: right;\r\n}\r\n.product{\r\n  text-align: left;\r\n  padding: 20px;\r\n  background-color: white;\r\n  margin-bottom: 20px;\r\n}\r\n.product-layout input{\r\n  background-color: white;\r\n  width: 500px;\r\n  margin: 0 0 10px 30px;\r\n  text-align: center;\r\n}\r\n\r\n/*購入画面*/\r\n.buy-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 16px;\r\n}\r\n\r\n/*農家管理者の画面*/\r\n.farm-top,list-form{\r\n    padding-top: 80px;\r\n    /*margin: auto auto 10px auto;*/\r\n}\r\n\r\n.farm-seller{\r\n  width: 80%;\r\n  background-color: #f3f2f2;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-top p{\r\n  padding-left: 20%;\r\n  text-align: left;\r\n  font-size: 50px;\r\n}\r\n\r\n.farm-top h1{\r\n  font-weight: bold;\r\n  font-size: 100px;\r\n}\r\n\r\n.farm-top h2{\r\n  padding-top: 30px;\r\n  font-size: 60px;\r\n}\r\n\r\n.farmk-size{\r\n  width: 60%;\r\n}\r\n\r\n.farmbtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(54, 107, 72);\r\n}\r\n\r\n.column {\r\n  height: 100vh;\r\n  width: 100%;\r\n  font-size: 35px;\r\n  margin: 25px 25px 25px 25px;\r\n  padding: 15px 15px 15px 15px;\r\n  text-align: center;\r\n  display: flex;\r\n  align-items: flex-end;\r\n  justify-content: center;\r\n}\r\n\r\n.add1 .add2{\r\n  background-size: cover;\r\n  text-align: left;\r\n}\r\n\r\n.textm{\r\n  border-radius: 10px;\r\n}\r\n\r\n.textm:hover{\r\n  background-color: rgb(230, 179, 121);\r\n}\r\n\r\n.rad{\r\n  transform: scale(3);\r\n  margin-left: 50px;\r\n  margin-right:30px;\r\n}\r\n\r\n.photobtn{\r\n  margin: 15px 15px 15px 15px;\r\n  width: 350px;\r\n  height: 90px;\r\n  font-size: 40px;\r\n  color: white;\r\n  background-color:  rgb(231, 146, 49);\r\n}\r\n\r\n/*商品登録画面*/\r\n.farm-page {\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n.farm-page p{\r\n  font-size: large;\r\n}\r\n\r\n/*商品通報画面*/\r\n.notice-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n  font-size: 18px;\r\n}\r\n.notice-page h3{\r\n  color: rgb(70, 110, 83);\r\n  border-bottom:solid 1px #b3b3b3;\r\n}\r\n.notice-product{\r\n  padding: 20px;\r\n  text-align: left;\r\n}\r\n.notice-product img{\r\n  width: 30%;\r\n}\r\n\r\n/*FarmTeerについての画面*/\r\n.first-page{\r\n  width:100%;\r\n  height: 100%;\r\n}\r\n.slideBox {\r\n  width: 100%;\r\n  height:550px;\r\n  overflow: hidden;\r\n  text-align: center;\r\n  position: relative;\r\n}\r\n\r\n/* imgのみ */\r\n.item1 {\r\n  top: 90px;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\r\n  margin: auto;\r\n  opacity: 0;\r\n  width: 880px;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\r\n  position: absolute;\r\n  -webkit-animation: anime 20s 0s infinite;\r\n  animation: anime 20s 0s infinite;\r\n}\r\n\r\n.item1:nth-of-type(2) {\r\n  -webkit-animation-delay: 5s;\r\n  animation-delay: 5s;\r\n}\r\n\r\n.item1:nth-of-type(3) {\r\n  -webkit-animation-delay: 10s;\r\n  animation-delay: 10s;\r\n}\r\n.item1:nth-of-type(4) {\r\n  -webkit-animation-delay: 15s;\r\n  animation-delay: 15s;\r\n}\r\n\r\n/* ふわっとアニメーション */\r\n@keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n\r\n@-webkit-keyframes anime {\r\n  0% {\r\n    opacity: 0;\r\n  }\r\n  30% {\r\n    opacity: 1;\r\n  }\r\n  35% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0;\r\n  }\r\n  100% {\r\n    opacity: 0;\r\n  }\r\n}\r\n.first-page .first{\r\n  width: 45%;\r\n  margin: auto auto 10px auto; \r\n}\r\n.first h2{\r\n  margin: 30px 0;\r\n  color: rgb(96, 151, 114);\r\n  text-align: center;\r\n}\r\n.first p{\r\n  text-align: left;\r\n  font-size: 15px;\r\n  line-height: 30px;\r\n}\r\n/*ガイド画面*/\r\n.guide-page{\r\n  width: 75%;\r\n  padding: 90px 0 0 0;\r\n  margin: auto auto 10px auto;\r\n}\r\n\r\n/*ユーザー管理者画面*/\r\n.top-page,.userdetail-page{\r\n  padding-top: 80px;\r\n  font-size: 16px;\r\n}\r\n.top-page h2{\r\n  width: 500px;\r\n  text-align: center;\r\n  padding:10px;\r\n}\r\n.list-form{\r\n  display: inline-block;\r\n  width: 40%;\r\n  height: 500px;\r\n}\r\n.edit-form{\r\n  display: inline-block;\r\n  background-color: #f3f2f2;\r\n  text-align: right;\r\n  width: 50%;\r\n  padding-left: 10%;\r\n  padding-right: 7%;\r\n  padding-bottom: 50px;\r\n  margin-bottom: 30px;\r\n}\r\n.usertable{\r\n  margin-left: 80px;\r\n  width: 400px;\r\n}\r\n\r\n.top-page .general-button{\r\n  background: rgb(70, 110, 83);\r\n  border: 0;\r\n  padding: 10px;\r\n  margin: 10px 15px 30px 0;\r\n  color: whitesmoke;\r\n  font-size: 16px;\r\n  width: 100px;\r\n}\r\n\r\n.top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{\r\n  background: rgb(54, 114, 57);\r\n}", ""]);
 
 // exports
 
@@ -88584,6 +88584,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _farmteer_fRegister__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./farmteer/fRegister */ "./resources/js/components/farmteer/fRegister.js");
 /* harmony import */ var _farmteer_fTop__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./farmteer/fTop */ "./resources/js/components/farmteer/fTop.js");
 /* harmony import */ var _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./farmteer/fGoodsadd */ "./resources/js/components/farmteer/fGoodsadd.js");
+/* harmony import */ var _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./farmteer/fGoods */ "./resources/js/components/farmteer/fGoods.js");
+/* harmony import */ var _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./farmteer/goodsDetail */ "./resources/js/components/farmteer/goodsDetail.js");
+
+
 
 
 
@@ -88662,8 +88666,14 @@ function App() {
     path: "/creditadd",
     component: _general_Creditadd__WEBPACK_IMPORTED_MODULE_12__["default"]
   }), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
-    path: "/farmgoodsadd",
+    path: "/fgoodsadd",
     component: _farmteer_fGoodsadd__WEBPACK_IMPORTED_MODULE_21__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/fgoods",
+    component: _farmteer_fGoods__WEBPACK_IMPORTED_MODULE_22__["default"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+    path: "/fgoods/:id",
+    component: _farmteer_goodsDetail__WEBPACK_IMPORTED_MODULE_23__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Management__WEBPACK_IMPORTED_MODULE_3__["default"], null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_15__["default"], null));
 }
 
@@ -89189,6 +89199,108 @@ function Top() {
 
 /***/ }),
 
+/***/ "./resources/js/components/farmteer/fGoods.js":
+/*!****************************************************!*\
+  !*** ./resources/js/components/farmteer/fGoods.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+function fGoods() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      farmlists = _useState2[0],
+      setFarmlists = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    getFarmlists();
+  }, []);
+
+  var getFarmlists = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/api/goods');
+
+            case 2:
+              response = _context.sent;
+              setFarmlists(response.data.goods);
+
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function getFarmlists() {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  var deleteList = function deleteList(id) {
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a["delete"]("/api/goods/".concat(id)).then(function () {
+      console.log("DB削除");
+      getUsers();
+    });
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "farm-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "general"
+  }, "\u5546\u54C1\u4E00\u89A7"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, farmlists.map(function (farmlist) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+      key: farmlist.id
+    }, farmlist.goodsname, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+      href: "/fgoods/".concat(farmlist.id)
+    }, "\u8A73\u7D30"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+      className: "general-button",
+      onClick: function onClick() {
+        return deleteList(farmlist.id);
+      }
+    }, "\u524A\u9664"));
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (fGoods);
+
+/***/ }),
+
 /***/ "./resources/js/components/farmteer/fGoodsadd.js":
 /*!*******************************************************!*\
   !*** ./resources/js/components/farmteer/fGoodsadd.js ***!
@@ -89198,85 +89310,189 @@ function Top() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FGoods; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
+function Goodsadd() {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      categories = _useState2[0],
+      setCategories = _useState2[1];
 
-var FGoods = /*#__PURE__*/function (_Component) {
-  _inherits(FGoods, _Component);
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    getCategories();
+  }, []);
 
-  var _super = _createSuper(FGoods);
+  var getCategories = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/api/categorise');
 
-  function FGoods() {
-    var _this;
+            case 2:
+              response = _context.sent;
+              setCategories(response.data.categorise);
 
-    _classCallCheck(this, FGoods);
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
 
-    _this = _super.call(this);
-    _this.state = {
-      tasks: []
+    return function getCategories() {
+      return _ref.apply(this, arguments);
     };
-    return _this;
+  }(); //登録ボタンが押されたとき
+
+
+  var addGoods = function addGoods() {
+    var data = {
+      farmname: $('.farmname').val(),
+      goodsname: $('.goodsname').val(),
+      quantity: $('.quantity').val(),
+      expired: $('.expired').val(),
+      price: $('.price').val(),
+      carriage: $('.carriage').val(),
+      burden: $('.burden').val(),
+      howcarri: $('.howcarri').val(),
+      carridays: $('.carridays').val(),
+      carriarea: $('.carriarea').val(),
+      pesticides: $('.pesticides').val(),
+      detail: $('.detail').val(),
+      category_id: $('.category_id').val(),
+      photo: $('.photo').val(),
+      profit: $('.profit').val(),
+      members_id: $('.members_id').val()
+    };
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("/api/goodsadd", data).then(function () {
+      console.log("商品データを追加");
+      Clear();
+    });
+  };
+
+  function Clear() {
+    for (var i = 1; i <= 15; i++) {
+      document.getElementById("form" + i).value = '';
+    }
   }
 
-  _createClass(FGoods, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/api/fgoods').then(function (Response) {
-        _this2.setState({
-          fgoods: Response.data
-        });
-      })["catch"](function (error) {
-        console.log(error);
-      });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "farm-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "general"
+  }, "\u5546\u54C1\u767B\u9332"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "\u5165\u529B\u304C\u7D42\u308F\u3063\u305F\u3089\u4E0B\u306B\u884C\u3063\u3066\u767B\u9332\u30DC\u30BF\u30F3\u3092\u62BC\u3057\u3066\u306D\uFF01"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6\u540D\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form1",
+    className: "farmname"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5546\u54C1\u540D\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form2",
+    className: "goodsname"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form3",
+    className: "quantity"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8CDE\u5473\u671F\u9650\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form4",
+    className: "expired"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5024\u6BB5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form5",
+    className: "price"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u9001\u6599\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form6",
+    className: "carriage"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u9001\u6599\u8CA0\u62C5\u8005\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form7",
+    className: "burden"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u65B9\u6CD5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form8",
+    className: "howcarri"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u53EF\u80FD\u65E5\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form9",
+    className: "carridays"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u5143\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form10",
+    className: "carriarea"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u85AC\u540D\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form11",
+    className: "pesticides"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5546\u54C1\u8A73\u7D30\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form12",
+    className: "detail"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u30AB\u30C6\u30B4\u30EA\u30FC", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
+    className: "category_id"
+  }, categories.map(function (category) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+      key: category.id,
+      value: category.id
+    }, category.categoryname);
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5199\u771F\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form13",
+    className: "photo"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6\u5229\u76CA\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form14",
+    className: "profit"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6No\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+    type: "text",
+    id: "form15",
+    className: "members_id"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "general-button",
+    onClick: function onClick() {
+      return addGoods();
     }
-  }, {
-    key: "render",
-    value: function render() {
-      var list = this.state.tasks.map(function (item) {
-        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-          key: item.id
-        }, item.title);
-        ReactDOM.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fgoods, null), document.getElementById('fgoods'));
-      });
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, list));
+  }, "\u767B\u9332"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: "general-button",
+    onClick: function onClick() {
+      return Clear();
     }
-  }]);
+  }, "\u30EA\u30BB\u30C3\u30C8")));
+}
 
-  return FGoods;
-}(Component);
-
-
+/* harmony default export */ __webpack_exports__["default"] = (Goodsadd);
 
 /***/ }),
 
@@ -89331,11 +89547,34 @@ function fLogin() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
 function fRegister() {
+  //登録ボタンが押されたとき
+  var fadd = function fadd() {
+    var data = {
+      farmname: $('.farmname').val(),
+      email: $('.email').val(),
+      postcode: $('.postcode').val(),
+      pref: $('.pref').val(),
+      municipality: $('.municipality').val(),
+      building: $('.building').val()
+    };
+    axios__WEBPACK_IMPORTED_MODULE_1___default.a.post("/api/farmregister", data).then(function () {
+      console.log("addsellersテーブルにデータを追加");
+      Clear();
+    });
+  };
+
+  function Clear() {
+    for (var i = 1; i <= 6; i++) {
+      document.getElementById("form" + i).value = '';
+    }
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "register-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -89344,16 +89583,42 @@ function fRegister() {
     className: "general"
   }, "\u51FA\u54C1\u8005\u7533\u8ACB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
     className: "farmlogin"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u8FB2\u5712\u540D/\u500B\u4EBA\u540D\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
-    placeholder: "xxxx@xx.xxx"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u8FB2\u5712\u540D/\u500B\u4EBA\u540D\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
-    type: "text"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    id: "form1",
+    className: "farmname"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "xxxx@xx.xxx",
+    id: "form2",
+    className: "email"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u90F5\u4FBF\u756A\u53F7\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "form3",
+    className: "postcode"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u90FD\u9053\u5E9C\u770C\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "form4",
+    className: "pref"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5E02\u533A\u753A\u6751\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "form5",
+    className: "municipality"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u5EFA\u7269\u30FB\u30D3\u30EB\u540D\uFF1A", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    id: "form6",
+    className: "building"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "farm-button",
-    type: "submit",
-    value: "\u7533\u8ACB"
-  })))));
+    onClick: function onClick() {
+      return fadd();
+    }
+  }, "\u7533\u8ACB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "farm-button",
+    onClick: function onClick() {
+      return Clear();
+    }
+  }, "\u30EA\u30BB\u30C3\u30C8")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (fRegister);
@@ -89402,6 +89667,90 @@ function fTop() {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (fTop);
+
+/***/ }),
+
+/***/ "./resources/js/components/farmteer/goodsDetail.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/farmteer/goodsDetail.js ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+function GoodsDetail(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      farmlist = _useState2[0],
+      setFarmlist = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    getFarmlist();
+  }, []);
+
+  var getFarmlist = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var response;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return axios__WEBPACK_IMPORTED_MODULE_2___default.a.get("/api/good/".concat(props.match.params.id));
+
+            case 2:
+              response = _context.sent;
+              setFarmlist(response.data.farmlist);
+
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee);
+    }));
+
+    return function getFarmlist() {
+      return _ref.apply(this, arguments);
+    };
+  }();
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "farm-page"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "general"
+  }, "\u5546\u54C1\u8A73\u7D30\u30DA\u30FC\u30B8"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6\u540D\uFF1A", farmlist.farmname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5546\u54C1\u540D\uFF1A", farmlist.goodsname), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u6570\u91CF\uFF1A", farmlist.quantity), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8CDE\u5473\u671F\u9650\uFF1A", farmlist.expired), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5024\u6BB5\uFF1A", farmlist.price), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u9001\u6599\uFF1A", farmlist.carriage), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u9001\u6599\u8CA0\u62C5\u8005\uFF1A", farmlist.burden), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u65B9\u6CD5\uFF1A", farmlist.howcarri), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u53EF\u80FD\u65E5\uFF1A", farmlist.carridays), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u767A\u9001\u5143\uFF1A", farmlist.carriarea), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u85AC\u540D\uFF1A", farmlist.pesticides), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5546\u54C1\u8A73\u7D30\uFF1A", farmlist.detail), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u30AB\u30C6\u30B4\u30EA\u30FC\uFF1A", farmlist.category_id), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u5199\u771F\uFF1A", farmlist.photo), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6\u5229\u76CA\uFF1A", farmlist.profit), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "\u8FB2\u5BB6No\uFF1A", farmlist.members_id));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (GoodsDetail);
 
 /***/ }),
 
