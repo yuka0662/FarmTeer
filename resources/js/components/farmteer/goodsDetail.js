@@ -11,7 +11,7 @@ function GoodsDetail(props) {
 
     const getFarmlist = async () => {
         // console.log(props.match)
-        const response = await axios.get(`/api/good/${props.match.params.id}`);
+        const response = await axios.get(`/api/gdetail/${props.match.params.id}`);
         setFarmlist(response.data.farmlist)
     }
 

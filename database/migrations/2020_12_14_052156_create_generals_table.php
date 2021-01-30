@@ -16,8 +16,8 @@ class CreateGeneralsTable extends Migration
         Schema::create('generals', function (Blueprint $table) {
             $table->increments('id')->unsigned();
             $table->string('account_name')->nullable();
-            $table->string('name');
-            $table->string('kana');
+            $table->string('name')->nullable();
+            $table->string('kana')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

@@ -225,6 +225,7 @@
 }
 .top-item-list img{
   width: 250px;
+  margin-right: 10px;
 }
 .top-item-list h3{
   color:rgb(96, 151, 114);
@@ -537,4 +538,8 @@
 
 .top-page .general-button:hover,.top-page .general-button:active,.top-page .general-button:focus{
   background: rgb(54, 114, 57);
+}
+
+#error{
+  color: brown;
 }

@@ -94,6 +94,7 @@ Route::get('/good/{good}',function(App\farmlist $good){
     return response()->json(['good' => $good]);
 });
 
+<<<<<<< HEAD
 /**商品の追加 */
 Route::post('/goodsadd', function (Request $request){
     $gadd = new App\farmlist();
@@ -114,5 +115,22 @@ Route::post('/goodsadd', function (Request $request){
     $gadd->profit = $request->profit;
     $gadd->members_id = $request->members_id;
     $gadd->save();
+=======
+/**一般ユーザーの追加 */
+Route::post('/gusers', function (Request $request){
+    $user = new App\general();
+    $user->account_name = $request->account_name;
+    $user->name = $request->name;
+    $user->kana = $request->kana;
+    $user->email = $request->email;
+    $user->email_verified_at = now();
+    $user->password = Hash::make($request->password);
+    $user->postcode = $request->postcode;
+    $user->pref = $request->pref;
+    $user->municipality = $request->municipality;
+    $user->building = $request->building;
+    $user->TEL = $request->TEL;
+    $user->save();
+>>>>>>> 2f86c9b37fcfcc4c9cc330280302c2a89bd9400e
     return response("OK", 200);
 });

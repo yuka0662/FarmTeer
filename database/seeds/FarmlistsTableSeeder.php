@@ -67,7 +67,7 @@ class FarmlistsTableSeeder extends Seeder
                 'pesticides' => null,
                 'detail' => 'みずみずしいイチゴです。',
                 'category_id' => 2,
-                'photo' => 'img01.jpg',
+                'photo' => 'img01.png',
                 'profit' => 4000,
                 'state' => TRUE,
                 'members_id'=> 3,
