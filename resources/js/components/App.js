@@ -20,7 +20,9 @@ import Farmteer from './Farmteer';
 import Flogin from './farmteer/fLogin';
 import Fregister from './farmteer/fRegister';
 import Ftop from './farmteer/fTop';
-import Fgoods from './farmteer/fGoodsadd';
+import Fgoodsadd from './farmteer/fGoodsadd';
+import Fgoods from './farmteer/fGoods';
+import Fdetail from './farmteer/goodsDetail';
 
 {/** 
     farmerのログイン、新規登録申請画面とvolunteerのログイン、新規登録申請画面と管理者のログイン画面のfooter、headerを削除する
@@ -49,7 +51,9 @@ function App() {
                     <Route path="/confirmation/:id" component={Confirmation} /> {/**購入画面 */}
                     <Route path="/payment" component={Payment} /> {/**支払変更画面 */}
                     <Route path="/creditadd" component={Creditadd} /> {/**クレジット情報の追加画面 */}
-                    <Route path="/farmgoodsadd" component={Fgoods} />
+                    <Route path="/fgoodsadd" component={Fgoodsadd} />{/**商品登録画面 */}
+                    <Route path="/fgoods" component={Fgoods} />{/**商品一覧 */}
+                    <Route path="/fgoods/:id" component={Fdetail} />{/**商品一覧詳細 */}
                     <Management />
                 </Switch>
             </div>

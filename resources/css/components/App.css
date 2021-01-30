@@ -366,6 +366,18 @@
   color: white;
   background-color:  rgb(231, 146, 49);
 }
+
+/*商品登録画面*/
+.farm-page {
+  width: 75%;
+  padding: 90px 0 0 0;
+  margin: auto auto 10px auto;
+}
+
+.farm-page p{
+  font-size: large;
+}
+
 /*商品通報画面*/
 .notice-page{
   width: 75%;
