@@ -134,3 +134,22 @@ Route::post('/gusers', function (Request $request){
 >>>>>>> 2f86c9b37fcfcc4c9cc330280302c2a89bd9400e
     return response("OK", 200);
 });
+
+/**クレジットカードの追加 */
+Route::post('/creditadd', function (Request $request){
+    $credit = new App\credit();
+    $credit->cardnum = $request->cardnum;
+    $credit->cardname = $request->cardname;
+    $credit->month = $request->month;
+    $credit->year = $request->year;
+    $credit->securitycode = $request->securitycode;
+    $credit->user_id = 1;
+    $credit->save();
+    return response("OK", 200);
+});
+
+/*　クレジットの一覧表示*/
+Route::get('/credits',function (Request $request){
+    $credits = App\credit::all();
+    return response()->json(['credits' => $credits]);
+});
