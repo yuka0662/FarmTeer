@@ -116,9 +116,9 @@ Route::post('/goodsadd', function (Request $request){
     $gadd->save();
 });
 
-Route::post('/guser',function(Request $request){
-    $users = App\general::all();
-    return response()->json(['users' => $users]);
+Route::get('/guser',function(Request $request){
+    $gusers = App\general::all();
+    return response()->json(['gusers' => $gusers]);
 });
 
 /**一般ユーザーの追加 */
@@ -156,4 +156,9 @@ Route::post('/creditadd', function (Request $request){
 Route::get('/credits',function (Request $request){
     $credits = App\credit::all();
     return response()->json(['credits' => $credits]);
+});
+
+/**ログ詳細表示 */
+Route::get('/log/{log}',function(App\log $log){
+    return response()->json(['log' => $log]);
 });
