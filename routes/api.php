@@ -116,6 +116,14 @@ Route::post('/goodsadd', function (Request $request){
     $gadd->save();
 });
 
+/**商品の更新 */
+Route::put('/goods/{id}',function(Request $request,$id){
+    $good = App\farmlist::find($id);
+    $good->state = $request->state;
+    $good->save();
+    return response("OK", 200);
+});
+
 Route::get('/guser',function(Request $request){
     $gusers = App\general::all();
     return response()->json(['gusers' => $gusers]);

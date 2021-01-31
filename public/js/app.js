@@ -89984,6 +89984,15 @@ function Confirmation(props) {
     };
   }();
 
+  var update = function update(id) {
+    var data = {
+      state: false
+    };
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.put("/api/goods/".concat(id), data).then(function () {
+      getGood();
+    });
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("nav", {
     className: "buy-page"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -90008,7 +90017,8 @@ function Confirmation(props) {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/fixed/".concat(good.id)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "general-button"
+    className: "general-button",
+    onClick: update(good.id)
   }, "\u8CFC\u5165\u3092\u78BA\u5B9A\u3059\u308B"))));
 }
 
@@ -90721,10 +90731,12 @@ function payment() {
     }), "********0000\u3000\u3000", credit.month + "/" + credit.year, "(\u624B\u6570\u6599\uFFE50)") : null;
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     to: "/creditadd"
-  }, "\u30AF\u30EC\u30B8\u30C3\u30C8\u30AB\u30FC\u30C9\u306E\u8FFD\u52A0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+  }, "\u30AF\u30EC\u30B8\u30C3\u30C8\u30AB\u30FC\u30C9\u306E\u8FFD\u52A0")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__["Link"], {
+    to: "/buy/:id"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: "general-button",
     onClick: OK
-  }, "\u6C7A\u5B9A")));
+  }, "\u6C7A\u5B9A"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (payment);

@@ -21,6 +21,15 @@ function Confirmation(props) {
         setgUsers(response.data.gusers)
     }
 
+    const update = (id) =>{
+        const data ={
+            state:false
+        }
+        axios.put(`/api/goods/${id}`,data).then(() => {
+           getGood();
+         });
+    }
+
     return (
         <nav className="buy-page">
             <div className="form">
@@ -51,7 +60,7 @@ function Confirmation(props) {
                     ))}
                 </div>
                 {/**ボタンを押して購入が確定されるとDBに入る */}
-                <Link to={`/fixed/${good.id}`}><button className="general-button">購入を確定する</button></Link>
+                <Link to={`/fixed/${good.id}`}><button className="general-button" onClick={update(good.id)}>購入を確定する</button></Link>
             </div>
         </nav>
     )
