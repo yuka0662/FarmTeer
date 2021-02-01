@@ -39,7 +39,7 @@ function fGoods() {
                                 <tr key={farmlist.id}>
                                     <td>{farmlist.goodsname}</td>
                                     <td><a href={`/goods/${farmlist.id}`}>詳細</a></td>
-                                    <td><button className="general-button" onClick={() => deleteUser(farmlist.id)}>削除</button></td>
+                                    <td><button className="general-button" onClick={() => deleteList(farmlist.id)}>削除</button></td>
                                 </tr>
                             ))}
                         </tbody>

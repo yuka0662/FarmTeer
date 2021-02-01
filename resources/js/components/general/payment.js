@@ -37,12 +37,12 @@ function payment() {
                     <input type="radio" name="c" value='銀行振込(手数料￥100)' />銀行振込(手数料￥100)<br />
                     {credits.map(credit => (
                         credit.user_id == 1 ? (
-                            <div key={credit.id}><input type="radio" name="c" value='クレジット(手数料￥0)' />********0000　　{credit.month + "/" + credit.year}(手数料￥0)</div>
+                            <div key={credit.id}><input type="radio" name="c" value='クレジット(手数料￥0)' checked />********0000　　{credit.month + "/" + credit.year}(手数料￥0)</div>
                         ) : (null)
                     ))}
                 </div>
                 <div><Link to="/creditadd">クレジットカードの追加</Link></div>
-                <Link to='/buy/:id'><button className="general-button" onClick={OK}>決定</button></Link>
+                <Link to={`/buy/1`}><button className="general-button" onClick={OK}>決定</button></Link>
             </div>
         </nav>
     )

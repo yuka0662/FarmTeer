@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
+import { Link } from 'react-router-dom';
 
 function Goodsadd() {
     const [categories, setCategories] = useState([]);
@@ -74,7 +75,7 @@ function Goodsadd() {
                 <p>写真：<input type="text" id="form13" className="photo" /></p>
                 <p>農家利益：<input type="text" id="form14" className="profit" /></p>
                 <p>農家No：<input type="text" id="form15" className="members_id" /></p>
-                <button className="general-button" onClick={() => addGoods()}>登録</button>
+                <Link to="/fgoods"><button className="general-button" onClick={() => addGoods()}>登録</button></Link>
                 <button className="general-button" onClick={() => Clear()}>リセット</button>
             </div>
         </div>

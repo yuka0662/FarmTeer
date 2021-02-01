@@ -12,7 +12,7 @@ function Login() {
                     <form className="login-form">
                         <input type="text" placeholder="メールアドレス" />
                         <input type="password" placeholder="パスワード" />
-                        <button className="general-button">ログイン</button>
+                        <Link to="/"><button className="general-button">ログイン</button></Link>
                         <p className="message">アカウントをお持ちでない方はこちら <Link to="/farmteer/register">新規作成</Link></p>
                     </form>
                 </div>

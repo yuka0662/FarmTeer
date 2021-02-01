@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from "axios";
+import { Link } from 'react-router-dom';
 import HelpOutlineIcon from '@material-ui/icons/HelpOutline';
 import CreditCardIcon from '@material-ui/icons/CreditCard';
 
@@ -37,7 +38,7 @@ function Creditadd() {
                     セキュリティコード<HelpOutlineIcon />:<br />
                     <input type="text" id='code' placeholder="必須" />
                 </div>
-                <button className="general-button" onClick={add}>追加する</button>
+                <Link to='/payment'><button className="general-button" onClick={add}>追加する</button></Link>
             </div>
         </nav>
     )
