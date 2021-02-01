@@ -23,9 +23,6 @@ Route::get('/categorise',function (Request $request){
     return response()->json(['categorise' => $categorise]);
 });
 
-Route::get('/fgoods', 'app\Http\Controllers\GoodsController@index');
-
-
 /**農家ユーザ登録申請 */
 Route::post('/farmregister', function(Request $request) {
     $addseller = new App\addseller();
@@ -78,9 +75,9 @@ Route::get('/user/{user}',function(App\member $user){
 });
 
 /*　商品の一覧表示*/
-Route::get('/gdetail',function (Request $request){
-    $users = App\farmlist::all();
-    return response()->json(['gdetail' => $gdetail]);
+Route::get('/goods',function (Request $request){
+    $goods = App\farmlist::all();
+    return response()->json(['goods' => $goods]);
 });
 
 /**商品の削除 */
@@ -94,7 +91,6 @@ Route::get('/good/{good}',function(App\farmlist $good){
     return response()->json(['good' => $good]);
 });
 
-<<<<<<< HEAD
 /**商品の追加 */
 Route::post('/goodsadd', function (Request $request){
     $gadd = new App\farmlist();
@@ -115,7 +111,14 @@ Route::post('/goodsadd', function (Request $request){
     $gadd->profit = $request->profit;
     $gadd->members_id = $request->members_id;
     $gadd->save();
-=======
+});
+
+/*　一般ユーザーの一覧表示*/
+Route::get('/gusers',function (Request $request){
+    $gusers = App\general::all();
+    return response()->json(['gusers' => $gusers]);
+});
+
 /**一般ユーザーの追加 */
 Route::post('/gusers', function (Request $request){
     $user = new App\general();
@@ -131,7 +134,6 @@ Route::post('/gusers', function (Request $request){
     $user->building = $request->building;
     $user->TEL = $request->TEL;
     $user->save();
->>>>>>> 2f86c9b37fcfcc4c9cc330280302c2a89bd9400e
     return response("OK", 200);
 });
 

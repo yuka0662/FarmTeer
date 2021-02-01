@@ -23,6 +23,9 @@ import Ftop from './farmteer/fTop';
 import Fgoodsadd from './farmteer/fGoodsadd';
 import Fgoods from './farmteer/fGoods';
 import Fdetail from './farmteer/goodsDetail';
+import Fmypage from './farmteer/fMypage';
+import Mypage from './general/Mypage';
+
 
 {/** 
     farmerのログイン、新規登録申請画面とvolunteerのログイン、新規登録申請画面と管理者のログイン画面のfooter、headerを削除する
@@ -54,6 +57,8 @@ function App() {
                     <Route path="/fgoodsadd" component={Fgoodsadd} />{/**商品登録画面 */}
                     <Route path="/fgoods" component={Fgoods} />{/**商品一覧 */}
                     <Route path="/fgoods/:id" component={Fdetail} />{/**商品一覧詳細 */}
+                    <Route path="/fMypage" component={Fmypage} />{/**マイページ詳細 */}
+                    <Route path="/farmteer/mypage" component={Mypage} />{/**マイページ詳細 */}
                     <Management />
                 </Switch>
             </div>
